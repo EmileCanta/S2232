@@ -9,9 +9,9 @@
 /DetSys/world/material Vacuum
 /DetSys/app/add8piVacuumChamber
 
-/DetSys/det/addQED
+/DetSys/det/addRCMP
 /DetSys/gun/position 0.0 0.0 0.0 cm
 /gun/particle e-
 /DetSys/gun/efficiencyEnergy 0.01 MeV
-/run/beamOn 2000000
+/run/beamOn 200000
 

@@ -1,7 +1,7 @@
 CMakeFiles/Griffinv10.dir/src/NonUniformMagneticField.cc.o: \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/src/NonUniformMagneticField.cc \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/src/NonUniformMagneticField.cc \
  /usr/include/stdc-predef.h \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/NonUniformMagneticField.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/NonUniformMagneticField.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4MagneticField.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Types.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4GlobalConfig.hh \
@@ -231,7 +231,7 @@ CMakeFiles/Griffinv10.dir/src/NonUniformMagneticField.cc.o: \
  /usr/include/c++/13/bits/unique_lock.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldParameters.icc \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/TabulatedMagneticField.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/TabulatedMagneticField.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/globals.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ios.hh \
  /usr/include/c++/13/fstream \

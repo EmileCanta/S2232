@@ -1,7 +1,7 @@
-/home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/build/CMakeFiles/Griffinv10.dir
-/home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/build/CMakeFiles/edit_cache.dir
-/home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/build/CMakeFiles/rebuild_cache.dir
-/home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/build/CMakeFiles/list_install_components.dir
-/home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/build/CMakeFiles/install.dir
-/home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/build/CMakeFiles/install/local.dir
-/home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/build/CMakeFiles/install/strip.dir
+/home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/build/CMakeFiles/Griffinv10.dir
+/home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/build/CMakeFiles/edit_cache.dir
+/home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/build/CMakeFiles/rebuild_cache.dir
+/home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/build/CMakeFiles/list_install_components.dir
+/home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/build/CMakeFiles/install.dir
+/home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/build/CMakeFiles/install/local.dir
+/home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/build/CMakeFiles/install/strip.dir

@@ -1,7 +1,7 @@
 CMakeFiles/Griffinv10.dir/src/DetectorConstruction.cc.o: \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/src/DetectorConstruction.cc \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectorConstruction.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectorConstruction.hh \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -242,7 +242,7 @@ CMakeFiles/Griffinv10.dir/src/DetectorConstruction.cc.o: \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectorMessenger.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectorMessenger.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UImessenger.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UIdirectory.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UIcommand.hh \
@@ -539,20 +539,20 @@ CMakeFiles/Griffinv10.dir/src/DetectorConstruction.cc.o: \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UserLimits.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UserLimits.icc \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Threading.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystem8pi.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystem8pi.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystem8pi.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystem8pi.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4AssemblyVolume.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4AssemblyTriplet.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4AssemblyTriplet.icc \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4AssemblyVolume.icc \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemDescant.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemDescant.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SubtractionSolid.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4BooleanSolid.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4DisplacedSolid.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VBooleanProcessor.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4BooleanSolid.icc \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/ApparatusDescantStructure.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemTestcan.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/ApparatusDescantStructure.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemTestcan.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldManager.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldParameters.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldParameters.icc \
@@ -564,17 +564,17 @@ CMakeFiles/Griffinv10.dir/src/DetectorConstruction.cc.o: \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SafetyHelper.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SafetyHelper.icc \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4TransportationManager.icc \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/NonUniformMagneticField.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/NonUniformMagneticField.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4MagneticField.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemGriffin.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemGriffin.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UnionSolid.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemSceptar.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemSpice.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemTrific.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemPaces.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemQED.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemRCMP.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/CADMesh.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemSceptar.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemSpice.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemTrific.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemPaces.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemQED.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemRCMP.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/CADMesh.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4String.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4TriangularFacet.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VFacet.hh \
@@ -589,16 +589,16 @@ CMakeFiles/Griffinv10.dir/src/DetectorConstruction.cc.o: \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Tet.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UIcommand.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/Randomize.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemSodiumIodide.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemLanthanumBromide.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/ApparatusGenericTarget.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/ApparatusLayeredTarget.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/ApparatusSpiceTargetChamber.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/Apparatus8piVacuumChamber.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/Apparatus8piVacuumChamberAuxMatShell.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/ApparatusGriffinStructure.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemSodiumIodide.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemLanthanumBromide.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/ApparatusGenericTarget.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/ApparatusLayeredTarget.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/ApparatusSpiceTargetChamber.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/Apparatus8piVacuumChamber.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/Apparatus8piVacuumChamberAuxMatShell.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/ApparatusGriffinStructure.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4IntersectionSolid.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemAries.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemAries.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Tubs.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Tubs.icc \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Sphere.hh \
@@ -621,6 +621,6 @@ CMakeFiles/Griffinv10.dir/src/DetectorConstruction.cc.o: \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Physics2DVector.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Physics2DVector.icc \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SurfaceProperty.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemBox.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemGrid.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemAncillaryBGO.hh
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemBox.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemGrid.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemAncillaryBGO.hh

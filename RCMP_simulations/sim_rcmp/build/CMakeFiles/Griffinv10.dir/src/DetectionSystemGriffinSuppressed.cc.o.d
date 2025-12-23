@@ -1,11 +1,11 @@
 CMakeFiles/Griffinv10.dir/src/DetectionSystemGriffinSuppressed.cc.o: \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/src/DetectionSystemGriffinSuppressed.cc \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/src/DetectionSystemGriffinSuppressed.cc \
  /usr/include/stdc-predef.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4PhysicalConstants.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SystemOfUnits.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectorConstruction.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectorConstruction.hh \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -246,7 +246,7 @@ CMakeFiles/Griffinv10.dir/src/DetectionSystemGriffinSuppressed.cc.o: \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectorMessenger.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectorMessenger.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UImessenger.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UIdirectory.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UIcommand.hh \
@@ -437,9 +437,9 @@ CMakeFiles/Griffinv10.dir/src/DetectionSystemGriffinSuppressed.cc.o: \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Color.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VisAttributes.icc \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Colour.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemGriffin.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystem8pi.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystem8pi.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/Apparatus8piVacuumChamber.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/Apparatus8piVacuumChamberAuxMatShell.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/ApparatusGriffinStructure.hh
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemGriffin.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystem8pi.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystem8pi.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/Apparatus8piVacuumChamber.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/Apparatus8piVacuumChamberAuxMatShell.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/ApparatusGriffinStructure.hh

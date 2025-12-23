@@ -1,7 +1,7 @@
 CMakeFiles/Griffinv10.dir/src/DetectionSystemTrific.cc.o: \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/src/DetectionSystemTrific.cc \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/src/DetectionSystemTrific.cc \
  /usr/include/stdc-predef.h \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectorConstruction.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectorConstruction.hh \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -242,7 +242,7 @@ CMakeFiles/Griffinv10.dir/src/DetectionSystemTrific.cc.o: \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectorMessenger.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectorMessenger.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UImessenger.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UIdirectory.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4UIcommand.hh \
@@ -462,8 +462,8 @@ CMakeFiles/Griffinv10.dir/src/DetectionSystemTrific.cc.o: \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Color.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VisAttributes.icc \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Colour.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectionSystemTrific.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/HistoManager.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectionSystemTrific.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/HistoManager.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4RootAnalysisManager.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ToolsAnalysisManager.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VAnalysisManager.hh \
@@ -590,5 +590,5 @@ CMakeFiles/Griffinv10.dir/src/DetectionSystemTrific.cc.o: \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/tools/sout \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/g4hntools_defs.hh \
  /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SystemOfUnits.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/DetectorConstruction.hh \
- /home/emile/postdoc/analysis/S2232_simulations/sim_rcmp/include/HistoMessenger.hh
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/DetectorConstruction.hh \
+ /home/emile/postdoc/analysis/S2232/RCMP_simulations/sim_rcmp/include/HistoMessenger.hh
