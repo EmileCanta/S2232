@@ -1,6 +1,6 @@
 Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28264_000.root[m
 Looped over 1/1 files and got:
-Singleton 0x5cafb87ec8a0 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28264_000.root
+Singleton 0x5f56ed0e5d80 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28264_000.root
 Title: 20Mg short cycles_lasersOff
 Comment: 1 s beam on, 5 s beam off_lasersOff
 		RunNumber:          28264
@@ -23,4 +23,4 @@ Writing TAnalysisOptions to RCMP28264_000.root
   910 TChannels saved to RCMP28264_000.root
 Closed 'RCMP28264_000.root'
 
-Done after 0:00:6.782 h:m:s
+Done after 0:00:6.406 h:m:s

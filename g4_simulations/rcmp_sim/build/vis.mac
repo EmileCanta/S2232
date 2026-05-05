@@ -14,7 +14,11 @@
 /vis/viewer/set/targetPoint 0 0 0 m
 /vis/viewer/set/style surface
 /vis/scene/endOfEventAction accumulate 10000
+/Histo/RecordGun true
+/DetSys/gun/BeamSpot 5 mm
+/DetSys/gun/coneMaxAngle 90 deg
+/DetSys/gun/coneMinAngle 0 deg
 #/DetSys/gun/position 0.0 0.0 0.0 cm
 /gun/particle alpha
-/DetSys/gun/efficiencyEnergy 2. MeV
-#/run/beamOn 1000
+/DetSys/gun/efficiencyEnergy 5.8 MeV
+/run/beamOn 2000

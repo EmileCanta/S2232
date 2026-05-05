@@ -1,0 +1,32 @@
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_000.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_001.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_001.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_002.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_002.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_003.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_003.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_004.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_004.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_005.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_005.root[m
+Looped over 6/6 files and got:
+Singleton 0x5d4cbca66780 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28205_005.root
+Title: RCMP Signal testing - triple alpha - RCS06 disabled
+Comment: RCMP signal checking - triple alpha
+		RunNumber:          28205
+		SubRunNumbers:      000-005
+		RunStart:           Sat Jul  6 00:49:58 2024
+		RunStop:            Sat Jul  6 08:49:58 2024
+		RunLength:          28800 s
+ODB cycle: 0 s
+Code   Duration
+0xc0f0 -1
+0x0000 0
+0x0000 0
+0x0000 0
+[0;36m----------  starting compilation of user code  ----------[m
+[0;36m----------  starting linking user code  -----------------[m
+[0;36m----------  done compiling user code  -------------------[m
+	Using library /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.so
+No g-values!
+Writing to RCMP28205_000-005.root

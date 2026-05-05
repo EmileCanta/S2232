@@ -1,0 +1,15 @@
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis//analysis28264_000.root[m
+Looped over 1/1 files and got:
+Singleton 0x5fa3bd68ead0 was read from /home/emile/postdoc/data/s2232/sorted/analysis//analysis28264_000.root
+Title: 20Mg short cycles_lasersOff
+Comment: 1 s beam on, 5 s beam off_lasersOff
+		RunNumber:          28264
+		SubRunNumber:       000
+		RunStart:           Thu Jul 11 20:35:01 2024
+		RunStop:            Thu Jul 11 20:55:47 2024
+		RunLength:          1246 s
+ODB cycle: 6 s
+Code   Duration
+0xc001 1000000
+0xc004 5000000
+[0;36m----------  starting compilation of user code  ----------[m

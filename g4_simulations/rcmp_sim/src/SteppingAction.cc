@@ -115,7 +115,7 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
     if(fDetector->HasProperties(volume)) {
         DetectorProperties prop = fDetector->GetProperties(volume);
 
-        //theTrack->SetTrackStatus(fStopAndKill); //Kills particle as soon as it enters an active volume
+        theTrack->SetTrackStatus(fStopAndKill); //Kills particle as soon as it enters an active volume
 
         fEventAction->AddHitTracker(prop, evntNb, trackID, parentID, stepNumber, particleType, processType, edep, prePos, postTime, targetZ, ekin);
     }

@@ -8,7 +8,10 @@
 /Histo/RecordGun true
 /DetSys/world/material Vacuum
 /DetSys/det/addRCMP
+/DetSys/gun/BeamSpot 5 mm
+/DetSys/gun/coneMaxAngle 90 deg
+/DetSys/gun/coneMinAngle 0 deg
 #/DetSys/gun/position 0.0 0.0 0.0 cm
 /gun/particle alpha
-/DetSys/gun/efficiencyEnergy 2. MeV
+/DetSys/gun/efficiencyEnergy 5.1 MeV
 /run/beamOn 100000

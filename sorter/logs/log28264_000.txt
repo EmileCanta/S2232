@@ -1,15 +1,15 @@
-grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration28226.cal /home/emile/postdoc/data/s2232/raw/run28264_000.mid
+grsisort --recommended  /home/emile/postdoc/data/s2232/raw/run28264_000.mid
 	grsisort version 4.0.0.5
 	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-Already loaded handle 0x5f6ef7055c80
+Already loaded handle 0x57c4c3941980
 Title: [0;34m20Mg short cycles_lasersOff[m
 Comment: [0;34m1 s beam on, 5 s beam off_lasersOff[m
 using GRIFFIN path to analyzer info: /DAQ/PSC...
 910	 TChannels created.
 found 910 channels
 	file [1;34m/home/emile/postdoc/data/s2232/raw/run28264_000.mid[m opened as [1;34m_raw0[m
-Already loaded handle 0x5f6ef7055c80
-Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration28226.cal[m.....found 910 channels
+Already loaded handle 0x57c4c3941980
+found 910 channels
 [1;34mfBuildWindow: [0;36m2000
 [1;34mfBuildEventsByTimeStamp: [0;36m0
 [1;34mfAddbackWindow: [0;36m300
@@ -25,19 +25,33 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c80f0f0, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 
-not running        |*                  |                   |N/A: 0             |N/A: 0             |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |**********         |                   |N/A: 0             |N/A: 0             |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 [1;31mFailed to find channel for address 0x2029, this channel won't get sorted properly![m
-                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x7bcc54000cb0, 0x7bcc54000c40                              
-                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x7bcc54013de0, 0x5f6ef6ae0f00                              
-                              8_analysis_write_loop: added "TGriffin" branch, 0x7bcc540184e0, 0x7bcc54018d80                              
-                              8_analysis_write_loop: added "TTAC" branch, 0x7bcc540224d0, 0x7bcc5401c750                              
-                              8_analysis_write_loop: added "TPaces" branch, 0x7bcc54027b40, 0x5f6ef6f530f0                              
-                              8_analysis_write_loop: added "TLaBr" branch, 0x7bcc5402d2d0, 0x7bcc5402d280                              
-                              8_analysis_write_loop: added "TZeroDegree" branch, 0x7bcc54035570, 0x5f6ef70a9750                              
-                              8_analysis_write_loop: added "TRcmp" branch, 0x7bcc5403ae30, 0x5f6ef70368f0                              
+                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x7f1f0c000cb0, 0x7f1f0c000c40                              
+                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x7f1f0c013de0, 0x57c4c33bdf00                              
+                              8_analysis_write_loop: added "TGriffin" branch, 0x7f1f0c0184e0, 0x7f1f0c018d80                              
+                              8_analysis_write_loop: added "TTAC" branch, 0x7f1f0c0224d0, 0x7f1f0c01c750                              
+                              8_analysis_write_loop: added "TPaces" branch, 0x7f1f0c027b40, 0x57c4c38d9d30                              
+                              8_analysis_write_loop: added "TLaBr" branch, 0x7f1f0c02d2d0, 0x7f1f0c02d280                              
+                              8_analysis_write_loop: added "TZeroDegree" branch, 0x7f1f0c035570, 0x57c4c393c4d0                              
+                              8_analysis_write_loop: added "TRcmp" branch, 0x7f1f0c03ae30, 0x57c4c3924e20                              
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |                   |*****************  |****************** |*********          |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
@@ -52,38 +66,8 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |                   |*****************  |****************** |********           |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |*                  |****************** |****************** |*********          |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |**                 |****************** |****************** |*********          |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |*                  |****************** |****************** |*********          |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
@@ -100,6 +84,18 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 not running        |**                 |****************** |****************** |**********         |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |**                 |****************** |****************** |**********         |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
@@ -134,27 +130,31 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |****               |****************** |****************** |***********        |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |****               |****************** |****************** |**********         |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 
-Sorting depth of 200000 was insufficient. time: 299036771501 Last: 300579763389 
+Sorting depth of 200000 was insufficient. time: 299036771500 Last: 300579763389 
 Not all events were built correctly
 Please increase sort depth with --sort-depth=N
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |*****              |****************** |****************** |***********        |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |****               |****************** |****************** |***********        |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |     8752/    31499|  5868151/  5918151|  2774438/  2874437|  1774436/  2774436|
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |     8752/    31499|  5868152/  5918152|  2774438/  2874438|  1774436/  2774436|
 not running        |*****              |****************** |****************** |************       |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
@@ -163,9 +163,15 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |*****              |****************** |****************** |************       |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |*****              |****************** |****************** |************       |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |******             |****************** |****************** |*************      |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
@@ -180,22 +186,14 @@ Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |******             |****************** |****************** |*************      |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |******             |****************** |****************** |*************      |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |******             |****************** |****************** |*************      |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |*******            |****************** |****************** |**************     |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |*******            |****************** |****************** |*************      |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
@@ -233,7 +231,9 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |    14684/    31499|  9891686/  9941687|  4817437/  4917438|  3817436/  4817436|
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |    14616/    31499|  9840338/  9890338|  4793850/  4893850|  3793848/  4793848|
 not running        |********           |****************** |****************** |***************    |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
@@ -248,8 +248,6 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 not running        |*********          |****************** |****************** |***************    |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
@@ -258,7 +256,23 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |*********          |****************** |****************** |***************    |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |*********          |****************** |****************** |***************    |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |**********         |****************** |****************** |***************    |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |**********         |****************** |****************** |***************    |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
@@ -272,22 +286,8 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |**********         |****************** |****************** |***************    |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |***********        |****************** |****************** |***************    |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |**********         |****************** |****************** |***************    |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |***********        |****************** |****************** |***************    |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
@@ -310,8 +310,16 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |    20340/    31499| 13718861/ 13768861|  6766919/  6866919|  5766917/  6766917|
+not running        |    20340/    31499| 13718857/ 13768856|  6766919/  6866918|  5766917/  6766917|
 not running        |************       |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |************       |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
@@ -323,30 +331,22 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |*************      |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |************       |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 not running        |*************      |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 not running        |*************      |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |*************      |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
@@ -377,29 +377,27 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |***************    |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |    25809/    31499| 17429479/ 17479478|  8654005/  8754004|  7654004/  8654004|
 not running        |***************    |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |    25706/    31499| 17360094/ 17410093|  8619603/  8719603|  7619604/  8619602|
 not running        |***************    |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |****************   |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |***************    |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |****************   |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
@@ -414,10 +412,22 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 not running        |****************   |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |*****************  |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |*****************  |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
@@ -429,14 +439,8 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |*****************  |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |****************** |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |****************** |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
@@ -449,17 +453,17 @@ Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |****************** |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |    31499/    31499| 21233387/ 21233387| 10581518/ 10656720|  9581517/ 10581517|
+not running        |    31426/    31499| 21137750/ 21187750| 10509892/ 10609892|  9509891/ 10509891|
+not running        |****************** |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 not running        |****************** |****************** |****************** |*****************  |
 
 not running        |not running        |not running        |****************** |*****************  |
 not running        |not running        |not running        |not running        |*****************  |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |
+  910 TChannels saved to analysis28264_000.root
+Writing TRunInfo to analysis28264_000.root
+Writing TAnalysisOptions to analysis28264_000.root
+Writing PPG with 415 events and 2 ODB settings
 not running        |not running        |not running        |not running        |not running        |
 Stopping thread 1_input_loop
 
@@ -476,11 +480,7 @@ Joining thread 5_event_build_loop
 good_frag_queue_0: 21233387/21233387 items popped
 Joining thread 6_det_build_loop
 Joining thread 8_analysis_write_loop
-8_analysis_write_loop:	10755099/10755099, ??? good events
-  910 TChannels saved to analysis28264_000.root
-Writing TRunInfo to analysis28264_000.root
-Writing TAnalysisOptions to analysis28264_000.root
-Writing PPG with 415 events and 2 ODB settings
+8_analysis_write_loop:	10755106/10755106, ??? good events
 Deleting thread 1_input_loop
 Deleting thread 2_unpack_loop
 Deleting thread 5_event_build_loop
@@ -492,4 +492,4 @@ Missing channels:
 [0;31m11 fragments were out of order, maximum entry difference was 18345188!
 Please consider increasing the sort depth with --sort-depth=18345188[m
 [0;35m
-bye,bye	[0;36memile[m after 0:00:58.209 h:m:s
+bye,bye	[0;36memile[m after 0:01:0.201 h:m:s
