@@ -28,13 +28,13 @@ Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorte
 Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28226_014.root[m": adding TRunInfo 
 Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28226_014.root[m
 Looped over 15/15 files and got:
-Singleton 0x60c3cd32b350 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28226_014.root
+Singleton 0x5893838c26d0 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28226_014.root
 Title: RCMP_GRIFFIN_Calibration_Triple_Alpha_Source-R00968
 Comment: RCMP_GRIFFIN_Calibration_Triple_Alpha_Source-R00968
 		RunNumber:          28226
 		SubRunNumbers:      000-014
-		RunStart:           Mon Jul  8 18:19:27 2024
-		RunStop:            Tue Jul  9 08:19:27 2024
+		RunStart:           Mon Jul  8 17:19:27 2024
+		RunStop:            Tue Jul  9 07:19:27 2024
 		RunLength:          50398 s
 ODB cycle: 0 s
 Code   Duration
@@ -53,4 +53,4 @@ Writing TAnalysisOptions to RCMP28226_000-014.root
   910 TChannels saved to RCMP28226_000-014.root
 Closed 'RCMP28226_000-014.root'
 
-Done after 0:01:59.188 h:m:s
+Done after 0:05:49.676 h:m:s

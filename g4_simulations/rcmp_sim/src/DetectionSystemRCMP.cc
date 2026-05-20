@@ -16,7 +16,7 @@
 #include "G4Colour.hh"
 #include "DetectionSystemRCMP.hh"
 #include "G4SystemOfUnits.hh"
-#include "G4GDMLParser.hh"
+//#include "G4GDMLParser.hh"
 
 DetectionSystemRCMP::DetectionSystemRCMP() : fDSSSDpixelLog(0)
 { 	

@@ -1,0 +1,28 @@
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28226_000.root[m
+Looped over 1/1 files and got:
+Singleton 0x5c0ebaa16ec0 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28226_000.root
+Title: RCMP_GRIFFIN_Calibration_Triple_Alpha_Source-R00968
+Comment: RCMP_GRIFFIN_Calibration_Triple_Alpha_Source-R00968
+		RunNumber:          28226
+		SubRunNumber:       001
+		RunStart:           Mon Jul  8 18:08:30 2024
+		RunStop:            Mon Jul  8 18:57:17 2024
+		RunLength:          2927 s
+ODB cycle: 0 s
+Code   Duration
+0xc0f0 -1
+0x0000 0
+0x0000 0
+0x0000 0
+[0;36m----------  starting compilation of user code  ----------[m
+[0;36m----------  starting linking user code  -----------------[m
+[0;36m----------  done compiling user code  -------------------[m
+	Using library /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.so
+No g-values!
+Writing to RCMP28226_001.root
+Writing PPG with 1 events and 4 ODB settings
+Writing TAnalysisOptions to RCMP28226_001.root
+  910 TChannels saved to RCMP28226_001.root
+Closed 'RCMP28226_001.root'
+
+Done after 0:00:34.987 h:m:s

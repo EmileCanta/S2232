@@ -36,6 +36,7 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
     TRcmpHit* hit1;
     TRcmpHit* hit2;
 
+    //double mult = rcmp.GetRcmpMultiplicity();
     double mult = rcmp.GetMultiplicity();
     double multGriffin = griffin.GetMultiplicity();
 

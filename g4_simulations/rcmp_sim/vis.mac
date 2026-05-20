@@ -1,7 +1,7 @@
 /run/initialize
 
 /DetSys/world/material Vacuum
-#/DetSys/det/addGriffinForward 8
+/DetSys/det/addGriffinForward 16
 /DetSys/det/addRCMP
 
 /tracking/storeTrajectory 1
@@ -21,4 +21,4 @@
 #/DetSys/gun/position 0.0 0.0 0.0 cm
 /gun/particle alpha
 /DetSys/gun/efficiencyEnergy 5.8 MeV
-/run/beamOn 2000
+#/run/beamOn 2000
