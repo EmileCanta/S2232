@@ -3,40 +3,49 @@
 #include "TChannel.h"
 #include "TFile.h"
 #include <filesystem>
-#include "/home/sydney/GRSISort/include/RCMPOptions .h"
+
 namespace fs = std::filesystem;
 
-
-void updateRCMPcal() {
+void updateRCMPcal() 
+{
+    cout << "boop" << endl;
 
     // Variables to set //
+  
     int refRun = 28226;
-    int copyRun = 28269;
-    int firstRun = 28342; //RCMPOptions::first_run;
-    int lastRun = 28351; //RCMPOptions::last_run;
-    int NDET = RCMPOptions::number_of_detectors;
-    int NStrips = RCMPOptions::number_of_strips;
-    std::string calfile_directory = RCMPOptions::calibration_directory_files;
-    std::string analysis_directory = "/media/sydney/GRINYER_29/S2232_analysis/AnalysisTrees"; //RCMPOptions::analysis_directory; // "/media/sydney/GRINYER_29/S2232_analysis/AnalysisTrees"; 
+    int copyRun = 28226;
+    int firstRun = 28227;     
+    int lastRun = 28227;     
+    int NDET = 6;
+    int NStrips = 32;
+
+    std::string calfile_directory = "/home/emile/postdoc/analysis/s2232/sorter/calfiles/"; 
+    std::string analysis_directory = "/home/emile/postdoc/data/s2232/sorted/analysis/"; 
     std::string filename = "energy_calibration";
-    std::map<int, std::map<int, std::pair<double,double>>> coefMapP; //Saves the coef as a map of <NDET,  <NStrip, <Offset, Gain> > >
+
+    std::map<int, std::map<int, std::pair<double,double>>> coefMapP; 
     std::map<int, std::map<int, std::pair<double,double>>> coefMapN; 
 
-
     // Open reference calibration file // 
+
     std::string refFile = calfile_directory + filename + std::to_string(refRun) + ".cal";
+
     TChannel::ReadCalFile(refFile.c_str());
+
     std::cout << "Loaded calibration file: " << refFile << std::endl;
 
     std::string copyFile = calfile_directory + filename + std::to_string(copyRun) + ".cal";
 
     // Save the coefficients in the map // 
+ 
     for (int det = 1; det <= NDET; det++) 
     {
         for (int strip = 0; strip < NStrips; strip++)
         {
             std::string chNameP = Form("RCS%02dXP%02dX", det, strip); // Front Strips
+                                                                     
             TChannel* chanP = TChannel::FindChannelByName(chNameP.c_str());
+
             if (!chanP) 
             {   
                 std::cerr << "Warning: channel not found: " << chNameP << std::endl;
@@ -44,11 +53,13 @@ void updateRCMPcal() {
             }
 
             std::vector<Float_t> coeffsP = chanP -> GetENGCoeff();
+
             coefMapP[det][strip] = {coeffsP[0], coeffsP[1]};
 
-
             std::string chNameN = Form("RCS%02dXN%02dX", det, strip); // Back Strips
+                                                                     
             TChannel* chanN = TChannel::FindChannelByName(chNameN.c_str());
+
             if (!chanN) 
             {   
                 std::cerr << "Warning: channel not found: " << chNameN << std::endl;
@@ -56,11 +67,8 @@ void updateRCMPcal() {
             }
 
             std::vector<Float_t> coeffsN = chanN -> GetENGCoeff();
+
             coefMapN[det][strip] = {coeffsN[0], coeffsN[1]};
-
-            //std::cout << chName << " -> " << coefMap[det][strip].first << ", " << coefMap[det][strip].second << std::endl;
-            
-
         }
     }
 
@@ -75,7 +83,7 @@ void updateRCMPcal() {
         if(!fs::exists(currentFile))
         {
             std::cerr << "Calibration file not found for run " << run << ". Creating a copy from " << copyFile << "\n";
-            
+
             // Copy Calibration File
             fs::copy(copyFile, currentFile, fs::copy_options::overwrite_existing);
             std::cout << "Created calibration file: " << currentFile << " from " << copyFile << std::endl;

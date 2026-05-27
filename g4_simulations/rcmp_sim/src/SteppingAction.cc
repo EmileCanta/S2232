@@ -96,8 +96,11 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
 		else if(processName == "msc")              processType = 3;
 		else if(processName == "Scintillation")    processType = 4;
 		else if(processName == "Cerenkov")         processType = 5;
+		else if(processName == "eBrem")        processType = 6;
 		else                                       processType = 0;
 	}
+
+    //if(particleType == -11 && aStep->GetTrack()->GetCurrentStepNumber() == 1 && theTrack->GetCreatorProcess()->GetProcessName() == "RadioactiveDecay") G4cout << aStep->GetPreStepPoint()->GetKineticEnergy() << G4endl;
 
 	evntNb =  fEventAction->GetEventNumber();
 
@@ -115,7 +118,7 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
     if(fDetector->HasProperties(volume)) {
         DetectorProperties prop = fDetector->GetProperties(volume);
 
-        theTrack->SetTrackStatus(fStopAndKill); //Kills particle as soon as it enters an active volume
+        //theTrack->SetTrackStatus(fStopAndKill); //Kills particle as soon as it enters an active volume
 
         fEventAction->AddHitTracker(prop, evntNb, trackID, parentID, stepNumber, particleType, processType, edep, prePos, postTime, targetZ, ekin);
     }

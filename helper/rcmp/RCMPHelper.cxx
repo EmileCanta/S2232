@@ -48,7 +48,7 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
             hit2 = rcmp.GetRcmpHit(1);
         }
 
-        else if(rcmp.GetRcmpHit(0)->GetChannel()->GetMnemonic()->CollectedChargeString() == "N")
+        if(rcmp.GetRcmpHit(0)->GetChannel()->GetMnemonic()->CollectedChargeString() == "N")
         {
             hit1 = rcmp.GetRcmpHit(1);
             hit2 = rcmp.GetRcmpHit(0);
@@ -62,6 +62,8 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
 
         string side1 = hit1->GetChannel()->GetMnemonic()->CollectedChargeString();
         string side2 = hit2->GetChannel()->GetMnemonic()->CollectedChargeString();
+
+        fH1[slot].at("Energy")->Fill(hit1->GetEnergy());
 
         for(int ndet = 1; ndet <= 6; ndet++)
         {
@@ -118,11 +120,11 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
         }
     }
 
-    /* for(int i = 0; i < multGriffin; i++)
-       {
-       TGriffinHit* hit = griffin.GetGriffinHit(i);
-       fH1[slot].at("EnergyGriffin")->Fill(hit->GetEnergy());
-       } */
+    for(int i = 0; i < multGriffin; i++)
+    {
+        TGriffinHit* hit = griffin.GetGriffinHit(i);
+        fH1[slot].at("EnergyGriffin")->Fill(hit->GetEnergy());
+    } 
 }
 
 void RCMPHelper::EndOfSort(std::shared_ptr<std::map<std::string, TList>>& list)

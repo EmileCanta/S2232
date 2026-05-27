@@ -282,7 +282,7 @@ G4int DetectionSystemRCMP::PlaceDetector(G4LogicalVolume* expHallLog)
 
     logTape->SetVisAttributes(visAttTape);
 
-    G4VPhysicalVolume* physTape = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.000275*mm), logTape, "physTape", expHallLog, false, 0, true);
+    G4VPhysicalVolume* physTape = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), logTape, "physTape", expHallLog, false, 0, true);
    
     //G4GDMLParser parser;
     //parser.Write("det.gdml", expHallLog);

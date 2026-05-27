@@ -220,10 +220,12 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 		}
 
 		// If we want to simulate a realistic beam spot, instead of perfect pencil beam.
-        /* if(fBeamSpotSigma>0){
+        
+        // Gaussian spread
+        if(fBeamSpotSigma>0){
            x = G4RandGauss::shoot(x,fBeamSpotSigma)*mm;
            y = G4RandGauss::shoot(y,fBeamSpotSigma)*mm;
-           } */
+           }
 
 		if(fTargetDistro){
 			z = fLayerStart+G4UniformRand()*fLayerLength;
@@ -231,13 +233,15 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 			z += fBeamDistribution->GetRandom();
 		}
 
-        if (fBeamSpotSigma > 0) {
+        // Uniform spread
+
+        /*if (fBeamSpotSigma > 0) {
             G4double r   = fBeamSpotSigma * std::sqrt(G4UniformRand());
             G4double phi = 2.0 * CLHEP::pi * G4UniformRand();
 
             x = (x + r * std::cos(phi)) * mm;
             y = (y + r * std::sin(phi)) * mm;
-        }
+        }*/
 
 		G4ThreeVector thisEffPosition = G4ThreeVector(x,y,z);//in constructor
 
@@ -272,7 +276,6 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 			effRandSinTheta = sqrt(1. - effRandCosTheta*effRandCosTheta); //from sin^2(theta)+cos^2(theta)=1
 			effRandPhi      = (2.0*CLHEP::pi)*G4UniformRand();
 			effdirection = G4ThreeVector(effRandSinTheta*cos(effRandPhi), effRandSinTheta*sin(effRandPhi), effRandCosTheta);
-			//effdirection = G4ThreeVector(effRandSinTheta*cos(effRandPhi), effRandCosTheta, effRandSinTheta*sin(effRandPhi));  //Swapped
 			//converts from Spherical polar(physics def.) to cartesian via (rsin(theta)cos(phi),rsin(theta)cos(phi),rcos(theta)) r=1,unit length
 		}
 
