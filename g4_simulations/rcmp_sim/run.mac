@@ -59,7 +59,7 @@
 /DetSys/det/SetCustomPosition 16 16 0
 /DetSys/det/addGriffinCustomDetector 16
 
-/DetSys/det/addSceptar 20
+#/DetSys/det/addSceptar 20
 /DetSys/app/add8piVacuumChamber
 
 /control/verbose 2

@@ -91,7 +91,9 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
 	// this can be modified to add more processes
 	if(theTrack->GetCreatorProcess() != nullptr) {
 		G4String processName = theTrack->GetCreatorProcess()->GetProcessName();
-		if(processName == "RadioactiveDecay")      processType = 1;
+        //G4cout << processName << G4endl;
+		if(processName != "eBrem" && processName != "RadioactiveDecay") theTrack->SetTrackStatus(fStopAndKill);
+        if(processName == "RadioactiveDecay")      processType = 1;
 		else if(processName == "eIoni")            processType = 2;
 		else if(processName == "msc")              processType = 3;
 		else if(processName == "Scintillation")    processType = 4;
