@@ -1,0 +1,213 @@
+grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration28264.cal /home/emile/postdoc/data/s2232/raw/run28214_004.mid
+	grsisort version 4.0.0.5
+	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
+Already loaded handle 0x5756dbfcfa50
+Title: [0;34mRCMP Signal testing - triple alpha - All[m
+Comment: [0;34mRCMP signal checking - triple alpha[m
+using GRIFFIN path to analyzer info: /DAQ/PSC...
+910	 TChannels created.
+found 910 channels
+	file [1;34m/home/emile/postdoc/data/s2232/raw/run28214_004.mid[m opened as [1;34m_raw0[m
+Already loaded handle 0x5756dbfcfa50
+Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration28264.cal[m.....found 910 channels
+[1;34mfBuildWindow: [0;36m2000
+[1;34mfBuildEventsByTimeStamp: [0;36m0
+[1;34mfAddbackWindow: [0;36m300
+[1;34mfSuppressionWindow: [0;36m300
+[1;34mfSuppressionEnergy: [0;36m0
+[1;34mfStaticWindow: [0;36m0
+[1;34mfWaveformFitting: [0;36m0
+[1;34mfIsCorrectingCrossTalk: [0;36m0
+[m
+[0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
+1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
+*********          |*                  |N/A: 0             |N/A: 0             |N/A: 0             |                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x73e1a4000cb0, 0x73e1a4000c40                              
+                              8_analysis_write_loop: added "TGriffin" branch, 0x73e1a0000d70, 0x73e1a4043290                              
+                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x73e1a400c140, 0x73e1a00017b0                              
+                              8_analysis_write_loop: added "TLaBr" branch, 0x73e1a40ce290, 0x73e1a0001510                              
+                              8_analysis_write_loop: added "TRcmp" branch, 0x73e1a40924e0, 0x73e1c4c36060                              
+                              8_analysis_write_loop: added "TTAC" branch, 0x73e1a4130b10, 0x73e1a0009950                              
+*****************  |                   |*****************  |****************** |*********          |
+Sorting depth of 200000 was insufficient. time: 1.63561761443e+12 Last: 1.63475691825e+13 
+Not all events were built correctly
+Please increase sort depth with --sort-depth=N
+*****************  |                   |****************** |****************** |*********          |*****************  |                   |****************** |****************** |**********         |****************** |                   |****************** |****************** |**********         |****************** |                   |****************** |****************** |**********         |****************** |                   |****************** |****************** |***********        |****************** |                   |****************** |****************** |***********        |****************** |                   |****************** |****************** |************       |  3903791/  4000839|     5703/   105703|  5074447/  5124447|  3240203/  3340203|  2240202/  3240202|
+****************** |*                  |****************** |****************** |*************      |****************** |*                  |****************** |****************** |*************      |****************** |*                  |****************** |****************** |*************      |****************** |*                  |****************** |****************** |**************     |****************** |*                  |****************** |****************** |**************     |****************** |*                  |****************** |****************** |**************     |****************** |*                  |****************** |****************** |**************     |
+not running        |*                  |****************** |****************** |***************    |not running        |*                  |****************** |****************** |***************    |not running        |*                  |****************** |****************** |***************    |not running        |     9592/   108315|  8584493/  8634492|  5648482/  5748482|  4648481/  5648481|
+not running        |*                  |****************** |****************** |***************    |not running        |*                  |****************** |****************** |***************    |not running        |*                  |****************** |****************** |***************    |not running        |*                  |****************** |****************** |****************   |not running        |*                  |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |    13511/   108315| 12119528/ 12169528|  8074410/  8174405|  7074408/  8074408|
+not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************   |not running        |**                 |****************** |****************** |*****************  |not running        |**                 |****************** |****************** |*****************  |not running        |**                 |****************** |****************** |*****************  |not running        |    17489/   108315| 15705221/ 15755219| 10524488/ 10624487|  9524486/ 10524486|
+not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |not running        |    21372/   108315| 19192916/ 19242916| 12898182/ 12998179| 11898180/ 12898180|
+not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x00f0c0f0, setting new pattern to kJunk!
+Warning, unknown ppg pattern 0x0cf0f0f0, setting old pattern to kJunk!
+not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |                              8_analysis_write_loop: added "TZeroDegree" branch, 0x73e1c4f11840, 0x73e1a49ead00                              
+not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |    24369/   108315| 21879799/ 21929799| 14723430/ 14823430| 13723429/ 14723429|
+not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |    27903/   108315| 25046443/ 25096443| 16874771/ 16974771| 15874769/ 16874769|
+not running        |****               |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |    31579/   108315| 28334050/ 28384049| 19105490/ 19205490| 18105488/ 19105488|
+not running        |*****              |****************** |****************** |****************** |not running        |*****              |****************** |****************** |****************** |not running        |*****              |****************** |****************** |****************** |not running        |*****              |****************** |****************** |****************** |not running        |*****              |****************** |****************** |****************** |not running        |*****              |****************** |****************** |****************** |not running        |*****              |****************** |****************** |****************** |not running        |*****              |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |    35109/   108315| 31501497/ 31551497| 21253431/ 21353431| 20253430/ 21253430|
+not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |    38458/   108315| 34528512/ 34578512| 23367781/ 23467781| 22367779/ 23367779|
+not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |******             |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |    41890/   108315| 37601597/ 37651598| 25449046/ 25549045| 24449044/ 25449044|
+not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |*******            |****************** |****************** |****************** |not running        |    45466/   108315| 40783317/ 40833316| 27577452/ 27677452| 26577451/ 27577451|
+not running        |*******            |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |    48902/   108315| 43837299/ 43887299| 29618296/ 29718296| 28618294/ 29618294|
+not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |********           |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |    52282/   108315| 46860868/ 46910867| 31654022/ 31754022| 30654021/ 31654021|
+not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |    55709/   108315| 49927887/ 49977886| 33735152/ 33835152| 32735151/ 33735151|
+not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |*********          |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |    58993/   108315| 52864402/ 52914402| 35723485/ 35823485| 34723483/ 35723483|
+not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |    62366/   108315| 55884507/ 55934506| 37768212/ 37868211| 36768210/ 37768210|
+not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |    65639/   108315| 58818922/ 58868922| 39748211/ 39848211| 38748210/ 39748210|
+not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |***********        |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |    68988/   108315| 61814035/ 61864034| 41768689/ 41868586| 40768688/ 41768689|
+not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |    72267/   108315| 64747184/ 64797185| 43755959/ 43855957| 42755958/ 43755958|
+not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |************       |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |    75524/   108315| 67665040/ 67715040| 45735555/ 45835555| 44735553/ 45735553|
+not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |    78703/   108315| 70512899/ 70562898| 47663471/ 47763471| 46663469/ 47663469|
+not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |*************      |****************** |****************** |****************** |not running        |**************     |****************** |****************** |****************** |not running        |**************     |****************** |****************** |****************** |not running        |**************     |****************** |****************** |****************** |not running        |**************     |****************** |****************** |****************** |not running        |**************     |****************** |****************** |****************** |
+ *** Break *** segmentation violation
+not running        |**************     |****************** |****************** |****************** |
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 6 (Thread 0x73e241c996c0 (LWP 136413) "grsisort"):
+#0  0x000073e25eeecadf in __GI___clock_nanosleep (clock_id=clock_id
+entry=0, flags=flags
+entry=0, req=0x73e241c92050, rem=0x73e241c92050) at ../sysdeps/unix/sysv/linux/clock_nanosleep.c:78
+#1  0x000073e25eef9a27 in __GI___nanosleep (req=<optimized out>, rem=<optimized out>) at ../sysdeps/unix/sysv/linux/nanosleep.c:25
+#2  0x000073e262925dc3 in std::this_thread::sleep_for<long, std::ratio<1l, 1l> > (__rtime=...) at /usr/include/c++/13/bits/this_thread_sleep.h:80
+#3  StoppableThread::status_out_loop () at libraries/TLoops/StoppableThread.cxx:289
+#4  0x000073e25f2ecdb4 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#5  0x000073e25ee9caa4 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#6  0x000073e25ef29c6c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 5 (Thread 0x73e2414986c0 (LWP 136414) "grsisort"):
+#0  0x000073e25ef10813 in __GI___wait4 (pid=136460, stat_loc=stat_loc
+entry=0x73e24148d8a8, options=options
+entry=0, usage=usage
+entry=0x0) at ../sysdeps/unix/sysv/linux/wait4.c:30
+#1  0x000073e25ef1091b in __GI___waitpid (pid=<optimized out>, stat_loc=stat_loc
+entry=0x73e24148d8a8, options=options
+entry=0) at ./posix/waitpid.c:38
+#2  0x000073e25ee585bb in do_system (line=<optimized out>) at ../sysdeps/posix/system.c:172
+#3  0x000073e261f294f3 in TUnixSystem::StackTrace() () from /home/emile/root/lib/libCore.so
+#4  0x000073e261f28e64 in TUnixSystem::DispatchSignals(ESignals) () from /home/emile/root/lib/libCore.so
+#5  <signal handler called>
+#6  TGRSIDataParser::GriffinDataToFragment (this=this
+entry=0x5756dbd95060, data=<optimized out>, data
+entry=0x73e1cfff8fd8, size=<optimized out>, bank=TGRSIDataParser::EBank::kGRF4, midasSerialNumber=<optimized out>, midasTime=midasTime
+entry=1720356484) at libraries/TGRSIDataParser/TGRSIDataParser.cxx:583
+#7  0x000073e2426cb79a in TGRSIDataParser::ProcessGriffin (this=this
+entry=0x5756dbd95060, data=0x73e1cfff8cc0, size=
+0x73e241490fec: 201, bank=bank
+entry=
+0x73e241490ff8: TGRSIDataParser::EBank::kGRF4, event=std::shared_ptr<TMidasEvent> (use count 3, weak count 0) = {...}) at libraries/TGRSIDataParser/TGRSIDataParser.cxx:444
+#8  0x000073e2426cd321 in TGRSIDataParser::Process (this=0x5756dbd95060, rawEvent=...) at libraries/TGRSIDataParser/TGRSIDataParser.cxx:44
+#9  0x000073e26291779a in TUnpackingLoop::Iteration (this=0x5756dbba3180) at libraries/TLoops/TUnpackingLoop.cxx:70
+#10 0x000073e2629265a9 in StoppableThread::Loop (this=0x5756dbba3180) at libraries/TLoops/StoppableThread.cxx:244
+#11 0x000073e25f2ecdb4 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#12 0x000073e25ee9caa4 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#13 0x000073e25ef29c6c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 4 (Thread 0x73e240c976c0 (LWP 136415) "grsisort"):
+#0  0x000073e25ee98d71 in __futex_abstimed_wait_common64 (private=29666, cancel=true, abstime=0x0, op=393, expected=0, futex_word=0x5756dbbe7040) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=29666, abstime=0x0, clockid=0, expected=0, futex_word=0x5756dbbe7040) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word
+entry=0x5756dbbe7040, expected=expected
+entry=0, clockid=clockid
+entry=0, abstime=abstime
+entry=0x0, private=private
+entry=0) at ./nptl/futex-internal.c:139
+#3  0x000073e25ee9b7ed in __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x5756dbbe6fa0, cond=0x5756dbbe7018) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_wait (cond=0x5756dbbe7018, mutex=0x5756dbbe6fa0) at ./nptl/pthread_cond_wait.c:627
+#5  0x000073e2629125ff in ThreadsafeQueue<std::vector<std::shared_ptr<TFragment const>, std::allocator<std::shared_ptr<TFragment const> > > >::Push (this=this
+entry=0x5756dbbe6f80, obj=std::vector of length 1, capacity 1 = {...}) at /home/emile/GRSISort/include/ThreadsafeQueue.h:82
+#6  0x000073e2629139d7 in TEventBuildingLoop::CheckTimeCondition (this=0x5756dd6357a0, frag=std::shared_ptr<const TFragment> (use count 1, weak count 0) = {...}) at libraries/TLoops/TEventBuildingLoop.cxx:162
+#7  0x000073e26291440b in TEventBuildingLoop::Iteration (this=0x5756dd6357a0) at libraries/TLoops/TEventBuildingLoop.cxx:124
+#8  0x000073e2629265a9 in StoppableThread::Loop (this=0x5756dd6357a0) at libraries/TLoops/StoppableThread.cxx:244
+#9  0x000073e25f2ecdb4 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#10 0x000073e25ee9caa4 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#11 0x000073e25ef29c6c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 3 (Thread 0x73e2404966c0 (LWP 136416) "grsisort"):
+#0  0x000073e25ee98d71 in __futex_abstimed_wait_common64 (private=0, cancel=true, abstime=0x0, op=393, expected=0, futex_word=0x5756dd65c7e0) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=0, abstime=0x0, clockid=0, expected=0, futex_word=0x5756dd65c7e0) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word
+entry=0x5756dd65c7e0, expected=expected
+entry=0, clockid=clockid
+entry=0, abstime=abstime
+entry=0x0, private=private
+entry=0) at ./nptl/futex-internal.c:139
+#3  0x000073e25ee9b7ed in __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x5756dd65c740, cond=0x5756dd65c7b8) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_wait (cond=0x5756dd65c7b8, mutex=0x5756dd65c740) at ./nptl/pthread_cond_wait.c:627
+#5  0x000073e262928a78 in ThreadsafeQueue<std::shared_ptr<TUnpackedEvent> >::Push (obj=..., this=0x5756dd65c720) at /home/emile/GRSISort/include/ThreadsafeQueue.h:82
+#6  TDetBuildingLoop::Iteration (this=<optimized out>) at libraries/TLoops/TDetBuildingLoop.cxx:53
+#7  0x000073e2629265a9 in StoppableThread::Loop (this=0x5756dc037d60) at libraries/TLoops/StoppableThread.cxx:244
+#8  0x000073e25f2ecdb4 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#9  0x000073e25ee9caa4 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#10 0x000073e25ef29c6c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 2 (Thread 0x73e23fc956c0 (LWP 136417) "grsisort"):
+#0  0x000073e2617fb30e in TStreamerInfoActions::GenericWriteAction(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /home/emile/root/lib/libRIO.so
+#1  0x000073e261716ced in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /home/emile/root/lib/libRIO.so
+#2  0x000073e260d93636 in TBranch::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /home/emile/root/lib/libTree.so
+#3  0x000073e260d9e70d in TBranchElement::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /home/emile/root/lib/libTree.so
+#4  0x000073e260d9e45f in TBranchElement::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /home/emile/root/lib/libTree.so
+#5  0x000073e260d9e45f in TBranchElement::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /home/emile/root/lib/libTree.so
+#6  0x000073e260d9e45f in TBranchElement::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /home/emile/root/lib/libTree.so
+#7  0x000073e260e13b07 in TTree::Fill() () from /home/emile/root/lib/libTree.so
+#8  0x000073e26290aa03 in TAnalysisWriteLoop::WriteEvent (this=0x5756dbba3bd0, event=...) at libraries/TLoops/TAnalysisWriteLoop.cxx:218
+#9  0x000073e26290b351 in TAnalysisWriteLoop::Iteration (this=0x5756dbba3bd0) at libraries/TLoops/TAnalysisWriteLoop.cxx:108
+#10 0x000073e2629265a9 in StoppableThread::Loop (this=0x5756dbba3bd0) at libraries/TLoops/StoppableThread.cxx:244
+#11 0x000073e25f2ecdb4 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#12 0x000073e25ee9caa4 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#13 0x000073e25ef29c6c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 1 (Thread 0x73e25feb0340 (LWP 136394) "grsisort"):
+#0  0x000073e25eeecadf in __GI___clock_nanosleep (clock_id=clock_id
+entry=0, flags=flags
+entry=0, req=0x7ffed3161b80, rem=0x7ffed3161b80) at ../sysdeps/unix/sysv/linux/clock_nanosleep.c:78
+#1  0x000073e25eef9a27 in __GI___nanosleep (req=<optimized out>, rem=<optimized out>) at ../sysdeps/unix/sysv/linux/nanosleep.c:25
+#2  0x000073e262a374e4 in std::this_thread::sleep_for<long, std::ratio<1l, 1l> > (__rtime=...) at /usr/include/c++/13/bits/this_thread_sleep.h:80
+#3  TGRSIint::LoopUntilDone (this=0x5756dbb2c890) at libraries/TGRSIint/TGRSIint.cxx:169
+#4  0x000073e262a3d49d in TGRSIint::ApplyOptions (this=0x5756dbb2c890) at libraries/TGRSIint/TGRSIint.cxx:157
+#5  0x000073e262a3d97a in TGRSIint::instance (argc=argc
+entry=4, argv=argv
+entry=0x7ffed3161ee8, appClassName=appClassName
+entry=0x5756a64790a6 "grsisort") at libraries/TGRSIint/TGRSIint.cxx:58
+#6  0x00005756a647787f in main (argc=4, argv=0x7ffed3161ee8) at src/grsisort.cxx:77
+===========================================================
+
+
+The lines below might hint at the cause of the crash. If you see question
+marks as part of the stack trace, try to recompile with debugging information
+enabled and export CLING_DEBUG=1 environment variable before running.
+You may get help by asking at the ROOT forum https://root.cern/forum
+preferably using the command (.forum bug) in the ROOT prompt.
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern/bugs or (preferably) using the command (.gh bug) in
+the ROOT prompt. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  TGRSIDataParser::GriffinDataToFragment (this=this
+entry=0x5756dbd95060, data=<optimized out>, data
+entry=0x73e1cfff8fd8, size=<optimized out>, bank=TGRSIDataParser::EBank::kGRF4, midasSerialNumber=<optimized out>, midasTime=midasTime
+entry=1720356484) at libraries/TGRSIDataParser/TGRSIDataParser.cxx:583
+#7  0x000073e2426cb79a in TGRSIDataParser::ProcessGriffin (this=this
+entry=0x5756dbd95060, data=0x73e1cfff8cc0, size=
+0x73e241490fec: 201, bank=bank
+entry=
+0x73e241490ff8: TGRSIDataParser::EBank::kGRF4, event=std::shared_ptr<TMidasEvent> (use count 3, weak count 0) = {...}) at libraries/TGRSIDataParser/TGRSIDataParser.cxx:444
+#8  0x000073e2426cd321 in TGRSIDataParser::Process (this=0x5756dbd95060, rawEvent=...) at libraries/TGRSIDataParser/TGRSIDataParser.cxx:44
+#9  0x000073e26291779a in TUnpackingLoop::Iteration (this=0x5756dbba3180) at libraries/TLoops/TUnpackingLoop.cxx:70
+#10 0x000073e2629265a9 in StoppableThread::Loop (this=0x5756dbba3180) at libraries/TLoops/StoppableThread.cxx:244
+#11 0x000073e25f2ecdb4 in ?? () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#12 0x000073e25ee9caa4 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#13 0x000073e25ef29c6c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+===========================================================
+
+
+
+ *** Break *** segmentation violation
+[0;35m
+bye,bye	[0;36memile[m after 0:03:49.404 h:m:s
+terminate called without an active exception

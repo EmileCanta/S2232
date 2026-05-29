@@ -72,17 +72,21 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
                 fH2[slot].at(Form("EnergyVSFrontStrip%d", ndet))->Fill(mappedstrip1, hit1->GetEnergy());
                 fH2[slot].at(Form("EnergyVSBackStrip%d", ndet))->Fill(mappedstrip2, hit2->GetEnergy());
 
-                fH2[slot].at(Form("HitMap%d", ndet))->Fill(strip1, strip2);
+                fH2[slot].at(Form("HitMap%d", ndet))->Fill(mappedstrip1, mappedstrip2);
             }
         }
 
-        if((det1 == 6) && (det1 == det2) && (side1 != side2))
+        if((det1 == 1) && (det1 == det2) && (side1 != side2))
         {
             fH1[slot].at("Time")->Fill(hit1->GetTime());
             fH2[slot].at("FrontVSBackEnergy")->Fill(hit1->GetEnergy(), hit2->GetEnergy());
 
-            if(mappedstrip1 == 17 && mappedstrip2 == 15) fH1[slot].at("EnergyStripGatedCenterStrip")->Fill(hit1->GetEnergy());
-            if(mappedstrip1 == 30 && mappedstrip2 == 15) fH1[slot].at("EnergyStripGatedOuterStrip")->Fill(hit1->GetEnergy());
+            if(mappedstrip1 == 30 && mappedstrip2 == 30) fH1[slot].at("EnergyStripGatedOuterStrip")->Fill(hit1->GetEnergy());
+        }
+        
+        if((det1 == 6) && (det1 == det2) && (side1 != side2))
+        {
+            if(mappedstrip1 == 16 && mappedstrip2 == 16) fH1[slot].at("EnergyStripGatedCenterStrip")->Fill(hit1->GetEnergy());
         }
 
         if((det1 == det2) && (side1 == side2 && side1 == "P"))
