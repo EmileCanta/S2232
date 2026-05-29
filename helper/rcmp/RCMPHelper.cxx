@@ -72,7 +72,7 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
                 fH2[slot].at(Form("EnergyVSFrontStrip%d", ndet))->Fill(mappedstrip1, hit1->GetEnergy());
                 fH2[slot].at(Form("EnergyVSBackStrip%d", ndet))->Fill(mappedstrip2, hit2->GetEnergy());
 
-                fH2[slot].at(Form("HitMap%d", ndet))->Fill(mappedstrip1, mappedstrip2);
+                fH2[slot].at(Form("HitMap%d", ndet))->Fill(strip1, strip2);
             }
         }
 
