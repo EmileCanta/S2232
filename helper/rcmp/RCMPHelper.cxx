@@ -24,7 +24,9 @@ void RCMPHelper::CreateHistograms(unsigned int slot)
         fH2[slot][Form("EnergyVSFrontStrip%d", ndet)] = new TH2F(Form("EnergyVSFrontStrip%d", ndet), Form("EnergyVSFrontStrip%d", ndet), 36, -2, 34, 10000, 0, 10000);
         fH2[slot][Form("EnergyVSBackStrip%d", ndet)] = new TH2F(Form("EnergyVSBackStrip%d", ndet), Form("EnergyVSBackStrip%d", ndet), 36, -2, 34, 10000, 0, 10000);
         
-        fH2[slot][Form("HitMap%d", ndet)] = new TH2F(Form("HitMap%d", ndet), Form("HitMap%d", ndet), 34, -1, 33, 34, -1, 33);
+        fH2[slot][Form("HitMapNonCorrected%d", ndet)] = new TH2F(Form("HitMapNonCorrected%d", ndet), Form("HitMapNonCorrected%d", ndet), 34, -1, 33, 34, -1, 33);
+        fH2[slot][Form("HitMapCorrectedGood%d", ndet)] = new TH2F(Form("HitMapCorrectedGood%d", ndet), Form("HitMapCorrectedGood%d", ndet), 34, -1, 33, 34, -1, 33);
+        fH2[slot][Form("HitMapCorrectedWeird%d", ndet)] = new TH2F(Form("HitMapCorrectedWeird%d", ndet), Form("HitMapCorrectedWeird%d", ndet), 34, -1, 33, 34, -1, 33);
     }
 }
 
@@ -60,6 +62,9 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
         int mappedstrip1 = frontMaps[det1][hit1->GetSegment()];
         int mappedstrip2 = backMaps[det2][hit2->GetSegment()];
 
+        int mappedstrip1bis = frontMapsBis[det1][hit1->GetSegment()];
+        int mappedstrip2bis = backMapsBis[det2][hit2->GetSegment()];
+
         string side1 = hit1->GetChannel()->GetMnemonic()->CollectedChargeString();
         string side2 = hit2->GetChannel()->GetMnemonic()->CollectedChargeString();
 
@@ -72,21 +77,27 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
                 fH2[slot].at(Form("EnergyVSFrontStrip%d", ndet))->Fill(mappedstrip1, hit1->GetEnergy());
                 fH2[slot].at(Form("EnergyVSBackStrip%d", ndet))->Fill(mappedstrip2, hit2->GetEnergy());
 
-                fH2[slot].at(Form("HitMap%d", ndet))->Fill(strip1, strip2);
+                fH2[slot].at(Form("HitMapNonCorrected%d", ndet))->Fill(strip1, strip2);
+                fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip1, mappedstrip2);
+                fH2[slot].at(Form("HitMapCorrectedWeird%d", ndet))->Fill(mappedstrip1bis, mappedstrip2bis);
             }
         }
 
-        if((det1 == 1) && (det1 == det2) && (side1 != side2))
+        if((det1 == det2) && (side1 != side2))
         {
-            fH1[slot].at("Time")->Fill(hit1->GetTime());
-            fH2[slot].at("FrontVSBackEnergy")->Fill(hit1->GetEnergy(), hit2->GetEnergy());
+            if((det1 == 1) && (mappedstrip1 == 30) && (mappedstrip2 == 30))
+            {
+                fH1[slot].at("Time")->Fill(hit1->GetTime());
+                
+                fH2[slot].at("FrontVSBackEnergy")->Fill(hit1->GetEnergy(), hit2->GetEnergy());
+                
+                fH1[slot].at("EnergyStripGatedOuterStrip")->Fill(hit1->GetEnergy());
+            }
 
-            if(mappedstrip1 == 30 && mappedstrip2 == 30) fH1[slot].at("EnergyStripGatedOuterStrip")->Fill(hit1->GetEnergy());
-        }
-        
-        if((det1 == 6) && (det1 == det2) && (side1 != side2))
-        {
-            if(mappedstrip1 == 16 && mappedstrip2 == 16) fH1[slot].at("EnergyStripGatedCenterStrip")->Fill(hit1->GetEnergy());
+            if((det1 == 6) && (mappedstrip1 == 16) && (mappedstrip2 == 16))
+            {
+                fH1[slot].at("EnergyStripGatedCenterStrip")->Fill(hit1->GetEnergy());
+            }
         }
 
         if((det1 == det2) && (side1 == side2 && side1 == "P"))

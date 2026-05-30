@@ -1,6 +1,6 @@
 DATADIR=/home/emile/postdoc/data/s2232/raw
 SORTOPTIONS="--recommended"
-CALFILES=/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration28264.cal
+#CALFILES=/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration28264.cal
 ANALYSISDIR=/home/emile/postdoc/data/s2232/sorted/analysis
 FRAGMENTDIR=/home/emile/postdoc/data/s2232/sorted/fragment
 LOGDIR=/home/emile/postdoc/analysis/s2232/sorter/logs
