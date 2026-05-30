@@ -8,6 +8,8 @@ void RCMPHelper::CreateHistograms(unsigned int slot)
 {
     fH1[slot]["Energy"] = new TH1F("Energy", "Energy", 10000, 0, 10000);
     fH1[slot]["EnergyStripGatedCenterStrip"] = new TH1F("EnergyStripGatedCenterStrip", "EnergyStripGatedCenterStrip", 10000, 0, 10000);
+    fH1[slot]["ChargeStripGatedCenterStrip"] = new TH1F("ChargeStripGatedCenterStrip", "ChargeStripGatedCenterStrip", 100000, 0, 100000);
+    fH1[slot]["CalEnergyStripGatedCenterStrip"] = new TH1F("CalEnergyStripGatedCenterStrip", "CalEnergyStripGatedCenterStrip", 10000, 0, 10000);
     fH1[slot]["EnergyStripGatedOuterStrip"] = new TH1F("EnergyStripGatedOuterStrip", "EnergyStripGatedOuterStrip", 10000, 0, 10000);
     fH1[slot]["EnergyGriffin"] = new TH1F("EnergyGriffin", "EnergyGriffin", 10000, 0, 10000);
     fH1[slot]["Time"] = new TH1F("Time", "Time", 60000, 0, 60000e9);
@@ -85,7 +87,7 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
 
         if((det1 == det2) && (side1 != side2))
         {
-            if((det1 == 1) && (mappedstrip1 == 30) && (mappedstrip2 == 30))
+            if((det1 == 6) && (mappedstrip1 == 30) && (mappedstrip2 == 30))
             {
                 fH1[slot].at("Time")->Fill(hit1->GetTime());
                 
@@ -97,6 +99,8 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
             if((det1 == 6) && (mappedstrip1 == 16) && (mappedstrip2 == 16))
             {
                 fH1[slot].at("EnergyStripGatedCenterStrip")->Fill(hit1->GetEnergy());
+                fH1[slot].at("ChargeStripGatedCenterStrip")->Fill(hit1->GetCharge());
+                fH1[slot].at("CalEnergyStripGatedCenterStrip")->Fill(hit1->GetCharge() * 1.354 + 191.083);
             }
         }
 
