@@ -25,6 +25,10 @@ void RCMPHelper::CreateHistograms(unsigned int slot)
     {
         fH2[slot][Form("EnergyVSFrontStrip%d", ndet)] = new TH2F(Form("EnergyVSFrontStrip%d", ndet), Form("EnergyVSFrontStrip%d", ndet), 36, -2, 34, 10000, 0, 10000);
         fH2[slot][Form("EnergyVSBackStrip%d", ndet)] = new TH2F(Form("EnergyVSBackStrip%d", ndet), Form("EnergyVSBackStrip%d", ndet), 36, -2, 34, 10000, 0, 10000);
+        fH2[slot][Form("ChargeVSFrontStrip%d", ndet)] = new TH2F(Form("ChargeVSFrontStrip%d", ndet), Form("ChargeVSFrontStrip%d", ndet), 36, -2, 34, 1000, 0, 10000);//Careful binning 1 bin = 10 keV
+        fH2[slot][Form("ChargeVSBackStrip%d", ndet)] = new TH2F(Form("ChargeVSBackStrip%d", ndet), Form("ChargeVSBackStrip%d", ndet), 36, -2, 34, 1000, 0, 10000);//Careful binning 1 bin = 10 keV
+        fH2[slot][Form("ChargeVSPixelFront%d", ndet)] = new TH2F(Form("ChargeVSPixelFront%d", ndet), Form("ChargeVSPixelFront%d", ndet), 1028, -2, 1026, 1000, 0, 10000);//Careful binning 1 bin = 10 keV
+        fH2[slot][Form("ChargeVSPixelBack%d", ndet)] = new TH2F(Form("ChargeVSPixelBack%d", ndet), Form("ChargeVSPixelBack%d", ndet), 1028, -2, 1026, 1000, 0, 10000);//Careful binning 1 bin = 10 keV
         
         fH2[slot][Form("HitMapNonCorrected%d", ndet)] = new TH2F(Form("HitMapNonCorrected%d", ndet), Form("HitMapNonCorrected%d", ndet), 34, -1, 33, 34, -1, 33);
         fH2[slot][Form("HitMapCorrectedGood%d", ndet)] = new TH2F(Form("HitMapCorrectedGood%d", ndet), Form("HitMapCorrectedGood%d", ndet), 34, -1, 33, 34, -1, 33);
@@ -70,6 +74,8 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
         string side1 = hit1->GetChannel()->GetMnemonic()->CollectedChargeString();
         string side2 = hit2->GetChannel()->GetMnemonic()->CollectedChargeString();
 
+        int pixel = mappedstrip1 + 32 * mappedstrip2;
+
         fH1[slot].at("Energy")->Fill(hit1->GetEnergy());
 
         for(int ndet = 1; ndet <= 6; ndet++)
@@ -78,10 +84,15 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
             {
                 fH2[slot].at(Form("EnergyVSFrontStrip%d", ndet))->Fill(mappedstrip1, hit1->GetEnergy());
                 fH2[slot].at(Form("EnergyVSBackStrip%d", ndet))->Fill(mappedstrip2, hit2->GetEnergy());
+                fH2[slot].at(Form("ChargeVSFrontStrip%d", ndet))->Fill(mappedstrip1, hit1->GetCharge());
+                fH2[slot].at(Form("ChargeVSBackStrip%d", ndet))->Fill(mappedstrip2, hit2->GetCharge());
 
                 fH2[slot].at(Form("HitMapNonCorrected%d", ndet))->Fill(strip1, strip2);
                 fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip1, mappedstrip2);
                 fH2[slot].at(Form("HitMapCorrectedWeird%d", ndet))->Fill(mappedstrip1bis, mappedstrip2bis);
+                
+                fH2[slot].at(Form("ChargeVSPixelFront%d", ndet))->Fill(pixel, hit1->GetCharge());
+                fH2[slot].at(Form("ChargeVSPixelBack%d", ndet))->Fill(pixel, hit2->GetCharge());
             }
         }
 
