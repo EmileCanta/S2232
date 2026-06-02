@@ -78,7 +78,8 @@ void HistoManager::Book() {
 
 	// Create directories
 	// Open an output file
-	G4bool fileOpen = analysisManager->OpenFile(fFileName); 
+	G4bool fileOpen = analysisManager->OpenFile("/home/emile/postdoc/data/rcmp_sim/"+fFileName); 
+
 	if(!fileOpen) {
 		G4String extension = analysisManager->GetFileType();
 		G4cout<<"---> HistoManager::book(): cannot open "<<fFileName<<"."<<extension<<G4endl;

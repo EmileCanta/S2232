@@ -1,89 +1,12 @@
-/run/initialize
-
-/DetSys/world/material Vacuum
-#/DetSys/det/addGriffinForward 16
-/DetSys/det/addRCMP
-
-/tracking/storeTrajectory 1
-/vis/open OGL
-#/vis/open OGLIQt
-/vis/drawVolume
-/vis/viewer/set/autoRefresh true
-/vis/scene/add/trajectories smooth
-/vis/scene/add/axes 0 0 0 10 cm
-/vis/viewer/set/targetPoint 0 0 0 m
-/vis/viewer/set/style surface
-/vis/scene/endOfEventAction accumulate 10000
-/Histo/RecordGun true
-/DetSys/gun/BeamSpot 2 mm
-#/DetSys/gun/coneMaxAngle 90 deg
-#/DetSys/gun/coneMinAngle 0 deg
-/DetSys/gun/position 0.0 0.0 -0.000275 mm
-/gun/particle proton
-/DetSys/gun/efficiencyEnergy 2. MeV
-#/run/beamOn 10000
-
-#/DetSys/phys/SelectPhysics emlivermore
-#
 #/run/initialize
 #
-#/process/had/rdm/nucleusLimits 34 34 18 18
-#
 #/DetSys/world/material Vacuum
-#/DetSys/det/SetCustomShieldsPresent 1
-#/DetSys/det/SetCustomExtensionSuppressorLocation 1
-#/DetSys/det/includeGriffinHevimet 1
-#/DetSys/det/SetCustomPosition 1 1 0
-#/DetSys/det/addGriffinCustomDetector 1
-#/DetSys/det/SetCustomPosition 2 2 0
-#/DetSys/det/addGriffinCustomDetector 2
-#/DetSys/det/SetCustomPosition 3 3 0
-#/DetSys/det/addGriffinCustomDetector 3
-#/DetSys/det/SetCustomPosition 4 4 0
-#/DetSys/det/addGriffinCustomDetector 4
-#/DetSys/det/SetCustomPosition 5 5 0
-#/DetSys/det/addGriffinCustomDetector 5
-#/DetSys/det/SetCustomPosition 6 6 0
-#/DetSys/det/addGriffinCustomDetector 6
-#/DetSys/det/SetCustomPosition 7 7 0
-#/DetSys/det/addGriffinCustomDetector 7
-#/DetSys/det/SetCustomPosition 8 8 0
-#/DetSys/det/addGriffinCustomDetector 8
-#/DetSys/det/SetCustomPosition 9 9 0
-#/DetSys/det/addGriffinCustomDetector 9
-#/DetSys/det/SetCustomPosition 10 10 0
-#/DetSys/det/addGriffinCustomDetector 10
-#/DetSys/det/SetCustomPosition 11 11 0
-#/DetSys/det/addGriffinCustomDetector 11
-#/DetSys/det/SetCustomPosition 12 12 0
-#/DetSys/det/addGriffinCustomDetector 12
-#/DetSys/det/SetCustomPosition 13 13 0
-#/DetSys/det/addGriffinCustomDetector 13
-#/DetSys/det/SetCustomPosition 14 14 0
-#/DetSys/det/addGriffinCustomDetector 14
-#/DetSys/det/SetCustomPosition 15 15 0
-#/DetSys/det/addGriffinCustomDetector 15
-#/DetSys/det/SetCustomPosition 16 16 0
-#/DetSys/det/addGriffinCustomDetector 16
-#
-##/DetSys/det/addSceptar 20
-#/DetSys/app/add8piVacuumChamber
-#
-#/vis/filtering/trajectories/create/particleFilter
-#/vis/filtering/trajectories/particleFilter-0/add gamma
-#/vis/filtering/trajectories/particleFilter-0/add e-
-#/vis/filtering/trajectories/particleFilter-0/add e+
-#/vis/filtering/trajectories/particleFilter-0/add proton
-#/vis/filtering/trajectories/particleFilter-0/add photon
-#/vis/modeling/trajectories/create/drawByParticleID
-#/vis/modeling/trajectories/drawByParticleID-0/set gamma green
-#/vis/modeling/trajectories/drawByParticleID-0/set e- yellow
-#/vis/modeling/trajectories/drawByParticleID-0/set e+ magenta
-#/vis/modeling/trajectories/drawByParticleID-0/set proton red
-#/vis/modeling/trajectories/drawByParticleID-0/set photon white
+##/DetSys/det/addGriffinForward 16
+#/DetSys/det/addRCMP
 #
 #/tracking/storeTrajectory 1
 #/vis/open OGL
+##/vis/open OGLIQt
 #/vis/drawVolume
 #/vis/viewer/set/autoRefresh true
 #/vis/scene/add/trajectories smooth
@@ -91,13 +14,90 @@
 #/vis/viewer/set/targetPoint 0 0 0 m
 #/vis/viewer/set/style surface
 #/vis/scene/endOfEventAction accumulate 10000
-#
 #/Histo/RecordGun true
-#
-#/gun/particle ion
-#/gun/ion 18 34
-#/gun/position 0.0 0.0 0.0 mm
-##/gun/particle alpha
-#
-##/DetSys/gun/efficiencyEnergy 2. MeV
-#/run/beamOn 100
+#/DetSys/gun/BeamSpot 2 mm
+##/DetSys/gun/coneMaxAngle 90 deg
+##/DetSys/gun/coneMinAngle 0 deg
+#/DetSys/gun/position 0.0 0.0 -0.000275 mm
+#/gun/particle proton
+#/DetSys/gun/efficiencyEnergy 2. MeV
+##/run/beamOn 10000
+
+/DetSys/phys/SelectPhysics emlivermore
+
+/run/initialize
+
+/process/had/rdm/nucleusLimits 34 34 18 18
+
+/DetSys/world/material Vacuum
+/DetSys/det/SetCustomShieldsPresent 1
+/DetSys/det/SetCustomExtensionSuppressorLocation 1
+/DetSys/det/includeGriffinHevimet 1
+/DetSys/det/SetCustomPosition 1 1 0
+/DetSys/det/addGriffinCustomDetector 1
+/DetSys/det/SetCustomPosition 2 2 0
+/DetSys/det/addGriffinCustomDetector 2
+/DetSys/det/SetCustomPosition 3 3 0
+/DetSys/det/addGriffinCustomDetector 3
+/DetSys/det/SetCustomPosition 4 4 0
+/DetSys/det/addGriffinCustomDetector 4
+/DetSys/det/SetCustomPosition 5 5 0
+/DetSys/det/addGriffinCustomDetector 5
+/DetSys/det/SetCustomPosition 6 6 0
+/DetSys/det/addGriffinCustomDetector 6
+/DetSys/det/SetCustomPosition 7 7 0
+/DetSys/det/addGriffinCustomDetector 7
+/DetSys/det/SetCustomPosition 8 8 0
+/DetSys/det/addGriffinCustomDetector 8
+/DetSys/det/SetCustomPosition 9 9 0
+/DetSys/det/addGriffinCustomDetector 9
+/DetSys/det/SetCustomPosition 10 10 0
+/DetSys/det/addGriffinCustomDetector 10
+/DetSys/det/SetCustomPosition 11 11 0
+/DetSys/det/addGriffinCustomDetector 11
+/DetSys/det/SetCustomPosition 12 12 0
+/DetSys/det/addGriffinCustomDetector 12
+/DetSys/det/SetCustomPosition 13 13 0
+/DetSys/det/addGriffinCustomDetector 13
+/DetSys/det/SetCustomPosition 14 14 0
+/DetSys/det/addGriffinCustomDetector 14
+/DetSys/det/SetCustomPosition 15 15 0
+/DetSys/det/addGriffinCustomDetector 15
+/DetSys/det/SetCustomPosition 16 16 0
+/DetSys/det/addGriffinCustomDetector 16
+
+/DetSys/det/addSceptar 20
+#/DetSys/app/add8piVacuumChamber
+
+/vis/filtering/trajectories/create/particleFilter
+/vis/filtering/trajectories/particleFilter-0/add gamma
+/vis/filtering/trajectories/particleFilter-0/add e-
+/vis/filtering/trajectories/particleFilter-0/add e+
+/vis/filtering/trajectories/particleFilter-0/add proton
+/vis/filtering/trajectories/particleFilter-0/add photon
+/vis/modeling/trajectories/create/drawByParticleID
+/vis/modeling/trajectories/drawByParticleID-0/set gamma green
+/vis/modeling/trajectories/drawByParticleID-0/set e- yellow
+/vis/modeling/trajectories/drawByParticleID-0/set e+ magenta
+/vis/modeling/trajectories/drawByParticleID-0/set proton red
+/vis/modeling/trajectories/drawByParticleID-0/set photon white
+
+/tracking/storeTrajectory 1
+/vis/open OGL
+/vis/drawVolume
+/vis/viewer/set/autoRefresh true
+/vis/scene/add/trajectories smooth
+/vis/scene/add/axes 0 0 0 10 cm
+/vis/viewer/set/targetPoint 0 0 0 m
+/vis/viewer/set/style surface
+/vis/scene/endOfEventAction accumulate 10000
+
+/Histo/RecordGun true
+
+/gun/particle ion
+/gun/ion 18 34
+/gun/position 0.0 0.0 0.0 mm
+#/gun/particle alpha
+
+#/DetSys/gun/efficiencyEnergy 2. MeV
+/run/beamOn 1

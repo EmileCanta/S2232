@@ -67,6 +67,10 @@ public:
 	void AddStepTracker(const DetectorProperties& properties, const G4int& eventNumber, const G4int& trackID, const G4int& parentID, const G4int& stepNumber, const G4int& particleType, const G4int& processType, const G4double& depEnergy, const G4ThreeVector& pos, const G4double& time, const G4int& trackerZ);
 
 	G4bool SpiceTest();
+
+    void SetBremsLineage(G4int trackID, bool flag);
+    bool IsBremsLineage(G4int trackID) const;
+
 private:
 	RunAction*    fRunAction;
 	HistoManager* fHistoManager;
