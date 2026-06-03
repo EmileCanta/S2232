@@ -25,11 +25,13 @@ void RCMPHelper::CreateHistograms(unsigned int slot)
     {
         fH2[slot][Form("EnergyVSFrontStrip%d", ndet)] = new TH2F(Form("EnergyVSFrontStrip%d", ndet), Form("EnergyVSFrontStrip%d", ndet), 36, -2, 34, 10000, 0, 10000);
         fH2[slot][Form("EnergyVSBackStrip%d", ndet)] = new TH2F(Form("EnergyVSBackStrip%d", ndet), Form("EnergyVSBackStrip%d", ndet), 36, -2, 34, 10000, 0, 10000);
-        fH2[slot][Form("ChargeVSFrontStrip%d", ndet)] = new TH2F(Form("ChargeVSFrontStrip%d", ndet), Form("ChargeVSFrontStrip%d", ndet), 36, -2, 34, 1000, 0, 10000);//Careful binning 1 bin = 10 keV
-        fH2[slot][Form("ChargeVSBackStrip%d", ndet)] = new TH2F(Form("ChargeVSBackStrip%d", ndet), Form("ChargeVSBackStrip%d", ndet), 36, -2, 34, 1000, 0, 10000);//Careful binning 1 bin = 10 keV
-        fH2[slot][Form("ChargeVSPixelFront%d", ndet)] = new TH2F(Form("ChargeVSPixelFront%d", ndet), Form("ChargeVSPixelFront%d", ndet), 1028, -2, 1026, 1000, 0, 10000);//Careful binning 1 bin = 10 keV
-        fH2[slot][Form("ChargeVSPixelBack%d", ndet)] = new TH2F(Form("ChargeVSPixelBack%d", ndet), Form("ChargeVSPixelBack%d", ndet), 1028, -2, 1026, 1000, 0, 10000);//Careful binning 1 bin = 10 keV
         
+        //Careful binning 1 bin = 10 keV
+        fH2[slot][Form("ChargeVSFrontStrip%d", ndet)] = new TH2F(Form("ChargeVSFrontStrip%d", ndet), Form("ChargeVSFrontStrip%d", ndet), 36, -2, 34, 1000, 0, 10000);
+        fH2[slot][Form("ChargeVSBackStrip%d", ndet)] = new TH2F(Form("ChargeVSBackStrip%d", ndet), Form("ChargeVSBackStrip%d", ndet), 36, -2, 34, 1000, 0, 10000);
+        fH2[slot][Form("ChargeVSPixelFront%d", ndet)] = new TH2F(Form("ChargeVSPixelFront%d", ndet), Form("ChargeVSPixelFront%d", ndet), 1028, -2, 1026, 1000, 0, 10000);
+        fH2[slot][Form("ChargeVSPixelBack%d", ndet)] = new TH2F(Form("ChargeVSPixelBack%d", ndet), Form("ChargeVSPixelBack%d", ndet), 1028, -2, 1026, 1000, 0, 10000);
+
         fH2[slot][Form("HitMapNonCorrected%d", ndet)] = new TH2F(Form("HitMapNonCorrected%d", ndet), Form("HitMapNonCorrected%d", ndet), 34, -1, 33, 34, -1, 33);
         fH2[slot][Form("HitMapCorrectedGood%d", ndet)] = new TH2F(Form("HitMapCorrectedGood%d", ndet), Form("HitMapCorrectedGood%d", ndet), 34, -1, 33, 34, -1, 33);
         fH2[slot][Form("HitMapCorrectedWeird%d", ndet)] = new TH2F(Form("HitMapCorrectedWeird%d", ndet), Form("HitMapCorrectedWeird%d", ndet), 34, -1, 33, 34, -1, 33);
@@ -38,12 +40,16 @@ void RCMPHelper::CreateHistograms(unsigned int slot)
 
 void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffinBgo& griffinbgo)
 {
+    int it = 0;
+
     TRcmpHit* hit1;
     TRcmpHit* hit2;
 
     //double mult = rcmp.GetRcmpMultiplicity();
     double mult = rcmp.GetMultiplicity();
     double multGriffin = griffin.GetMultiplicity();
+
+    cout << it << endl;
 
     if(mult == 2) 
     {
@@ -156,6 +162,8 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
         TGriffinHit* hit = griffin.GetGriffinHit(i);
         fH1[slot].at("EnergyGriffin")->Fill(hit->GetEnergy());
     } 
+
+    it++;
 }
 
 void RCMPHelper::EndOfSort(std::shared_ptr<std::map<std::string, TList>>& list)
