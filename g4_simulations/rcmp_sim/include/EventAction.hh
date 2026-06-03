@@ -40,6 +40,7 @@
 #include "G4UserEventAction.hh"
 #include "globals.hh"
 #include "HistoManager.hh"
+#include <unordered_map>
 
 #include "DetectorConstruction.hh" // for DetectorProperties
 
@@ -48,7 +49,7 @@ class HistoManager;
 
 static const int MAXSTEPS       = 1000;
 static const int MAXHITS        = 100;
-static const int NUMSTEPVARS    = 15;
+static const int NUMSTEPVARS    = 16;
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -63,13 +64,14 @@ public:
 
 	G4int GetEventNumber() { return fEvtNb;};
 
-	void AddHitTracker(const DetectorProperties& properties, const G4int& eventNumber, const G4int& trackID, const G4int& parentID, const G4int& stepNumber, const G4int& particleType, const G4int& processType, const G4double& depEnergy, const G4ThreeVector& pos, const G4double& time, const G4int& trackerZ, const G4double& kinEnergy);
+	void AddHitTracker(const DetectorProperties& properties, const G4int& eventNumber, const G4int& trackID, const G4int& parentID, const G4int& stepNumber, const G4int& particleType, const G4int& processType, const G4double& depEnergy, const G4ThreeVector& pos, const G4double& time, const G4int& trackerZ, const G4double& kinEnergy, const G4bool fromBrems);
 	void AddStepTracker(const DetectorProperties& properties, const G4int& eventNumber, const G4int& trackID, const G4int& parentID, const G4int& stepNumber, const G4int& particleType, const G4int& processType, const G4double& depEnergy, const G4ThreeVector& pos, const G4double& time, const G4int& trackerZ);
 
 	G4bool SpiceTest();
 
     void SetBremsLineage(G4int trackID, bool flag);
     bool IsBremsLineage(G4int trackID) const;
+    bool HasLineage(G4int trackID) const;
 
 private:
 	RunAction*    fRunAction;
@@ -98,6 +100,8 @@ private:
 	// Energy deposit in detection systems
 	G4double fSpiceEnergyDet[10][12];
 	G4double fSpiceTrackDet[10][12];
+
+    std::unordered_map<G4int, bool> fBremsLineage;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

@@ -116,7 +116,7 @@ G4int DetectionSystemSceptar::Build() {
 	ConstructScintillator();
 	//ConstructDelrinShell();
 	//Construct2ndDelrinShell();
-	ConstructHevimetShell();
+	//ConstructHevimetShell();
 
 	return 1;
 }

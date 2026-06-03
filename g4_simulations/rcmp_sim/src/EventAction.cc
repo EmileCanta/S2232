@@ -69,6 +69,9 @@ void EventAction::BeginOfEventAction(const G4Event* evt) {
 	}
 
 	if(fHistoManager != nullptr) ClearVariables();
+
+    fBremsLineage.clear();
+    fNumberOfHits = 0;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -76,7 +79,7 @@ void EventAction::BeginOfEventAction(const G4Event* evt) {
 void EventAction::EndOfEventAction(const G4Event* evt) {
 	if(fHistoManager != nullptr) {
 		for(G4int i = 0; i < fNumberOfHits; i++) {
-			fHistoManager->FillHitNtuple(fHitTrackerI[0][i], fHitTrackerI[1][i], fHitTrackerI[2][i], fHitTrackerI[3][i],  fHitTrackerI[4][i], fHitTrackerI[5][i], fHitTrackerI[6][i], fHitTrackerI[7][i], fHitTrackerI[8][i], fHitTrackerD[0][i]/keV, fHitTrackerD[1][i]/mm, fHitTrackerD[2][i]/mm, fHitTrackerD[3][i]/mm, fHitTrackerD[4][i]/second, fHitTrackerI[9][i]);
+			fHistoManager->FillHitNtuple(fHitTrackerI[0][i], fHitTrackerI[1][i], fHitTrackerI[2][i], fHitTrackerI[3][i],  fHitTrackerI[4][i], fHitTrackerI[5][i], fHitTrackerI[6][i], fHitTrackerI[7][i], fHitTrackerI[8][i], fHitTrackerD[0][i]/keV, fHitTrackerD[1][i]/mm, fHitTrackerD[2][i]/mm, fHitTrackerD[3][i]/mm, fHitTrackerD[4][i]/second, fHitTrackerI[9][i], fHitTrackerI[10][i], fHitTrackerD[5][i]/keV);
 		}
 		for(G4int i = 0; i < fNumberOfSteps; i++) {
 			fHistoManager->FillStepNtuple(fStepTrackerI[0][i], fStepTrackerI[1][i], fStepTrackerI[2][i], fStepTrackerI[3][i],  fStepTrackerI[4][i], fStepTrackerI[5][i], fStepTrackerI[6][i], fStepTrackerI[7][i], fStepTrackerI[8][i], fStepTrackerD[0][i]/keV, fStepTrackerD[1][i]/mm, fStepTrackerD[2][i]/mm, fStepTrackerD[3][i]/mm, fStepTrackerD[4][i]/second, fStepTrackerI[9][i]);
@@ -89,12 +92,18 @@ void EventAction::EndOfEventAction(const G4Event* evt) {
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void EventAction::AddHitTracker(const DetectorProperties& properties, const G4int& eventNumber, const G4int& trackID, const G4int& parentID, const G4int& stepNumber, const G4int& particleType, const G4int& processType, const G4double& depEnergy, const G4ThreeVector& pos, const G4double& time, const G4int& targetZ, const G4double& kinEnergy) {
+void EventAction::AddHitTracker(const DetectorProperties& properties, const G4int& eventNumber, const G4int& trackID, const G4int& parentID, const G4int& stepNumber, const G4int& particleType, const G4int& processType, const G4double& depEnergy, const G4ThreeVector& pos, const G4double& time, const G4int& targetZ, const G4double& kinEnergy, const G4bool fromBrems) {
 	for(G4int i = 0; i < fNumberOfHits; i++) {
-		if(fProperties[i] == properties) {
+		if(fProperties[i] == properties) 
+        {
 			// sum the new enery
 			fHitTrackerD[0][i] = fHitTrackerD[0][i] + depEnergy;
-			return;
+
+            if(fromBrems) fHitTrackerD[5][i] += depEnergy;
+            
+            fHitTrackerI[10][i] = fHitTrackerI[10][i] || fromBrems;
+			
+            return;
 		}
 	}
 	// new hit
@@ -109,11 +118,13 @@ void EventAction::AddHitTracker(const DetectorProperties& properties, const G4in
 	fHitTrackerI[7][fNumberOfHits] = properties.crystalNumber;
 	fHitTrackerI[8][fNumberOfHits] = properties.detectorNumber;
 	fHitTrackerI[9][fNumberOfHits] = targetZ;
+    fHitTrackerI[10][fNumberOfHits] = fromBrems;
 	fHitTrackerD[0][fNumberOfHits] = depEnergy;
 	fHitTrackerD[1][fNumberOfHits] = pos.x();
 	fHitTrackerD[2][fNumberOfHits] = pos.y();
 	fHitTrackerD[3][fNumberOfHits] = pos.z();
 	fHitTrackerD[4][fNumberOfHits] = time;
+    fHitTrackerD[5][1] = fromBrems ? depEnergy : 0.0;
 
 	++fNumberOfHits;
 
@@ -243,4 +254,26 @@ void EventAction::ClearVariables() {
 
 G4bool EventAction::SpiceTest(){//is SPICE inputted
 	return fHistoManager->GetDetectorConstruction()->Spice();
+}
+
+void EventAction::SetBremsLineage(G4int trackID, bool value)
+{
+    fBremsLineage[trackID] = value;
+}
+
+bool EventAction::IsBremsLineage(G4int trackID) const
+{
+    auto it = fBremsLineage.find(trackID);
+
+    if(it == fBremsLineage.end())
+    {
+        return false;
+    }
+
+    return it->second;
+}
+
+bool EventAction::HasLineage(G4int trackID) const
+{
+    return fBremsLineage.find(trackID) != fBremsLineage.end();
 }

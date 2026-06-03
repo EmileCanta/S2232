@@ -73,12 +73,15 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
 
 	G4Track* theTrack = aStep->GetTrack();
 	G4int stepNumber = theTrack->GetCurrentStepNumber();
+	G4int trackID = theTrack->GetTrackID();
+    G4int parentID = theTrack->GetParentID();
 
 	// Track particle type in EVERY step
 	G4int particleType  = aStep->GetTrack()->GetParticleDefinition()->GetPDGEncoding();
 	G4String particleName  = aStep->GetTrack()->GetParticleDefinition()->GetParticleName();
-	G4String processName = "arg";
     G4String volumeName = volume->GetName();
+
+    G4String processName;
 
 	const G4VProcess* process = aStep->GetPostStepPoint()->GetProcessDefinedStep();
 	G4int targetZ = -1;
@@ -93,11 +96,12 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
 
 	evntNb =  fEventAction->GetEventNumber();
 
+    
+
 	// this can be modified to add more processes
 	if(theTrack->GetCreatorProcess() != nullptr) {
 		processName = theTrack->GetCreatorProcess()->GetProcessName();
-        //G4cout << evntNb << " " << volumeName << " " << parentID << " " << trackID << " " << particleName << " " << processName << " " << ekin << G4endl;
-		//if(processName != "eBrem" && processName != "RadioactiveDecay") theTrack->SetTrackStatus(fStopAndKill);
+
         if(processName == "RadioactiveDecay")      processType = 1;
 		else if(processName == "eIoni")            processType = 2;
 		else if(processName == "compt")        processType = 3;
@@ -107,14 +111,34 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
 		else if(processName == "annihil")        processType = 7;
 		else                                       processType = 0;
 	}
+    
+    // Process Brems lineage
 
-    //if(particleType == -11 && aStep->GetTrack()->GetCurrentStepNumber() == 1 && theTrack->GetCreatorProcess()->GetProcessName() == "RadioactiveDecay") G4cout << aStep->GetPreStepPoint()->GetKineticEnergy() << G4endl;
+    if(!fEventAction->HasLineage(trackID))
+    {
+        bool isBremsLineage = false;
 
-	evntNb =  fEventAction->GetEventNumber();
+        if(parentID > 0)
+        {
+            isBremsLineage = fEventAction->IsBremsLineage(parentID);
+        }
+
+        const G4VProcess* creator = theTrack->GetCreatorProcess();
+
+        if(creator && (creator->GetProcessName() == "eBrem"))
+        {
+            isBremsLineage = true;
+        }
+
+        fEventAction->SetBremsLineage(trackID, isBremsLineage);
+    }
+
+    bool fromBrems = fEventAction->IsBremsLineage(trackID);
+	
+
+
 
 	// Get initial momentum direction & energy of particle
-	G4int trackID = theTrack->GetTrackID();
-	G4int parentID = theTrack->GetParentID();
 
 	G4StepPoint* prePoint = aStep->GetPreStepPoint();
 	G4StepPoint* postPoint = aStep->GetPostStepPoint();
@@ -126,16 +150,9 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
     if(fDetector->HasProperties(volume)) {
         DetectorProperties prop = fDetector->GetProperties(volume);
 
-        G4cout << evntNb << " " << prop.systemID << " " << parentID << " " << trackID << " " << stepNumber << " " << particleName << " " << processName << " " << ekin << G4endl;
-
-        if(aStep->IsFirstStepInVolume() && prop.systemID == 1000 && processName != "eBrem") 
-
-        {
-            G4cout << "Boom" << G4endl;
-            theTrack->SetTrackStatus(fStopAndKill); //Kills particle as soon as it enters an active volume
-        }
-
-        fEventAction->AddHitTracker(prop, evntNb, trackID, parentID, stepNumber, particleType, processType, edep, prePos, postTime, targetZ, ekin);
+        //G4cout << fromBrems << " " << evntNb << " " << prop.systemID << " " << parentID << " " << trackID << " " << particleName << " " << processName << " " << ekin << G4endl;
+        
+        fEventAction->AddHitTracker(prop, evntNb, trackID, parentID, stepNumber, particleType, processType, edep, prePos, postTime, targetZ, ekin, fromBrems);
     }
 
 	// check if this volume has its properties set, i.e. it's an active detector

@@ -20,7 +20,7 @@
 
 /run/initialize
 
-/process/had/rdm/nucleusLimits 34 34 18 18
+/process/had/rdm/nucleusLimits 34 34 18 17
 
 /DetSys/world/material Vacuum
 
@@ -76,4 +76,4 @@
 #/DetSys/gun/efficiencyEnergy 2 MeV
 /gun/position 0.0 0.0 0.0 mm
 
-/run/beamOn 10000
+/run/beamOn 100000

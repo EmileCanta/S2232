@@ -29,45 +29,45 @@
 
 /process/had/rdm/nucleusLimits 34 34 18 18
 
-/DetSys/world/material Vacuum
-/DetSys/det/SetCustomShieldsPresent 1
-/DetSys/det/SetCustomExtensionSuppressorLocation 1
-/DetSys/det/includeGriffinHevimet 1
-/DetSys/det/SetCustomPosition 1 1 0
-/DetSys/det/addGriffinCustomDetector 1
-/DetSys/det/SetCustomPosition 2 2 0
-/DetSys/det/addGriffinCustomDetector 2
-/DetSys/det/SetCustomPosition 3 3 0
-/DetSys/det/addGriffinCustomDetector 3
-/DetSys/det/SetCustomPosition 4 4 0
-/DetSys/det/addGriffinCustomDetector 4
-/DetSys/det/SetCustomPosition 5 5 0
-/DetSys/det/addGriffinCustomDetector 5
-/DetSys/det/SetCustomPosition 6 6 0
-/DetSys/det/addGriffinCustomDetector 6
-/DetSys/det/SetCustomPosition 7 7 0
-/DetSys/det/addGriffinCustomDetector 7
-/DetSys/det/SetCustomPosition 8 8 0
-/DetSys/det/addGriffinCustomDetector 8
-/DetSys/det/SetCustomPosition 9 9 0
-/DetSys/det/addGriffinCustomDetector 9
-/DetSys/det/SetCustomPosition 10 10 0
-/DetSys/det/addGriffinCustomDetector 10
-/DetSys/det/SetCustomPosition 11 11 0
-/DetSys/det/addGriffinCustomDetector 11
-/DetSys/det/SetCustomPosition 12 12 0
-/DetSys/det/addGriffinCustomDetector 12
-/DetSys/det/SetCustomPosition 13 13 0
-/DetSys/det/addGriffinCustomDetector 13
-/DetSys/det/SetCustomPosition 14 14 0
-/DetSys/det/addGriffinCustomDetector 14
-/DetSys/det/SetCustomPosition 15 15 0
-/DetSys/det/addGriffinCustomDetector 15
-/DetSys/det/SetCustomPosition 16 16 0
-/DetSys/det/addGriffinCustomDetector 16
+#/DetSys/world/material Vacuum
+#/DetSys/det/SetCustomShieldsPresent 1
+#/DetSys/det/SetCustomExtensionSuppressorLocation 1
+#/DetSys/det/includeGriffinHevimet 1
+#/DetSys/det/SetCustomPosition 1 1 0
+#/DetSys/det/addGriffinCustomDetector 1
+#/DetSys/det/SetCustomPosition 2 2 0
+#/DetSys/det/addGriffinCustomDetector 2
+#/DetSys/det/SetCustomPosition 3 3 0
+#/DetSys/det/addGriffinCustomDetector 3
+#/DetSys/det/SetCustomPosition 4 4 0
+#/DetSys/det/addGriffinCustomDetector 4
+#/DetSys/det/SetCustomPosition 5 5 0
+#/DetSys/det/addGriffinCustomDetector 5
+#/DetSys/det/SetCustomPosition 6 6 0
+#/DetSys/det/addGriffinCustomDetector 6
+#/DetSys/det/SetCustomPosition 7 7 0
+#/DetSys/det/addGriffinCustomDetector 7
+#/DetSys/det/SetCustomPosition 8 8 0
+#/DetSys/det/addGriffinCustomDetector 8
+#/DetSys/det/SetCustomPosition 9 9 0
+#/DetSys/det/addGriffinCustomDetector 9
+#/DetSys/det/SetCustomPosition 10 10 0
+#/DetSys/det/addGriffinCustomDetector 10
+#/DetSys/det/SetCustomPosition 11 11 0
+#/DetSys/det/addGriffinCustomDetector 11
+#/DetSys/det/SetCustomPosition 12 12 0
+#/DetSys/det/addGriffinCustomDetector 12
+#/DetSys/det/SetCustomPosition 13 13 0
+#/DetSys/det/addGriffinCustomDetector 13
+#/DetSys/det/SetCustomPosition 14 14 0
+#/DetSys/det/addGriffinCustomDetector 14
+#/DetSys/det/SetCustomPosition 15 15 0
+#/DetSys/det/addGriffinCustomDetector 15
+#/DetSys/det/SetCustomPosition 16 16 0
+#/DetSys/det/addGriffinCustomDetector 16
 
 /DetSys/det/addSceptar 20
-#/DetSys/app/add8piVacuumChamber
+/DetSys/app/add8piVacuumChamber
 
 /vis/filtering/trajectories/create/particleFilter
 /vis/filtering/trajectories/particleFilter-0/add gamma
