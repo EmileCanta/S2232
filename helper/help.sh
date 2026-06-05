@@ -3,7 +3,7 @@
 HELPER=/home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.cxx 
 HELPERNAME=RCMP
 HELPERDIR=/home/emile/postdoc/analysis/s2232/helper/rcmp
-OPTIONS="--max-workers 20"
+#OPTIONS="--max-workers 20"
 ANALYSISDIR=/home/emile/postdoc/data/s2232/sorted/analysis 
 HISTDIR=/home/emile/postdoc/analysis/s2232/histograms/rcmp
 LOGDIR=/home/emile/postdoc/analysis/s2232/helper/logs

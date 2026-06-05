@@ -40,16 +40,12 @@ void RCMPHelper::CreateHistograms(unsigned int slot)
 
 void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffinBgo& griffinbgo)
 {
-    int it = 0;
-
     TRcmpHit* hit1;
     TRcmpHit* hit2;
 
     //double mult = rcmp.GetRcmpMultiplicity();
     double mult = rcmp.GetMultiplicity();
     double multGriffin = griffin.GetMultiplicity();
-
-    cout << it << endl;
 
     if(mult == 2) 
     {
@@ -132,38 +128,36 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
         }
     }
 
-    for(int i = 0; i < mult; i++)
-    {
-        TRcmpHit* hit = rcmp.GetRcmpHit(i);
+    /* for(int i = 0; i < mult; i++)
+       {
+       TRcmpHit* hit = rcmp.GetRcmpHit(i);
 
-        int det = hit->GetDetector();
-        string side = hit->GetChannel()->GetMnemonic()->CollectedChargeString();
+       int det = hit->GetDetector();
+       string side = hit->GetChannel()->GetMnemonic()->CollectedChargeString();
 
-        fH2[slot].at("DetectorVSMultiplicity")->Fill(det, mult, 1./mult); // Careful, weighted histogram here
+       fH2[slot].at("DetectorVSMultiplicity")->Fill(det, mult, 1./mult); // Careful, weighted histogram here
 
-        if(det == 6)
-        {
-            if(side == "P") 
-            {
-                fH2[slot].at("SideVSMultiplicity")->Fill(mult, 0);
-            }
+       if(det == 6)
+       {
+       if(side == "P") 
+       {
+       fH2[slot].at("SideVSMultiplicity")->Fill(mult, 0);
+       }
 
-            if(side == "N") 
-            {
-                fH2[slot].at("SideVSMultiplicity")->Fill(mult, 1);
-            }
+       if(side == "N") 
+       {
+       fH2[slot].at("SideVSMultiplicity")->Fill(mult, 1);
+       }
 
-            if(mult > 0) fH1[slot].at("Multiplicity")->Fill(mult, 1./mult); // Careful, weighted histogram here
-        }
-    }
+       if(mult > 0) fH1[slot].at("Multiplicity")->Fill(mult, 1./mult); // Careful, weighted histogram here
+       }
+       }
 
-    for(int i = 0; i < multGriffin; i++)
-    {
-        TGriffinHit* hit = griffin.GetGriffinHit(i);
-        fH1[slot].at("EnergyGriffin")->Fill(hit->GetEnergy());
-    } 
-
-    it++;
+       for(int i = 0; i < multGriffin; i++)
+       {
+       TGriffinHit* hit = griffin.GetGriffinHit(i);
+       fH1[slot].at("EnergyGriffin")->Fill(hit->GetEnergy());
+       } */ 
 }
 
 void RCMPHelper::EndOfSort(std::shared_ptr<std::map<std::string, TList>>& list)
