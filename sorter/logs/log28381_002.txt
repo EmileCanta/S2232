@@ -1,0 +1,5 @@
+grsisort --recommended  /home/emile/postdoc/data/s2232/raw/run28381_002.mid
+	grsisort version 4.0.0.5
+	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
+Already loaded handle 0x5e23c3bde7b0
+grsisort: libraries/TMidas/TMidasEvent.cxx:329: void TMidasEvent::AllocateData(): Assertion `IsGoodSize()' failed.
