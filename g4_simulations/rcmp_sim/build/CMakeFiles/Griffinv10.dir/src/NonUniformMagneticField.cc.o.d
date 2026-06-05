@@ -2,9 +2,9 @@ CMakeFiles/Griffinv10.dir/src/NonUniformMagneticField.cc.o: \
  /home/emile/postdoc/analysis/s2232/g4_simulations/rcmp_sim/src/NonUniformMagneticField.cc \
  /usr/include/stdc-predef.h \
  /home/emile/postdoc/analysis/s2232/g4_simulations/rcmp_sim/include/NonUniformMagneticField.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4MagneticField.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4Types.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4GlobalConfig.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4MagneticField.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Types.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/13/complex \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -178,11 +178,11 @@ CMakeFiles/Griffinv10.dir/src/NonUniformMagneticField.cc.o: \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
- /home/emile/geant4/geant4_install/include/Geant4/tls.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4Field.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4FieldParameters.hh \
- /home/emile/geant4/geant4_install/include/Geant4/globals.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ios.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/tls.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Field.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldParameters.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/globals.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ios.hh \
  /usr/include/c++/13/iostream /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
@@ -191,10 +191,10 @@ CMakeFiles/Griffinv10.dir/src/NonUniformMagneticField.cc.o: \
  /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/emile/geant4/geant4_install/include/Geant4/G4String.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4String.hh \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /home/emile/geant4/geant4_install/include/Geant4/G4String.icc \
- /home/emile/geant4/geant4_install/include/Geant4/templates.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4String.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/templates.hh \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
@@ -204,9 +204,9 @@ CMakeFiles/Griffinv10.dir/src/NonUniformMagneticField.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/emile/geant4/geant4_install/include/Geant4/G4Exception.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ExceptionSeverity.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4EnvironmentUtils.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Exception.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ExceptionSeverity.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4EnvironmentUtils.hh \
  /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
  /usr/include/c++/13/bits/locale_facets_nonio.h /usr/include/c++/13/ctime \
  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
@@ -229,11 +229,11 @@ CMakeFiles/Griffinv10.dir/src/NonUniformMagneticField.cc.o: \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/emile/geant4/geant4_install/include/Geant4/G4FieldParameters.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldParameters.icc \
  /home/emile/postdoc/analysis/s2232/g4_simulations/rcmp_sim/include/TabulatedMagneticField.hh \
- /home/emile/geant4/geant4_install/include/Geant4/globals.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ios.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/globals.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ios.hh \
  /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
@@ -242,41 +242,41 @@ CMakeFiles/Griffinv10.dir/src/NonUniformMagneticField.cc.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/emile/geant4/geant4_install/include/Geant4/G4FieldManager.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4FieldManager.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4TransportationManager.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4Navigator.hh \
- /home/emile/geant4/geant4_install/include/Geant4/geomdefs.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ThreeVector.hh \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4AffineTransform.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4RotationMatrix.hh \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/Rotation.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/RotationX.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/RotationX.icc \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/RotationY.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/RotationY.icc \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/RotationZ.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/RotationZ.icc \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Vector/Rotation.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4Transform3D.hh \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Geometry/Point3D.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /home/emile/geant4/geant4_install/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /home/emile/geant4/geant4_install/include/Geant4/G4AffineTransform.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4LogicalVolume.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldManager.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldManager.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4TransportationManager.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Navigator.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/geomdefs.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ThreeVector.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4AffineTransform.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4RotationMatrix.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/Rotation.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/RotationX.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/RotationX.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/RotationY.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/RotationY.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/RotationZ.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Vector/Rotation.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Transform3D.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4AffineTransform.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4LogicalVolume.hh \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
@@ -289,98 +289,98 @@ CMakeFiles/Griffinv10.dir/src/NonUniformMagneticField.cc.o: \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /home/emile/geant4/geant4_install/include/Geant4/G4Region.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4GeomSplitter.hh \
- /home/emile/geant4/geant4_install/include/Geant4/geomwdefs.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4AutoLock.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4Threading.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Region.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4GeomSplitter.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/geomwdefs.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4AutoLock.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
  /usr/include/c++/13/future /usr/include/c++/13/bits/atomic_futex.h \
  /usr/include/c++/13/atomic /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
  /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/emile/geant4/geant4_install/include/Geant4/G4Region.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4VPhysicalVolume.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4VPhysicalVolume.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4LogicalVolume.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4TouchableHandle.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4VTouchable.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4TouchableHistory.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4NavigationHistory.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Region.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VPhysicalVolume.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4LogicalVolume.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4TouchableHandle.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VTouchable.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4TouchableHistory.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4NavigationHistory.hh \
  /usr/include/assert.h \
- /home/emile/geant4/geant4_install/include/Geant4/G4NavigationLevel.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4NavigationLevelRep.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4Allocator.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4AllocatorPool.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4NavigationLevelRep.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4NavigationLevel.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4NavigationHistoryPool.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4NavigationHistory.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4TouchableHistory.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4ReferenceCountedHandle.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4NormalNavigation.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4VNavigation.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4VSolid.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4VSolid.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4AuxiliaryNavServices.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4AuxiliaryNavServices.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4NormalNavigation.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4VoxelNavigation.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4NavigationLogger.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4BlockingList.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4BlockingList.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4SmartVoxelProxy.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4SmartVoxelProxy.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4SmartVoxelNode.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4SmartVoxelNode.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4SmartVoxelHeader.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4SmartVoxelHeader.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4VoxelNavigation.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4ParameterisedNavigation.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4VPVParameterisation.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4VVolumeMaterialScanner.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ParameterisedNavigation.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4ReplicaNavigation.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ReplicaNavigation.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4RegularNavigation.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4VExternalNavigation.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4Navigator.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4SafetyHelper.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4SafetyHelper.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4TransportationManager.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4Mag_UsualEqRhs.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4Mag_EqRhs.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ChargeState.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ChargeState.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4EquationOfMotion.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4EquationOfMotion.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4MagIntegratorStepper.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4VIntegrationDriver.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4FieldTrack.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4FieldTrack.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4IntegrationDriver.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4RKIntegrationDriver.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4RKIntegrationDriver.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4ChordFinderDelegate.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ChordFinderDelegate.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4IntegrationDriver.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4FieldUtils.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4FieldUtils.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4MagIntegratorStepper.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4ChordFinder.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4MagIntegratorStepper.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ChordFinder.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4ExplicitEuler.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4MagErrorStepper.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4MagErrorStepper.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4ImplicitEuler.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4SimpleRunge.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4SimpleHeum.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4ClassicalRK4.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4HelixExplicitEuler.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4MagHelicalStepper.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4MagHelicalStepper.icc \
- /home/emile/geant4/geant4_install/include/Geant4/G4HelixImplicitEuler.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4HelixSimpleRunge.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4CashKarpRKF45.hh \
- /home/emile/geant4/geant4_install/include/Geant4/G4RKG3_Stepper.hh
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4NavigationLevel.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4NavigationLevelRep.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Allocator.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4AllocatorPool.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4NavigationLevelRep.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4NavigationLevel.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4NavigationHistory.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4TouchableHistory.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ReferenceCountedHandle.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4NormalNavigation.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VNavigation.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VSolid.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VSolid.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4AuxiliaryNavServices.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4AuxiliaryNavServices.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4NormalNavigation.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VoxelNavigation.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4NavigationLogger.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4BlockingList.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4BlockingList.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelProxy.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelProxy.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelNode.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelNode.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelHeader.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SmartVoxelHeader.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VoxelNavigation.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ParameterisedNavigation.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VPVParameterisation.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VVolumeMaterialScanner.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ParameterisedNavigation.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ReplicaNavigation.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ReplicaNavigation.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4RegularNavigation.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VExternalNavigation.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Navigator.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SafetyHelper.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SafetyHelper.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4TransportationManager.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Mag_UsualEqRhs.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4Mag_EqRhs.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ChargeState.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ChargeState.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4EquationOfMotion.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4EquationOfMotion.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4MagIntegratorStepper.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4VIntegrationDriver.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldTrack.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldTrack.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4IntegrationDriver.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4RKIntegrationDriver.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4RKIntegrationDriver.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ChordFinderDelegate.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ChordFinderDelegate.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4IntegrationDriver.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldUtils.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4FieldUtils.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4MagIntegratorStepper.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ChordFinder.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4MagIntegratorStepper.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ChordFinder.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ExplicitEuler.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4MagErrorStepper.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4MagErrorStepper.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ImplicitEuler.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SimpleRunge.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4SimpleHeum.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4ClassicalRK4.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4HelixExplicitEuler.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4MagHelicalStepper.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4MagHelicalStepper.icc \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4HelixImplicitEuler.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4HelixSimpleRunge.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4CashKarpRKF45.hh \
+ /home/emile/geant4/geant4-v11.4.0-install/include/Geant4/G4RKG3_Stepper.hh
