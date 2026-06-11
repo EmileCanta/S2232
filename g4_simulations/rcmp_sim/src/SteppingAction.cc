@@ -153,6 +153,7 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
         //G4cout << fromBrems << " " << evntNb << " " << prop.systemID << " " << parentID << " " << trackID << " " << particleName << " " << processName << " " << ekin << G4endl;
         
         fEventAction->AddHitTracker(prop, evntNb, trackID, parentID, stepNumber, particleType, processType, edep, prePos, postTime, targetZ, ekin, fromBrems);
+        theTrack->SetTrackStatus(fStopAndKill); //Kills particle as soon as it enters an active volume
     }
 
 	// check if this volume has its properties set, i.e. it's an active detector

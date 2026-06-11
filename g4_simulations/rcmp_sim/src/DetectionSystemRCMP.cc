@@ -268,13 +268,13 @@ G4int DetectionSystemRCMP::PlaceDetector(G4LogicalVolume* expHallLog)
 
     G4Box* solidHolderPreSub = new G4Box("solidHolderPreSub", 60*mm, 8.5*mm, 0.45*mm);
 
-    G4Tubs* solidHole = new G4Tubs("solidHole", 0., 7.5*mm, 0.9*mm, 0., 360.);
+    G4Tubs* solidHole = new G4Tubs("solidHole", 0., 6*mm, 0.9*mm, 0., 360.);
 
     G4VSolid* solidHolder = new G4SubtractionSolid("solidHolder", solidHolderPreSub, solidHole);
     
     G4LogicalVolume* logHolder = new G4LogicalVolume(solidHolder, FrameMaterial, "logHolder");
     
-    G4VPhysicalVolume* physHolder = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.*mm), logHolder, "physHolder", expHallLog, false, 0, true);
+    G4VPhysicalVolume* physHolder = new G4PVPlacement(0, G4ThreeVector(0., 0., 4.0*mm), logHolder, "physHolder", expHallLog, false, 0, true);
 
     G4Tubs* solidTape = new G4Tubs("solidTape", 0., 7.5*mm, 0.000275*mm, 0., 360.);
     
@@ -282,7 +282,15 @@ G4int DetectionSystemRCMP::PlaceDetector(G4LogicalVolume* expHallLog)
 
     logTape->SetVisAttributes(visAttTape);
 
-    G4VPhysicalVolume* physTape = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), logTape, "physTape", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physTape = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), logTape, "physTape", expHallLog, false, 0, true);
+    
+    G4Box* mappingTube = new G4Box("mappingTube", 1.*mm, 20.*mm, 1.*mm);
+    G4LogicalVolume* logMappingTube = new G4LogicalVolume(mappingTube, FrameMaterial, "logMappingTube");
+    //G4VPhysicalVolume* physMappingTube = new G4PVPlacement(FrameRotate1, G4ThreeVector(-30.*mm, 0., 10.*mm), logMappingTube, "physMappingTube", expHallLog, false, 0, true);
+
+    G4Box* mappingCube = new G4Box("mappingCube", 3.*mm, 3.*mm, 3.*mm);
+    G4LogicalVolume* logMappingCube = new G4LogicalVolume(mappingCube, FrameMaterial, "logMappingCube");
+    //G4VPhysicalVolume* physMappingCube = new G4PVPlacement(FrameRotate1, G4ThreeVector(-30.*mm, 20.*mm, 20.*mm), logMappingCube, "physMappingCube", expHallLog, false, 0, true);
    
     //G4GDMLParser parser;
     //parser.Write("det.gdml", expHallLog);

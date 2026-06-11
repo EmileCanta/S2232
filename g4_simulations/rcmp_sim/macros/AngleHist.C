@@ -4,7 +4,7 @@ using namespace TMath;
 
 void AngleHist()
 {	
-    TFile *filein = TFile::Open("~/postdoc/data/RCMPsim_data/geantino_fullgeo_goodAngleDef.root", "READ");
+    TFile *filein = TFile::Open("/home/emile/postdoc/data/rcmp_sim/g4out.root", "READ");
     
     TFile *fileout = new TFile("./anglehist.root","RECREATE");
     
@@ -65,7 +65,7 @@ void AngleHist()
         histsTheta[i] = new TH2D(nameHistTheta, nameHistTheta, 6146, 0, 6146, 4000, -200, 200);
         histsPhi[i] = new TH2D(nameHistPhi, nameHistPhi, 6146, 0, 6146, 4000, -200, 200);
         histsRho[i] = new TH2D(nameHistRho, nameHistRho, 6146, 0, 6146, 1000, 0, 100);
-        histsHits[i] = new TH2D(nameHistHits, nameHistHits, 32, 1, 33, 32, 1, 33);
+        histsHits[i] = new TH2D(nameHistHits, nameHistHits, 34, -1, 33, 34, -1, 33);
         
         histsThetaIni[i] = new TH2D(nameHistThetaIni, nameHistThetaIni, 6146, 0, 6146, 4000, -200, 200);
         histsPhiIni[i] = new TH2D(nameHistPhiIni, nameHistPhiIni, 6146, 0, 6146, 4000, -200, 200);
@@ -97,8 +97,11 @@ void AngleHist()
                 histsPhiIni[map[i-1]]->Fill(detnbr, newPhi_ini*rad);
 
                 int modDet = detnbr - (i-1)*1024;
+                int strip1 = (modDet - 1) % 32;
+                int strip2 = (modDet - 1) / 32;
 
-                histsHits[map[i-1]]->Fill(((modDet - 1) % 32 + 1), ((modDet - 1) / 32) + 1);
+                if(map[i-1] <= 2) histsHits[map[i-1]]->Fill(31 - strip1, strip2); //Swapping order on x-axis to fit strip number definitions.
+                if(map[i-1] >= 3) histsHits[map[i-1]]->Fill(strip1, strip2);
 
                 thetaVec[detnbr-1].push_back(newTheta_ini*rad);
                 phiVec[detnbr-1].push_back(newPhi_ini*rad);

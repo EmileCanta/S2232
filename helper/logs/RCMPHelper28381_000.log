@@ -1,6 +1,6 @@
 Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28381_000.root[m
 Looped over 1/1 files and got:
-Singleton 0x57a56d73bf30 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28381_000.root
+Singleton 0x62e8c02e5940 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28381_000.root
 Title: RCMP_Channel_mapping_RCS06_RCS05
 Comment: RCMP_Channel_mapping_RCS06_RCS05
 		RunNumber:          28381
@@ -23,4 +23,4 @@ Writing TAnalysisOptions to RCMP28381_000.root
   910 TChannels saved to RCMP28381_000.root
 Closed 'RCMP28381_000.root'
 
-Done after 0:00:7.384 h:m:s
+Done after 0:00:7.530 h:m:s

@@ -1,5 +1,71 @@
 grsisort --recommended  /home/emile/postdoc/data/s2232/raw/run28381_003.mid
 	grsisort version 4.0.0.5
 	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-Already loaded handle 0x5f54df0c5c00
-grsisort: libraries/TMidas/TMidasEvent.cxx:329: void TMidasEvent::AllocateData(): Assertion `IsGoodSize()' failed.
+Already loaded handle 0x5aee097cee70
+Title: [0;34mRCMP_Channel_mapping_RCS06_RCS05[m
+Comment: [0;34mRCMP_Channel_mapping_RCS06_RCS05[m
+using GRIFFIN path to analyzer info: /DAQ/PSC...
+910	 TChannels created.
+found 910 channels
+	file [1;34m/home/emile/postdoc/data/s2232/raw/run28381_003.mid[m opened as [1;34m_raw0[m
+Already loaded handle 0x5aee097cee70
+found 910 channels
+[1;34mfBuildWindow: [0;36m2000
+[1;34mfBuildEventsByTimeStamp: [0;36m0
+[1;34mfAddbackWindow: [0;36m300
+[1;34mfSuppressionWindow: [0;36m300
+[1;34mfSuppressionEnergy: [0;36m0
+[1;34mfStaticWindow: [0;36m0
+[1;34mfWaveformFitting: [0;36m0
+[1;34mfIsCorrectingCrossTalk: [0;36m0
+[m
+[0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
+1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
+
+not running        |*                  |N/A: 0             |N/A: 0             |N/A: 0             |                              8_analysis_write_loop: added "TGriffin" branch, 0x7dd89c000d40, 0x7dd89c000c40                              
+                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x7dd898003860, 0x7dd89c044130                              
+                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x7dd89c0938a0, 0x7dd898004990                              
+                              8_analysis_write_loop: added "TLaBr" branch, 0x7dd89c0ce550, 0x7dd898004610                              
+                              8_analysis_write_loop: added "TRcmp" branch, 0x7dd898006cc0, 0x5aee091e30e0                              
+                              8_analysis_write_loop: added "TTAC" branch, 0x7dd89c130dd0, 0x7dd8c3ff9fc0                              
+not running        |                   |*****************  |****************** |***********        |not running        |*                  |****************** |****************** |**********         |not running        |*                  |****************** |****************** |***********        |not running        |**                 |****************** |****************** |***********        |not running        |**                 |****************** |****************** |***********        |not running        |***                |****************** |****************** |***********        |not running        |***                |****************** |****************** |***********        |not running        |****               |****************** |****************** |************       |not running        |     7546/    31158|  5514048/  5564048|  3105634/  3205632|  2105632/  3105632|
+not running        |****               |****************** |****************** |************       |not running        |****               |****************** |****************** |*************      |not running        |*****              |****************** |****************** |*************      |not running        |*****              |****************** |****************** |**************     |not running        |*****              |****************** |****************** |**************     |not running        |******             |****************** |****************** |**************     |not running        |******             |****************** |****************** |**************     |not running        |******             |****************** |****************** |**************     |not running        |*******            |****************** |****************** |***************    |not running        |*******            |****************** |****************** |***************    |not running        |    12729/    31158|  9374654/  9424655|  5456752/  5556752|  4456750/  5456750|
+not running        |*******            |****************** |****************** |***************    |not running        |********           |****************** |****************** |***************    |not running        |********           |****************** |****************** |***************    |not running        |********           |****************** |****************** |***************    |not running        |********           |****************** |****************** |***************    |not running        |*********          |****************** |****************** |****************   |not running        |*********          |****************** |****************** |****************   |not running        |*********          |****************** |****************** |****************   |not running        |**********         |****************** |****************** |****************   |not running        |**********         |****************** |****************** |****************   |not running        |    17737/    31158| 13091490/ 13141490|  7711848/  7811848|  6711847/  7711847|
+not running        |**********         |****************** |****************** |****************   |not running        |***********        |****************** |****************** |****************   |not running        |***********        |****************** |****************** |****************   |not running        |***********        |****************** |****************** |****************   |not running        |************       |****************** |****************** |****************   |not running        |************       |****************** |****************** |****************   |not running        |************       |****************** |****************** |****************   |not running        |************       |****************** |****************** |****************   |not running        |*************      |****************** |****************** |****************   |not running        |*************      |****************** |****************** |*****************  |not running        |    22723/    31158| 16785615/ 16835614|  9948938/ 10048938|  8948936/  9948936|
+not running        |*************      |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |                              8_analysis_write_loop: added "TZeroDegree" branch, 0x7dd8e0dc8180, 0x7dd89cc55bb0                              
+not running        |**************     |****************** |****************** |*****************  |not running        |***************    |****************** |****************** |*****************  |not running        |***************    |****************** |****************** |*****************  |not running        |***************    |****************** |****************** |*****************  |not running        |***************    |****************** |****************** |*****************  |not running        |    26640/    31158| 19687647/ 19737646| 11709146/ 11809146| 10709144/ 11709144|
+not running        |****************   |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |not running        |*****************  |****************** |****************** |*****************  |not running        |*****************  |****************** |****************** |*****************  |not running        |*****************  |****************** |****************** |*****************  |not running        |*****************  |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |    31158/    31158| 23039878/ 23068049| 13731851/ 13831850| 12731850/ 13731850|
+not running        |****************** |****************** |****************** |*****************  |
+not running        |not running        |****************** |****************** |*****************  |
+not running        |not running        |not running        |****************** |*****************  |
+not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |
+  910 TChannels saved to analysis28381_003.root
+Writing TRunInfo to analysis28381_003.root
+Writing TAnalysisOptions to analysis28381_003.root
+Writing PPG with 0 events and 4 ODB settings
+not running        |not running        |not running        |not running        |not running        |
+Stopping thread 1_input_loop
+
+
+Stopping thread 1_input_loop
+
+Joining thread 1_input_loop
+Joining thread 2_unpack_loop
+2_unpack_loop:	24001850 good fragments out of 24002115 fragments => 99.9989% passed
+********************************************************************************
+good_frag_queue_0: 23068049 pushed, 23068049 popped, 0 left
+********************************************************************************
+Joining thread 5_event_build_loop
+good_frag_queue_0: 23068049/23068049 items popped
+Joining thread 6_det_build_loop
+Joining thread 8_analysis_write_loop
+8_analysis_write_loop:	13970767/13970767, ??? good events
+Deleting thread 1_input_loop
+Deleting thread 2_unpack_loop
+Deleting thread 5_event_build_loop
+Deleting thread 6_det_build_loop
+Deleting thread 8_analysis_write_loop
+[0;32mNo hits were removed![m
+[0;32mNo fragments out of order![m
+[0;35m
+bye,bye	[0;36memile[m after 0:01:8.197 h:m:s

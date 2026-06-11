@@ -222,10 +222,10 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 		// If we want to simulate a realistic beam spot, instead of perfect pencil beam.
         
         // Gaussian spread
-        if(fBeamSpotSigma>0){
+        /* if(fBeamSpotSigma>0){
            x = G4RandGauss::shoot(x,fBeamSpotSigma)*mm;
            y = G4RandGauss::shoot(y,fBeamSpotSigma)*mm;
-           }
+           } */
 
 		if(fTargetDistro){
 			z = fLayerStart+G4UniformRand()*fLayerLength;
@@ -235,13 +235,13 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 
         // Uniform spread
 
-        /*if (fBeamSpotSigma > 0) {
+        if (fBeamSpotSigma > 0) {
             G4double r   = fBeamSpotSigma * std::sqrt(G4UniformRand());
             G4double phi = 2.0 * CLHEP::pi * G4UniformRand();
 
             x = (x + r * std::cos(phi)) * mm;
             y = (y + r * std::sin(phi)) * mm;
-        }*/
+        }
 
 		G4ThreeVector thisEffPosition = G4ThreeVector(x,y,z);//in constructor
 
