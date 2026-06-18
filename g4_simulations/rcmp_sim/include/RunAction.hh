@@ -54,6 +54,9 @@ public:
 	virtual void BeginOfRunAction(const G4Run*);
 	virtual void   EndOfRunAction(const G4Run*);
 
+    G4double sumTotal[10000] = {0};
+    G4double sumProcess[10000] = {0};
+
 private:
 	HistoManager* fHistoManager;
 };

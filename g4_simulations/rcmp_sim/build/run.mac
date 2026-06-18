@@ -1,79 +1,31 @@
-/process/em/auger true # auger electrons
-/process/em/pixe true # particle induced X-ray emission
 /control/verbose 2
 /run/verbose 2
 /event/verbose 0
 /tracking/verbose 0
+
 /run/initialize
-/Histo/RecordGun true
+
+/process/had/rdm/nucleusLimits 244 244 96 96
+/process/had/rdm/thresholdForVeryLongDecayTime 1e19 s
+
+/process/em/auger false
+/process/em/pixe false
+/process/em/fluo false
+
 /DetSys/world/material Vacuum
+#/DetSys/det/addGriffinForward 16
 /DetSys/det/addRCMP
+
+/Histo/RecordGun true
+
 /DetSys/gun/BeamSpot 2.5 mm
 #/DetSys/gun/coneMaxAngle 90 deg
 #/DetSys/gun/coneMinAngle 0 deg
-/DetSys/gun/position 0.0 0.0 4.0 mm
-/gun/particle geantino
-/DetSys/gun/efficiencyEnergy 1. MeV
-/run/beamOn 1000000
+/DetSys/gun/position 0.0 0.0 3.9 mm
 
-#/DetSys/phys/SelectPhysics emlivermore
-#
-#/run/initialize
-#
-#/process/had/rdm/nucleusLimits 34 34 18 17
-#
-#/DetSys/world/material Vacuum
-#
-#/DetSys/det/SetCustomShieldsPresent 1
-#/DetSys/det/SetCustomExtensionSuppressorLocation 1
-#/DetSys/det/includeGriffinHevimet 1
-#/DetSys/det/SetCustomPosition 1 1 0
-#/DetSys/det/addGriffinCustomDetector 1
-#/DetSys/det/SetCustomPosition 2 2 0
-#/DetSys/det/addGriffinCustomDetector 2
-#/DetSys/det/SetCustomPosition 3 3 0
-#/DetSys/det/addGriffinCustomDetector 3
-#/DetSys/det/SetCustomPosition 4 4 0
-#/DetSys/det/addGriffinCustomDetector 4
-#/DetSys/det/SetCustomPosition 5 5 0
-#/DetSys/det/addGriffinCustomDetector 5
-#/DetSys/det/SetCustomPosition 6 6 0
-#/DetSys/det/addGriffinCustomDetector 6
-#/DetSys/det/SetCustomPosition 7 7 0
-#/DetSys/det/addGriffinCustomDetector 7
-#/DetSys/det/SetCustomPosition 8 8 0
-#/DetSys/det/addGriffinCustomDetector 8
-#/DetSys/det/SetCustomPosition 9 9 0
-#/DetSys/det/addGriffinCustomDetector 9
-#/DetSys/det/SetCustomPosition 10 10 0
-#/DetSys/det/addGriffinCustomDetector 10
-#/DetSys/det/SetCustomPosition 11 11 0
-#/DetSys/det/addGriffinCustomDetector 11
-#/DetSys/det/SetCustomPosition 12 12 0
-#/DetSys/det/addGriffinCustomDetector 12
-#/DetSys/det/SetCustomPosition 13 13 0
-#/DetSys/det/addGriffinCustomDetector 13
-#/DetSys/det/SetCustomPosition 14 14 0
-#/DetSys/det/addGriffinCustomDetector 14
-#/DetSys/det/SetCustomPosition 15 15 0
-#/DetSys/det/addGriffinCustomDetector 15
-#/DetSys/det/SetCustomPosition 16 16 0
-#/DetSys/det/addGriffinCustomDetector 16
-#
-#/DetSys/det/addSceptar 20
-##/DetSys/app/add8piVacuumChamber
-#
-#/control/verbose 2
-#/run/verbose 2
-#/event/verbose 0
-#/tracking/verbose 0
-#
-#/Histo/RecordGun true
-#
-#/gun/particle ion
-#/gun/ion 18 34
-##/gun/particle gamma
-##/DetSys/gun/efficiencyEnergy 2 MeV
-#/gun/position 0.0 0.0 0.0 mm
-#
-#/run/beamOn 100000
+/gun/particle ion
+/gun/ion 96 244
+#/gun/particle alpha
+
+/DetSys/gun/efficiencyEnergy 0. MeV
+/run/beamOn 100000

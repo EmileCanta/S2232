@@ -101,13 +101,13 @@ void HistoManager::Book() {
 		fNtColIdHit[colId++] = analysisManager->CreateNtupleIColumn("cryNumber");
 		fNtColIdHit[colId++] = analysisManager->CreateNtupleIColumn("detNumber");
 		fNtColIdHit[colId++] = analysisManager->CreateNtupleDColumn("depEnergy");
-        fNtColIdHit[colId++] = analysisManager->CreateNtupleDColumn("bremsEdep");
+        fNtColIdHit[colId++] = analysisManager->CreateNtupleDColumn("depEnergyProcess");
+        fNtColIdHit[colId++] = analysisManager->CreateNtupleDColumn("depEnergyNotProcess");
 		fNtColIdHit[colId++] = analysisManager->CreateNtupleDColumn("posx");
 		fNtColIdHit[colId++] = analysisManager->CreateNtupleDColumn("posy");
 		fNtColIdHit[colId++] = analysisManager->CreateNtupleDColumn("posz");
 		fNtColIdHit[colId++] = analysisManager->CreateNtupleDColumn("time");
 		fNtColIdHit[colId++] = analysisManager->CreateNtupleIColumn("targetZ"); // 14 here
-        fNtColIdHit[colId++] = analysisManager->CreateNtupleIColumn("fromBrems");
 		if(fDetectorConstruction->Descant() || fDetectorConstruction->Testcan()) {
 			G4cout<<"Filling descant settings after "<<colId<<G4endl;
 			fNtColIdHit[colId++] = analysisManager->CreateNtupleDColumn("eDepVector", fEdepVector);
@@ -165,10 +165,10 @@ void HistoManager::Save() {
 }
 
 void HistoManager::FillHitNtuple(G4int eventNumber) {
-	FillHitNtuple(eventNumber, -1, -1, -1, -1, -1, -1, -1, -1, -1., -1., -1., -1., -1., -1, 0, -1);
+	FillHitNtuple(eventNumber, -1, -1, -1, -1, -1, -1, -1, -1, -1., -1., -1., -1., -1., -1., -1., -1);
 }
 
-void HistoManager::FillHitNtuple(G4int eventNumber, G4int trackID, G4int parentID, G4int stepNumber, G4int particleType, G4int processType, G4int systemID, G4int cryNumber, G4int detNumber, G4double depEnergy, G4double posx, G4double posy, G4double posz, G4double time, G4int targetZ, G4int fromBrems, G4double bremsEdep) {
+void HistoManager::FillHitNtuple(G4int eventNumber, G4int trackID, G4int parentID, G4int stepNumber, G4int particleType, G4int processType, G4int systemID, G4int cryNumber, G4int detNumber, G4double depEnergy, G4double posx, G4double posy, G4double posz, G4double time, G4int targetZ, G4double depEnergyProcess, G4double depEnergyNotProcess) {
 	if(fHitTrackerBool) {
 		G4RootAnalysisManager* analysisManager = G4RootAnalysisManager::Instance();
 		analysisManager->FillNtupleIColumn(fNtColIdHit[0], eventNumber);
@@ -180,14 +180,17 @@ void HistoManager::FillHitNtuple(G4int eventNumber, G4int trackID, G4int parentI
 		analysisManager->FillNtupleIColumn(fNtColIdHit[6], systemID);
 		analysisManager->FillNtupleIColumn(fNtColIdHit[7], cryNumber);
 		analysisManager->FillNtupleIColumn(fNtColIdHit[8], detNumber);
-		analysisManager->FillNtupleDColumn(fNtColIdHit[9], G4RandGauss::shoot(depEnergy, 0.002*depEnergy));
-        analysisManager->FillNtupleDColumn(fNtColIdHit[10], G4RandGauss::shoot(bremsEdep, 0.002*bremsEdep));
-		analysisManager->FillNtupleDColumn(fNtColIdHit[11], posx);
-		analysisManager->FillNtupleDColumn(fNtColIdHit[12], posy);
-		analysisManager->FillNtupleDColumn(fNtColIdHit[13], posz);
-		analysisManager->FillNtupleDColumn(fNtColIdHit[14], time);
-		analysisManager->FillNtupleIColumn(fNtColIdHit[15], targetZ);
-        analysisManager->FillNtupleIColumn(fNtColIdHit[16], fromBrems);
+		//analysisManager->FillNtupleDColumn(fNtColIdHit[9], G4RandGauss::shoot(depEnergy, 8.5));
+        //analysisManager->FillNtupleDColumn(fNtColIdHit[10], G4RandGauss::shoot(depEnergyProcess, 0.002*depEnergyProcess));
+		//analysisManager->FillNtupleDColumn(fNtColIdHit[11], G4RandGauss::shoot(depEnergyNotProcess, 0.002*depEnergyNotProcess));
+		analysisManager->FillNtupleDColumn(fNtColIdHit[9], depEnergy);
+		analysisManager->FillNtupleDColumn(fNtColIdHit[10], depEnergyProcess);
+		analysisManager->FillNtupleDColumn(fNtColIdHit[11], depEnergyNotProcess);
+		analysisManager->FillNtupleDColumn(fNtColIdHit[12], posx);
+		analysisManager->FillNtupleDColumn(fNtColIdHit[13], posy);
+		analysisManager->FillNtupleDColumn(fNtColIdHit[14], posz);
+		analysisManager->FillNtupleDColumn(fNtColIdHit[15], time);
+		analysisManager->FillNtupleIColumn(fNtColIdHit[16], targetZ);
 
 		if(fRecordGun) {
 			analysisManager->FillNtupleDColumn(fNtColIdHit[fFirstRecordingId+0], fBeamEnergy/CLHEP::keV);

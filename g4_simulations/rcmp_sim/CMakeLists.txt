@@ -109,7 +109,7 @@ target_link_libraries(Griffinv10 ${Geant4_LIBRARIES} ${HBOOK_LIBRARIES} GSL::gsl
 # relies on these scripts being in the current working directory.
 #
 set(Griffinv10_SCRIPTS
-	Griffinv10.in run.mac vis.mac PTCrossSections.dat DTCrossSections.dat DDCrossSections.dat
+	Griffinv10.in run.mac run_sceptar.mac vis.mac PTCrossSections.dat DTCrossSections.dat DDCrossSections.dat
   )
 
 foreach(_script ${Griffinv10_SCRIPTS})

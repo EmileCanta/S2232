@@ -28,6 +28,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "/home/emile/postdoc/analysis/s2232/g4_simulations/rcmp_sim/run.mac"
+  "/home/emile/postdoc/analysis/s2232/g4_simulations/rcmp_sim/run_sceptar.mac"
   "/home/emile/postdoc/analysis/s2232/g4_simulations/rcmp_sim/vis.mac"
   "/home/emile/root/cmake/ROOTConfig-targets-release.cmake"
   "/home/emile/root/cmake/ROOTConfig-targets.cmake"
@@ -198,6 +199,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "Griffinv10.in"
   "run.mac"
+  "run_sceptar.mac"
   "vis.mac"
   "PTCrossSections.dat"
   "DTCrossSections.dat"

@@ -55,6 +55,7 @@ public:
 private:
     // Logical volumes
     G4LogicalVolume* fDSSSDpixelLog;
+    G4LogicalVolume* fDSSSDdeadlayerLog;
 
     // Assembly volumes
     G4AssemblyVolume* fAssembly;
@@ -72,7 +73,7 @@ private:
     G4double fYPosOffset;
     G4double fZPosOffset;
 
-
+    G4double fDeadLayerThickness;
 	
 
 
@@ -93,6 +94,7 @@ private:
     G4ThreeVector fPixelColour;
 
     G4Box* BuildPixel();
+    G4Box* BuildDeadLayer();
 
     G4int BuildPixelVolume();
 };

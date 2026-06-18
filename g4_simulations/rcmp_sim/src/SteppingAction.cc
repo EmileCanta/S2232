@@ -96,8 +96,6 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
 
 	evntNb =  fEventAction->GetEventNumber();
 
-    
-
 	// this can be modified to add more processes
 	if(theTrack->GetCreatorProcess() != nullptr) {
 		processName = theTrack->GetCreatorProcess()->GetProcessName();
@@ -112,31 +110,28 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
 		else                                       processType = 0;
 	}
     
-    // Process Brems lineage
+    // Process process lineage
 
     if(!fEventAction->HasLineage(trackID))
     {
-        bool isBremsLineage = false;
+        bool isProcessLineage = false;
 
         if(parentID > 0)
         {
-            isBremsLineage = fEventAction->IsBremsLineage(parentID);
+            isProcessLineage = fEventAction->IsProcessLineage(parentID);
         }
 
         const G4VProcess* creator = theTrack->GetCreatorProcess();
 
         if(creator && (creator->GetProcessName() == "eBrem"))
         {
-            isBremsLineage = true;
+            isProcessLineage = true;
         }
 
-        fEventAction->SetBremsLineage(trackID, isBremsLineage);
+        fEventAction->SetProcessLineage(trackID, isProcessLineage);
     }
 
-    bool fromBrems = fEventAction->IsBremsLineage(trackID);
-	
-
-
+    bool fromProcess = fEventAction->IsProcessLineage(trackID);
 
 	// Get initial momentum direction & energy of particle
 
@@ -147,13 +142,20 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep) {
 	G4ThreeVector prePosMom = prePoint->GetMomentumDirection();
 	G4double postTime = postPoint->GetGlobalTime();
     
+    //G4cout << fromProcess << " " << evntNb << " " << parentID << " " << trackID << " " << particleName << " " << processName << " " << ekin << G4endl;
+    
     if(fDetector->HasProperties(volume)) {
         DetectorProperties prop = fDetector->GetProperties(volume);
 
-        //G4cout << fromBrems << " " << evntNb << " " << prop.systemID << " " << parentID << " " << trackID << " " << particleName << " " << processName << " " << ekin << G4endl;
+        //G4cout << fromProcess << " " << evntNb << " " << prop.systemID << " " << parentID << " " << trackID << " " << particleName << " " << processName << " " << ekin << G4endl;
         
-        fEventAction->AddHitTracker(prop, evntNb, trackID, parentID, stepNumber, particleType, processType, edep, prePos, postTime, targetZ, ekin, fromBrems);
-        theTrack->SetTrackStatus(fStopAndKill); //Kills particle as soon as it enters an active volume
+        //To have conditions on what increments histos
+        if(particleName == "alpha") fEventAction->AddHitTracker(prop, evntNb, trackID, parentID, stepNumber, particleType, processType, edep, prePos, postTime, targetZ, ekin, fromProcess);
+        
+        //To have normal sensitive detectors
+        //fEventAction->AddHitTracker(prop, evntNb, trackID, parentID, stepNumber, particleType, processType, edep, prePos, postTime, targetZ, ekin, fromProcess);
+
+        //theTrack->SetTrackStatus(fStopAndKill); //Kills particle as soon as it enters an active volume
     }
 
 	// check if this volume has its properties set, i.e. it's an active detector

@@ -1,0 +1,28 @@
+/DetSys/phys/SelectPhysics emlivermore
+
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 0
+
+/run/initialize
+
+/process/had/rdm/nucleusLimits 34 34 17 17
+
+/DetSys/world/material Vacuum
+
+/DetSys/det/includeGriffinHevimet 1
+/DetSys/det/addGriffinBack 16
+
+/DetSys/det/addSceptar 20
+/DetSys/app/add8piVacuumChamber
+
+/Histo/RecordGun true
+
+/gun/particle ion
+/gun/ion 17 34
+#/gun/particle gamma
+#/DetSys/gun/efficiencyEnergy 2 MeV
+/gun/position 0.0 0.0 0.0 mm
+
+/run/beamOn 10000000

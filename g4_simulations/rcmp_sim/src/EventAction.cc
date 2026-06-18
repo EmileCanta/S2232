@@ -70,7 +70,7 @@ void EventAction::BeginOfEventAction(const G4Event* evt) {
 
 	if(fHistoManager != nullptr) ClearVariables();
 
-    fBremsLineage.clear();
+    fProcessLineage.clear();
     fNumberOfHits = 0;
 }
 
@@ -79,29 +79,41 @@ void EventAction::BeginOfEventAction(const G4Event* evt) {
 void EventAction::EndOfEventAction(const G4Event* evt) {
 	if(fHistoManager != nullptr) {
 		for(G4int i = 0; i < fNumberOfHits; i++) {
-			fHistoManager->FillHitNtuple(fHitTrackerI[0][i], fHitTrackerI[1][i], fHitTrackerI[2][i], fHitTrackerI[3][i],  fHitTrackerI[4][i], fHitTrackerI[5][i], fHitTrackerI[6][i], fHitTrackerI[7][i], fHitTrackerI[8][i], fHitTrackerD[0][i]/keV, fHitTrackerD[1][i]/mm, fHitTrackerD[2][i]/mm, fHitTrackerD[3][i]/mm, fHitTrackerD[4][i]/second, fHitTrackerI[9][i], fHitTrackerI[10][i], fHitTrackerD[5][i]/keV);
+			fHistoManager->FillHitNtuple(fHitTrackerI[0][i], fHitTrackerI[1][i], fHitTrackerI[2][i], fHitTrackerI[3][i],  fHitTrackerI[4][i], fHitTrackerI[5][i], fHitTrackerI[6][i], fHitTrackerI[7][i], fHitTrackerI[8][i], fHitTrackerD[0][i]/keV, fHitTrackerD[1][i]/mm, fHitTrackerD[2][i]/mm, fHitTrackerD[3][i]/mm, fHitTrackerD[4][i]/second, fHitTrackerI[9][i], fHitTrackerD[5][i]/keV, fHitTrackerD[6][i]/keV);
 		}
 		for(G4int i = 0; i < fNumberOfSteps; i++) {
 			fHistoManager->FillStepNtuple(fStepTrackerI[0][i], fStepTrackerI[1][i], fStepTrackerI[2][i], fStepTrackerI[3][i],  fStepTrackerI[4][i], fStepTrackerI[5][i], fStepTrackerI[6][i], fStepTrackerI[7][i], fStepTrackerI[8][i], fStepTrackerD[0][i]/keV, fStepTrackerD[1][i]/mm, fStepTrackerD[2][i]/mm, fStepTrackerD[3][i]/mm, fStepTrackerD[4][i]/second, fStepTrackerI[9][i]);
 		}
 
 		if(fNumberOfHits == 0 && fHistoManager->RecordAll()) fHistoManager->FillHitNtuple(evt->GetEventID());
-		ClearVariables();
+		
+        G4double E_total_event = fHitTrackerD[0][0];
+        G4double E_process_event = fHitTrackerD[5][0];
+
+        int bin = int(E_total_event * 1000.) + 1;
+
+        //G4cout << bin << G4endl;
+
+        fRunAction->sumTotal[bin] += E_total_event;
+        fRunAction->sumProcess[bin] += E_process_event;
+
+        //G4cout << fRunAction->sumProcess[1047] << " " << fRunAction->sumTotal[1047] << G4endl;
+
+        ClearVariables();
 	}
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void EventAction::AddHitTracker(const DetectorProperties& properties, const G4int& eventNumber, const G4int& trackID, const G4int& parentID, const G4int& stepNumber, const G4int& particleType, const G4int& processType, const G4double& depEnergy, const G4ThreeVector& pos, const G4double& time, const G4int& targetZ, const G4double& kinEnergy, const G4bool fromBrems) {
+void EventAction::AddHitTracker(const DetectorProperties& properties, const G4int& eventNumber, const G4int& trackID, const G4int& parentID, const G4int& stepNumber, const G4int& particleType, const G4int& processType, const G4double& depEnergy, const G4ThreeVector& pos, const G4double& time, const G4int& targetZ, const G4double& kinEnergy, const G4bool fromProcess) {
 	for(G4int i = 0; i < fNumberOfHits; i++) {
-		if(fProperties[i] == properties) 
+		//if(fProperties[i].systemID == properties.systemID) //If same ID, same hit here. 
         {
-			// sum the new enery
+			// sum the new energy
 			fHitTrackerD[0][i] = fHitTrackerD[0][i] + depEnergy;
 
-            if(fromBrems) fHitTrackerD[5][i] += depEnergy;
-            
-            fHitTrackerI[10][i] = fHitTrackerI[10][i] || fromBrems;
+            if(fromProcess) fHitTrackerD[5][i] = fHitTrackerD[5][i] + depEnergy;
+            else fHitTrackerD[6][i] = fHitTrackerD[6][i] + depEnergy;
 			
             return;
 		}
@@ -118,15 +130,16 @@ void EventAction::AddHitTracker(const DetectorProperties& properties, const G4in
 	fHitTrackerI[7][fNumberOfHits] = properties.crystalNumber;
 	fHitTrackerI[8][fNumberOfHits] = properties.detectorNumber;
 	fHitTrackerI[9][fNumberOfHits] = targetZ;
-    fHitTrackerI[10][fNumberOfHits] = fromBrems;
 	fHitTrackerD[0][fNumberOfHits] = depEnergy;
 	fHitTrackerD[1][fNumberOfHits] = pos.x();
 	fHitTrackerD[2][fNumberOfHits] = pos.y();
 	fHitTrackerD[3][fNumberOfHits] = pos.z();
 	fHitTrackerD[4][fNumberOfHits] = time;
-    fHitTrackerD[5][1] = fromBrems ? depEnergy : 0.0;
+    fHitTrackerD[5][fNumberOfHits] = fromProcess ? depEnergy : 0.0;
+    fHitTrackerD[6][fNumberOfHits] = !fromProcess ? depEnergy : 0.0;
 
 	++fNumberOfHits;
+    //if(fNumberOfHits != 1) G4cout << fNumberOfHits << G4endl;
 
 	if(fNumberOfHits >= MAXHITS) {
 		G4cout<<"ERROR! Too many hits!"<<G4endl;
@@ -256,16 +269,16 @@ G4bool EventAction::SpiceTest(){//is SPICE inputted
 	return fHistoManager->GetDetectorConstruction()->Spice();
 }
 
-void EventAction::SetBremsLineage(G4int trackID, bool value)
+void EventAction::SetProcessLineage(G4int trackID, bool value)
 {
-    fBremsLineage[trackID] = value;
+    fProcessLineage[trackID] = value;
 }
 
-bool EventAction::IsBremsLineage(G4int trackID) const
+bool EventAction::IsProcessLineage(G4int trackID) const
 {
-    auto it = fBremsLineage.find(trackID);
+    auto it = fProcessLineage.find(trackID);
 
-    if(it == fBremsLineage.end())
+    if(it == fProcessLineage.end())
     {
         return false;
     }
@@ -275,5 +288,5 @@ bool EventAction::IsBremsLineage(G4int trackID) const
 
 bool EventAction::HasLineage(G4int trackID) const
 {
-    return fBremsLineage.find(trackID) != fBremsLineage.end();
+    return fProcessLineage.find(trackID) != fProcessLineage.end();
 }

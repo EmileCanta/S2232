@@ -38,6 +38,11 @@
 #include "G4RunManager.hh"
 #include "G4UnitsTable.hh"
 
+#include "TGraph.h"
+#include "TCanvas.h"
+#include "TFile.h"
+#include "TH1D.h"
+
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 RunAction::RunAction(HistoManager* histoManager)
@@ -76,6 +81,20 @@ void RunAction::EndOfRunAction(const G4Run* aRun)
 		//fHistoManager->PrintStatistic();
 		fHistoManager->Save();
 	}
+
+    TH1D* hist = new TH1D("processfrac", "processfrac", 10000,0,10000);
+
+    for(int i = 0; i < 10000; i++)
+    {
+        if(sumTotal[i] > 1e-9 )
+        {
+            hist->SetBinContent(i, sumProcess[i]/sumTotal[i]);
+        }
+
+        //G4cout << i << " " << sumProcess[i]/sumTotal[i] << G4endl;
+    }
+
+    hist->SaveAs("/home/emile/postdoc/data/rcmp_sim/processfrac.root");
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
