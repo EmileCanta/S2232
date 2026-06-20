@@ -5,7 +5,7 @@
 
 /run/initialize
 
-/process/had/rdm/nucleusLimits 244 244 96 96
+/process/had/rdm/nucleusLimits 16 20 8 12
 /process/had/rdm/thresholdForVeryLongDecayTime 1e19 s
 
 /process/em/auger false
@@ -18,14 +18,18 @@
 
 /Histo/RecordGun true
 
-/DetSys/gun/BeamSpot 2.5 mm
+#/DetSys/gun/BeamSpot 2.5 mm
+#/DetSys/gun/BeamSpot 0.5 mm
 #/DetSys/gun/coneMaxAngle 90 deg
 #/DetSys/gun/coneMinAngle 0 deg
-/DetSys/gun/position 0.0 0.0 3.9 mm
+/DetSys/gun/position 0.0 0.0 -0.45055 mm
+#/DetSys/gun/position 0.0 0.0 3.9 mm
 
-/gun/particle ion
-/gun/ion 96 244
-#/gun/particle alpha
+#/gun/particle ion
+#/gun/ion 12 20
+/gun/particle e+
 
-/DetSys/gun/efficiencyEnergy 0. MeV
-/run/beamOn 100000
+/DetSys/gun/efficiencyEnergy 1. MeV
+#/DetSys/gun/efficiencyEnergy 0. MeV
+
+/run/beamOn 10000000

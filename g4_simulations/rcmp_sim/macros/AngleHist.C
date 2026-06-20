@@ -100,8 +100,10 @@ void AngleHist()
                 int strip1 = (modDet - 1) % 32;
                 int strip2 = (modDet - 1) / 32;
 
-                if(map[i-1] <= 2) histsHits[map[i-1]]->Fill(31 - strip1, strip2); //Swapping order on x-axis to fit strip number definitions.
-                if(map[i-1] >= 3) histsHits[map[i-1]]->Fill(strip1, strip2);
+                if(map[i-1] <= 1) histsHits[map[i-1]]->Fill(31 - strip1, strip2); //Swapping order on x-axis to fit strip number definitions.
+                if(map[i-1] >= 4) histsHits[map[i-1]]->Fill(strip1, strip2);
+                if(map[i-1] == 2) histsHits[map[i-1]]->Fill(strip2, 31 - strip1);
+                if(map[i-1] == 3) histsHits[map[i-1]]->Fill(31 - strip2, 31 - strip1);
 
                 thetaVec[detnbr-1].push_back(newTheta_ini*rad);
                 phiVec[detnbr-1].push_back(newPhi_ini*rad);

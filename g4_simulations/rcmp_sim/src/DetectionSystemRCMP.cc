@@ -5,6 +5,7 @@
 #include "G4Box.hh"
 #include "G4Tubs.hh"
 #include "G4SubtractionSolid.hh"
+#include "G4UnionSolid.hh"
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
 #include "G4GeometryManager.hh"
@@ -261,7 +262,9 @@ G4int DetectionSystemRCMP::PlaceDetector(G4LogicalVolume* expHallLog)
     }
 
     G4VisAttributes* visAttTape = new G4VisAttributes(G4Colour(0.0,1.0,0.0));
+    G4VisAttributes* visAttHolder = new G4VisAttributes(G4Colour(0.0,0.7,0.5));
     visAttTape->SetVisibility(true);
+    visAttHolder->SetVisibility(true);
 
     auto mesh = CADMesh::TessellatedMesh::FromSTL("../../frame_3d/frame.stl");
     auto solid = mesh->GetSolid();
@@ -273,28 +276,66 @@ G4int DetectionSystemRCMP::PlaceDetector(G4LogicalVolume* expHallLog)
     G4LogicalVolume* WindLog = new G4LogicalVolume(solidWind, FrameMaterial, "WindLog");
     //G4VPhysicalVolume* WindPhys = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), WindLog, "WindPhys", expHallLog, false, 0, true);
 
-    G4Box* solidHolderPreSub = new G4Box("solidHolderPreSub", 60*mm, 8.5*mm, 1.*mm);
-    G4Tubs* solidHole = new G4Tubs("solidHole", 0., 6*mm, 2.*mm, 0., 360.);
-    G4VSolid* solidHolder = new G4SubtractionSolid("solidHolder", solidHolderPreSub, solidHole);
-    G4LogicalVolume* logHolder = new G4LogicalVolume(solidHolder, FrameMaterial, "logHolder");
-    G4VPhysicalVolume* physHolder = new G4PVPlacement(0, G4ThreeVector(0., 0., 4.0*mm), logHolder, "physHolder", expHallLog, false, 0, true);
+    //////HOLDER//////////////////////////////////////////////////////////////////////////////////////////
 
+    //G4Box* solidHolderPreSub = new G4Box("solidHolderPreSub", 60*mm, 8.5*mm, 1.*mm);
+    G4Box* solidHolderA = new G4Box("solidHolderA", 20.9*mm, 8.45*mm, 0.45*mm);
+    G4Box* solidHolderB = new G4Box("solidHolderB", 3.8*mm, 8.45*mm, 0.4*mm);
+    G4Box* solidHolderC = new G4Box("solidHolderC", 8.7*mm, 8.45*mm, 0.775*mm);
+    G4Box* solidHolderD = new G4Box("solidHolderD", 13.5*mm, 8.35*mm, 0.775*mm);
+    G4Tubs* solidHolderE = new G4Tubs("solidHolderE", 0., 9.45*mm, 0.45*mm, 0., 360.);
+    G4Tubs* solidHolderSub = new G4Tubs("solidHolderSub", 0., 7.45*mm, 2.*mm, 0., 360.);
+    G4VSolid* solidHolderUniA = new G4UnionSolid("solidHolderUniA", solidHolderA, solidHolderE, 0, G4ThreeVector(0., 0., 0.));
+    
+    G4RotationMatrix* FrameRotateHolderA= new G4RotationMatrix();
+    G4RotationMatrix* FrameRotateHolderB= new G4RotationMatrix();
+    FrameRotateHolderA->rotateY(30.*deg);
+    FrameRotateHolderB->rotateY(-30.*deg);
+
+    G4VSolid* solidHolderUniB = new G4UnionSolid("solidHolderUniB", solidHolderUniA, solidHolderB, FrameRotateHolderA, G4ThreeVector(23.4*mm, 0., 1.8*mm));
+    G4VSolid* solidHolderUniC = new G4UnionSolid("solidHolderUniC", solidHolderUniB, solidHolderB, FrameRotateHolderB, G4ThreeVector(-23.4*mm, 0., 1.8*mm));
+    G4VSolid* solidHolderUniD = new G4UnionSolid("solidHolderUniD", solidHolderUniC, solidHolderC, 0, G4ThreeVector(35.2*mm, 0., 3.6*mm));
+    G4VSolid* solidHolderUniE = new G4UnionSolid("solidHolderUniE", solidHolderUniD, solidHolderC, 0, G4ThreeVector(-35.2*mm, 0., 3.6*mm));
+    G4VSolid* solidHolderUniF = new G4UnionSolid("solidHolderUniF", solidHolderUniE, solidHolderD, 0, G4ThreeVector(48.7*mm, -3.9*mm, 3.6*mm));
+    G4VSolid* solidHolderUniG = new G4UnionSolid("solidHolderUniG", solidHolderUniF, solidHolderD, 0, G4ThreeVector(-48.7*mm, -3.9*mm, 3.6*mm));
+    G4VSolid* solidHolder = new G4SubtractionSolid("solidHolder", solidHolderUniG, solidHolderSub);
+    G4LogicalVolume* logHolder = new G4LogicalVolume(solidHolder, FrameMaterial, "logHolder");
+    logHolder->SetVisAttributes(visAttHolder);
+    //G4VPhysicalVolume* physHolder = new G4PVPlacement(0, G4ThreeVector(0., 0., 4.0*mm), logHolder, "physHolder", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physHolder = new G4PVPlacement(0, G4ThreeVector(0., -1.*mm, 3.0*mm), logHolder, "physHolder", expHallLog, false, 0, true);
+    G4VPhysicalVolume* physHolder = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), logHolder, "physHolder", expHallLog, false, 0, true);
+
+    //////HOLDER//////////////////////////////////////////////////////////////////////////////////////////
+    
     G4Tubs* solidTape = new G4Tubs("solidTape", 0., 7.5*mm, 0.000275*mm, 0., 360.); 
     G4LogicalVolume* logTape = new G4LogicalVolume(solidTape, MylarMaterial, "logTape");
     logTape->SetVisAttributes(visAttTape);
-    //G4VPhysicalVolume* physTape = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), logTape, "physTape", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physTape = new G4PVPlacement(0, G4ThreeVector(0., -1.*mm, 3.*mm - 0.000275*mm - 0.45*mm), logTape, "physTape", expHallLog, false, 0, true);
+    G4VPhysicalVolume* physTape = new G4PVPlacement(0, G4ThreeVector(0., 0., -0.000275*mm - 0.45*mm), logTape, "physTape", expHallLog, false, 0, true);
     
     G4Tubs* solidSource = new G4Tubs("solidSource", 0., 5.55*mm, 100.*um, 0., 360.);
     G4LogicalVolume* logSource = new G4LogicalVolume(solidSource, PlatinumMaterial, "logSource");
-    G4VPhysicalVolume* physSource = new G4PVPlacement(0, G4ThreeVector(0., 0., 4.0*mm), logSource, "physSource", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physSource = new G4PVPlacement(0, G4ThreeVector(0., 0., 4.0*mm), logSource, "physSource", expHallLog, false, 0, true);
 
     G4Box* mappingTube = new G4Box("mappingTube", 1.*mm, 20.*mm, 1.*mm);
     G4LogicalVolume* logMappingTube = new G4LogicalVolume(mappingTube, FrameMaterial, "logMappingTube");
-    //G4VPhysicalVolume* physMappingTube = new G4PVPlacement(FrameRotate1, G4ThreeVector(-30.*mm, 0., 10.*mm), logMappingTube, "physMappingTube", expHallLog, false, 0, true);
-
+    logMappingTube->SetVisAttributes(visAttTape);
+    //G4VPhysicalVolume* physMappingTube1 = new G4PVPlacement(FrameRotate1, G4ThreeVector(30.*mm, 0.*mm, -10.*mm), logMappingTube, "physMappingTube1", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physMappingTube2 = new G4PVPlacement(FrameRotate1, G4ThreeVector(30.*mm, 0.*mm, 10.*mm), logMappingTube, "physMappingTube2", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physMappingTube3 = new G4PVPlacement(FrameRotate1, G4ThreeVector(-10.*mm, 0.*mm, -30.*mm), logMappingTube, "physMappingTube3", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physMappingTube4 = new G4PVPlacement(FrameRotate1, G4ThreeVector(-10.*mm, 0.*mm, 30.*mm), logMappingTube, "physMappingTube4", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physMappingTube5 = new G4PVPlacement(FrameRotate3, G4ThreeVector(-10.*mm, -35.*mm, 0.*mm), logMappingTube, "physMappingTube5", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physMappingTube6 = new G4PVPlacement(FrameRotate3, G4ThreeVector(-10.*mm, 35.*mm, 0.*mm), logMappingTube, "physMappingTube6", expHallLog, false, 0, true);
+    
     G4Box* mappingCube = new G4Box("mappingCube", 3.*mm, 3.*mm, 3.*mm);
     G4LogicalVolume* logMappingCube = new G4LogicalVolume(mappingCube, FrameMaterial, "logMappingCube");
-    //G4VPhysicalVolume* physMappingCube = new G4PVPlacement(FrameRotate1, G4ThreeVector(-30.*mm, 20.*mm, 20.*mm), logMappingCube, "physMappingCube", expHallLog, false, 0, true);
+    logMappingCube->SetVisAttributes(visAttTape);
+    //G4VPhysicalVolume* physMappingCube1 = new G4PVPlacement(FrameRotate1, G4ThreeVector(30.*mm, 20.*mm, -20.*mm), logMappingCube, "physMappingCube1", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physMappingCube2 = new G4PVPlacement(FrameRotate1, G4ThreeVector(30.*mm, 20.*mm, 20.*mm), logMappingCube, "physMappingCube2", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physMappingCube3 = new G4PVPlacement(FrameRotate1, G4ThreeVector(-20.*mm, 20.*mm, -30.*mm), logMappingCube, "physMappingCube3", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physMappingCube4 = new G4PVPlacement(FrameRotate1, G4ThreeVector(-20.*mm, 20.*mm, 30.*mm), logMappingCube, "physMappingCube4", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physMappingCube5 = new G4PVPlacement(FrameRotate3, G4ThreeVector(-10.*mm, -35.*mm, -20.*mm), logMappingCube, "physMappingCube5", expHallLog, false, 0, true);
+    //G4VPhysicalVolume* physMappingCube6 = new G4PVPlacement(FrameRotate3, G4ThreeVector(-10.*mm, 35.*mm, -20.*mm), logMappingCube, "physMappingCube6", expHallLog, false, 0, true);
 
     //G4GDMLParser parser;
     //parser.Write("det.gdml", expHallLog);

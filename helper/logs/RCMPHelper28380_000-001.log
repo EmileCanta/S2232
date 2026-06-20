@@ -2,7 +2,7 @@ Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorte
 Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28380_001.root[m": adding TRunInfo 
 Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28380_001.root[m
 Looped over 2/2 files and got:
-Singleton 0x6353ab3212e0 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28380_001.root
+Singleton 0x5f3db90a7c40 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28380_001.root
 Title: RCMP_Channel_mapping_RCS01_RCS02
 Comment: RCMP_Channel_mapping_RCS01_RCS02
 		RunNumber:          28380
@@ -16,7 +16,9 @@ Code   Duration
 0x0000 0
 0x0000 0
 0x0000 0
-[0;36mshared library /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.so exists and is newer than /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.cxx, /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.hh, and $GRSISYS/lib/libTGRSIFrame.so[m
+[0;36m----------  starting compilation of user code  ----------[m
+[0;36m----------  starting linking user code  -----------------[m
+[0;36m----------  done compiling user code  -------------------[m
 	Using library /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.so
 No g-values!
 Writing to RCMP28380_000-001.root
@@ -25,4 +27,4 @@ Writing TAnalysisOptions to RCMP28380_000-001.root
   910 TChannels saved to RCMP28380_000-001.root
 Closed 'RCMP28380_000-001.root'
 
-Done after 0:00:11.676 h:m:s
+Done after 0:00:14.344 h:m:s
