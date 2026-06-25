@@ -99,18 +99,16 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
                 //fH2[slot].at(Form("HitMapCorrectedWeird%d", ndet))->Fill(mappedstrip1bis, mappedstrip2bis);
                 
                 fH2[slot].at(Form("ChargeVSPixelFront%d", ndet))->Fill(pixel, hit1->GetCharge());
-            
                 fH2[slot].at(Form("ChargeVSPixelBack%d", ndet))->Fill(pixel, hit2->GetCharge());
             
-                if(ndet == 1) fH2[slot].at("HitMapCorrectedGood2")->Fill(31 - mappedstrip2, mappedstrip1); //Names are swapped between 1 and 2. Will have to change that directly in ODB at some point.
-                if(ndet == 2) fH2[slot].at("HitMapCorrectedGood1")->Fill(mappedstrip1, 31 - mappedstrip2);
+                if(ndet == 1) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip1, 31 - mappedstrip2); 
+                if(ndet == 2) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(31 - mappedstrip2, mappedstrip1);
 
                 if(ndet == 3) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip1, mappedstrip2);
                 if(ndet == 4) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip2, mappedstrip1);
 
                 if(ndet == 5) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip1, mappedstrip2);
                 if(ndet == 6) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip2, mappedstrip1);
-
             }
         }
 
