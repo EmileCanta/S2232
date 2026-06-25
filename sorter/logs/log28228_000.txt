@@ -1,41 +1,0 @@
-grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/empty.cal /home/emile/postdoc/data/s2232/raw/run28228_000.mid
-	grsisort version 4.0.0.5
-	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-Already loaded handle 0x64d3294447a0
-Title: [0;34mRCMP_Mylar_Test_Triple_Alpha_Source_single_sided-R00868(0.5um Mylar installed )[m
-Comment: [0;34mRCMP_Mylar_Test_Triple_Alpha_Source_single_sided-R00868(0.5um Mylar installed )[m
-using GRIFFIN path to analyzer info: /DAQ/PSC...
-910	 TChannels created.
-found 910 channels
-	file [1;34m/home/emile/postdoc/data/s2232/raw/run28228_000.mid[m opened as [1;34m_raw0[m
-Already loaded handle 0x64d3294447a0
-Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/empty.cal[m.....found 910 channels
-[1;34mfBuildWindow: [0;36m2000
-[1;34mfBuildEventsByTimeStamp: [0;36m0
-[1;34mfAddbackWindow: [0;36m300
-[1;34mfSuppressionWindow: [0;36m300
-[1;34mfSuppressionEnergy: [0;36m0
-[1;34mfStaticWindow: [0;36m0
-[1;34mfWaveformFitting: [0;36m0
-[1;34mfIsCorrectingCrossTalk: [0;36m0
-[m
-[0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
-1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
-Warning, unknown ppg pattern 0x0cf0f0f0, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x00f0c0f0, setting new pattern to kJunk!
-Warning, unknown ppg pattern 0x0c80f0f0, setting old pattern to kJunk!
-
-not running        |*                  |N/A: 0             |N/A: 0             |N/A: 0             |                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x7b9d78000cb0, 0x7b9d78000c40                              
-                              8_analysis_write_loop: added "TGriffin" branch, 0x7b9d78012eb0, 0x7b9d78012df0                              
-                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x7b9d7801c8d0, 0x7b9d78016600                              
-                              8_analysis_write_loop: added "TLaBr" branch, 0x7b9d780210e0, 0x7b9d7801df50                              
-                              8_analysis_write_loop: added "TRcmp" branch, 0x7b9d78029fb0, 0x7b9d78029ef0                              
-                              8_analysis_write_loop: added "TTAC" branch, 0x7b9d840125b0, 0x7b9d84000d20                              
-not running        |                   |*****************  |****************** |****               |not running        |                   |****************** |****************** |****               |not running        |                   |****************** |*****************  |****               |not running        |*                  |****************** |*****************  |******             |not running        |*                  |****************** |*****************  |********           |not running        |*                  |****************** |****************** |*********          |not running        |*                  |****************** |****************** |*********          |
-Sorting depth of 200000 was insufficient. time: 300770847988 Last: 323722661350 
-Not all events were built correctly
-Please increase sort depth with --sort-depth=N
-not running        |*                  |****************** |****************** |**********         |not running        |     5107/    59029|  4010212/  4060212|  2435322/  2535322|  1435320/  2435320|
-not running        |*                  |****************** |****************** |***********        |not running        |*                  |****************** |****************** |***********        |not running        |*                  |****************** |****************** |************       |not running        |*                  |****************** |****************** |************       |not running        |**                 |****************** |****************** |*************      |not running        |**                 |****************** |****************** |*************      |not running        |**                 |****************** |****************** |*************      |not running        |**                 |****************** |****************** |*************      |not running        |**                 |****************** |****************** |**************     |not running        |**                 |****************** |****************** |**************     |not running        |     8573/    59029|  6761913/  6811911|  4269574/  4369574|  3269578/  4269574|
-not running        |**                 |****************** |****************** |**************     |not running        |**                 |****************** |****************** |**************     |not running        |**                 |****************** |****************** |**************     |not running        |***                |****************** |****************** |***************    |not running        |***                |****************** |****************** |***************    |not running        |***                |****************** |****************** |***************    |not running        |***                |****************** |****************** |***************    |not running        |***                |****************** |****************** |***************    |not running        |***                |****************** |****************** |***************    |not running        |***                |****************** |****************** |***************    |not running        |    11857/    59029|  9371977/  9421977|  6009411/  6109411|  5009410/  6009410|
-not running        |***                |****************** |****************** |***************    |not running        |***                |****************** |****************** |***************    |not running        |****               |****************** |****************** |****************   |not running        |****               |****************** |****************** |****************   |not running        |****               |****************** |****************** |****************   |not running        |****               |****************** |****************** |****************   |not running        |****               |****************** |****************** |****************   |not running        |****               |****************** |****************** |****************   |

@@ -6407,11 +6407,11 @@ ENGCoeff:  -0.1	0.84	0
 }
 //====================================//
 
-RCS02XN00X	{
+RCS01XN00X	{
 Type:      TRcmp
-Name:      RCS02XN00X
+Name:      RCS01XN00X
 Number:    558
-Address:   0x0120
+Address:   0x0320
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6420,11 +6420,11 @@ ENGCoeff:  194.33	1.31009
 }
 //====================================//
 
-RCS02XN01X	{
+RCS01XN01X	{
 Type:      TRcmp
-Name:      RCS02XN01X
+Name:      RCS01XN01X
 Number:    559
-Address:   0x0110
+Address:   0x0310
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6433,11 +6433,11 @@ ENGCoeff:  200.559	1.2889
 }
 //====================================//
 
-RCS02XN02X	{
+RCS01XN02X	{
 Type:      TRcmp
-Name:      RCS02XN02X
+Name:      RCS01XN02X
 Number:    560
-Address:   0x0121
+Address:   0x0321
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6446,11 +6446,11 @@ ENGCoeff:  184.214	1.24646
 }
 //====================================//
 
-RCS02XN03X	{
+RCS01XN03X	{
 Type:      TRcmp
-Name:      RCS02XN03X
+Name:      RCS01XN03X
 Number:    561
-Address:   0x0111
+Address:   0x0311
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6459,11 +6459,11 @@ ENGCoeff:  193.089	1.28283
 }
 //====================================//
 
-RCS02XN04X	{
+RCS01XN04X	{
 Type:      TRcmp
-Name:      RCS02XN04X
+Name:      RCS01XN04X
 Number:    562
-Address:   0x0122
+Address:   0x0322
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6472,11 +6472,11 @@ ENGCoeff:  163.055	1.30137
 }
 //====================================//
 
-RCS02XN05X	{
+RCS01XN05X	{
 Type:      TRcmp
-Name:      RCS02XN05X
+Name:      RCS01XN05X
 Number:    563
-Address:   0x0112
+Address:   0x0312
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6485,11 +6485,11 @@ ENGCoeff:  150.806	1.29945
 }
 //====================================//
 
-RCS02XN06X	{
+RCS01XN06X	{
 Type:      TRcmp
-Name:      RCS02XN06X
+Name:      RCS01XN06X
 Number:    564
-Address:   0x0123
+Address:   0x0323
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6498,11 +6498,11 @@ ENGCoeff:  179.07	1.27475
 }
 //====================================//
 
-RCS02XN07X	{
+RCS01XN07X	{
 Type:      TRcmp
-Name:      RCS02XN07X
+Name:      RCS01XN07X
 Number:    565
-Address:   0x0113
+Address:   0x0313
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6511,11 +6511,11 @@ ENGCoeff:  179.967	1.26783
 }
 //====================================//
 
-RCS02XN08X	{
+RCS01XN08X	{
 Type:      TRcmp
-Name:      RCS02XN08X
+Name:      RCS01XN08X
 Number:    566
-Address:   0x0124
+Address:   0x0324
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6524,11 +6524,11 @@ ENGCoeff:  166.483	1.27614
 }
 //====================================//
 
-RCS02XN09X	{
+RCS01XN09X	{
 Type:      TRcmp
-Name:      RCS02XN09X
+Name:      RCS01XN09X
 Number:    567
-Address:   0x0114
+Address:   0x0314
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6537,11 +6537,11 @@ ENGCoeff:  169.458	1.3121
 }
 //====================================//
 
-RCS02XN10X	{
+RCS01XN10X	{
 Type:      TRcmp
-Name:      RCS02XN10X
+Name:      RCS01XN10X
 Number:    568
-Address:   0x0125
+Address:   0x0325
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6550,11 +6550,11 @@ ENGCoeff:  184.967	1.26014
 }
 //====================================//
 
-RCS02XN11X	{
+RCS01XN11X	{
 Type:      TRcmp
-Name:      RCS02XN11X
+Name:      RCS01XN11X
 Number:    569
-Address:   0x0115
+Address:   0x0315
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6563,11 +6563,11 @@ ENGCoeff:  166.932	1.29419
 }
 //====================================//
 
-RCS02XN12X	{
+RCS01XN12X	{
 Type:      TRcmp
-Name:      RCS02XN12X
+Name:      RCS01XN12X
 Number:    570
-Address:   0x0126
+Address:   0x0326
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6576,11 +6576,11 @@ ENGCoeff:  167.39	1.25898
 }
 //====================================//
 
-RCS02XN13X	{
+RCS01XN13X	{
 Type:      TRcmp
-Name:      RCS02XN13X
+Name:      RCS01XN13X
 Number:    571
-Address:   0x0116
+Address:   0x0316
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6589,11 +6589,11 @@ ENGCoeff:  183.468	1.33761
 }
 //====================================//
 
-RCS02XN14X	{
+RCS01XN14X	{
 Type:      TRcmp
-Name:      RCS02XN14X
+Name:      RCS01XN14X
 Number:    572
-Address:   0x0127
+Address:   0x0327
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6602,11 +6602,11 @@ ENGCoeff:  167.942	1.29993
 }
 //====================================//
 
-RCS02XN15X	{
+RCS01XN15X	{
 Type:      TRcmp
-Name:      RCS02XN15X
+Name:      RCS01XN15X
 Number:    573
-Address:   0x0117
+Address:   0x0317
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6615,11 +6615,11 @@ ENGCoeff:  173.36	1.3272
 }
 //====================================//
 
-RCS02XN16X	{
+RCS01XN16X	{
 Type:      TRcmp
-Name:      RCS02XN16X
+Name:      RCS01XN16X
 Number:    574
-Address:   0x012f
+Address:   0x032f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6628,11 +6628,11 @@ ENGCoeff:  157.555	1.29514
 }
 //====================================//
 
-RCS02XN17X	{
+RCS01XN17X	{
 Type:      TRcmp
-Name:      RCS02XN17X
+Name:      RCS01XN17X
 Number:    575
-Address:   0x011f
+Address:   0x031f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6641,11 +6641,11 @@ ENGCoeff:  177.051	1.3186
 }
 //====================================//
 
-RCS02XN18X	{
+RCS01XN18X	{
 Type:      TRcmp
-Name:      RCS02XN18X
+Name:      RCS01XN18X
 Number:    576
-Address:   0x012e
+Address:   0x032e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6654,11 +6654,11 @@ ENGCoeff:  171.716	1.27155
 }
 //====================================//
 
-RCS02XN19X	{
+RCS01XN19X	{
 Type:      TRcmp
-Name:      RCS02XN19X
+Name:      RCS01XN19X
 Number:    577
-Address:   0x011e
+Address:   0x031e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6667,11 +6667,11 @@ ENGCoeff:  154.892	1.29025
 }
 //====================================//
 
-RCS02XN20X	{
+RCS01XN20X	{
 Type:      TRcmp
-Name:      RCS02XN20X
+Name:      RCS01XN20X
 Number:    578
-Address:   0x012d
+Address:   0x032d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6680,11 +6680,11 @@ ENGCoeff:  172.385	1.30096
 }
 //====================================//
 
-RCS02XN21X	{
+RCS01XN21X	{
 Type:      TRcmp
-Name:      RCS02XN21X
+Name:      RCS01XN21X
 Number:    579
-Address:   0x011d
+Address:   0x031d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6693,11 +6693,11 @@ ENGCoeff:  176.29	1.3328
 }
 //====================================//
 
-RCS02XN22X	{
+RCS01XN22X	{
 Type:      TRcmp
-Name:      RCS02XN22X
+Name:      RCS01XN22X
 Number:    580
-Address:   0x012c
+Address:   0x032c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6706,11 +6706,11 @@ ENGCoeff:  190.288	1.33624
 }
 //====================================//
 
-RCS02XN23X	{
+RCS01XN23X	{
 Type:      TRcmp
-Name:      RCS02XN23X
+Name:      RCS01XN23X
 Number:    581
-Address:   0x011c
+Address:   0x031c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6719,11 +6719,11 @@ ENGCoeff:  171.343	1.2703
 }
 //====================================//
 
-RCS02XN24X	{
+RCS01XN24X	{
 Type:      TRcmp
-Name:      RCS02XN24X
+Name:      RCS01XN24X
 Number:    582
-Address:   0x012b
+Address:   0x032b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6732,11 +6732,11 @@ ENGCoeff:  210.006	1.28146
 }
 //====================================//
 
-RCS02XN25X	{
+RCS01XN25X	{
 Type:      TRcmp
-Name:      RCS02XN25X
+Name:      RCS01XN25X
 Number:    583
-Address:   0x011b
+Address:   0x031b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6745,11 +6745,11 @@ ENGCoeff:  154.02	1.33	0
 }
 //====================================//
 
-RCS02XN26X	{
+RCS01XN26X	{
 Type:      TRcmp
-Name:      RCS02XN26X
+Name:      RCS01XN26X
 Number:    584
-Address:   0x012a
+Address:   0x032a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6758,11 +6758,11 @@ ENGCoeff:  200.019	1.23327
 }
 //====================================//
 
-RCS02XN27X	{
+RCS01XN27X	{
 Type:      TRcmp
-Name:      RCS02XN27X
+Name:      RCS01XN27X
 Number:    585
-Address:   0x011a
+Address:   0x031a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6771,11 +6771,11 @@ ENGCoeff:  208.804	1.28354
 }
 //====================================//
 
-RCS02XN28X	{
+RCS01XN28X	{
 Type:      TRcmp
-Name:      RCS02XN28X
+Name:      RCS01XN28X
 Number:    586
-Address:   0x0129
+Address:   0x0329
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6784,11 +6784,11 @@ ENGCoeff:  241.172	1.28535
 }
 //====================================//
 
-RCS02XN29X	{
+RCS01XN29X	{
 Type:      TRcmp
-Name:      RCS02XN29X
+Name:      RCS01XN29X
 Number:    587
-Address:   0x0119
+Address:   0x0319
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6797,11 +6797,11 @@ ENGCoeff:  216.936	1.28388
 }
 //====================================//
 
-RCS02XN30X	{
+RCS01XN30X	{
 Type:      TRcmp
-Name:      RCS02XN30X
+Name:      RCS01XN30X
 Number:    588
-Address:   0x0128
+Address:   0x0328
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6810,11 +6810,11 @@ ENGCoeff:  0	1	0
 }
 //====================================//
 
-RCS02XN31X	{
+RCS01XN31X	{
 Type:      TRcmp
-Name:      RCS02XN31X
+Name:      RCS01XN31X
 Number:    589
-Address:   0x0118
+Address:   0x0318
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6823,11 +6823,11 @@ ENGCoeff:  192.716	1.30372
 }
 //====================================//
 
-RCS02XP00X	{
+RCS01XP00X	{
 Type:      TRcmp
-Name:      RCS02XP00X
+Name:      RCS01XP00X
 Number:    526
-Address:   0x0020
+Address:   0x0220
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6836,11 +6836,11 @@ ENGCoeff:  246.451	1.31477
 }
 //====================================//
 
-RCS02XP01X	{
+RCS01XP01X	{
 Type:      TRcmp
-Name:      RCS02XP01X
+Name:      RCS01XP01X
 Number:    527
-Address:   0x0010
+Address:   0x0210
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6849,11 +6849,11 @@ ENGCoeff:  191.224	1.39382
 }
 //====================================//
 
-RCS02XP02X	{
+RCS01XP02X	{
 Type:      TRcmp
-Name:      RCS02XP02X
+Name:      RCS01XP02X
 Number:    528
-Address:   0x0021
+Address:   0x0221
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6862,11 +6862,11 @@ ENGCoeff:  180.449	1.23264
 }
 //====================================//
 
-RCS02XP03X	{
+RCS01XP03X	{
 Type:      TRcmp
-Name:      RCS02XP03X
+Name:      RCS01XP03X
 Number:    529
-Address:   0x0011
+Address:   0x0211
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6875,11 +6875,11 @@ ENGCoeff:  179.649	1.30395
 }
 //====================================//
 
-RCS02XP04X	{
+RCS01XP04X	{
 Type:      TRcmp
-Name:      RCS02XP04X
+Name:      RCS01XP04X
 Number:    530
-Address:   0x0022
+Address:   0x0222
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6888,11 +6888,11 @@ ENGCoeff:  184.815	1.31626
 }
 //====================================//
 
-RCS02XP05X	{
+RCS01XP05X	{
 Type:      TRcmp
-Name:      RCS02XP05X
+Name:      RCS01XP05X
 Number:    531
-Address:   0x0012
+Address:   0x0212
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6901,11 +6901,11 @@ ENGCoeff:  170.139	1.29248
 }
 //====================================//
 
-RCS02XP06X	{
+RCS01XP06X	{
 Type:      TRcmp
-Name:      RCS02XP06X
+Name:      RCS01XP06X
 Number:    532
-Address:   0x0023
+Address:   0x0223
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6914,11 +6914,11 @@ ENGCoeff:  163.38	1.32345
 }
 //====================================//
 
-RCS02XP07X	{
+RCS01XP07X	{
 Type:      TRcmp
-Name:      RCS02XP07X
+Name:      RCS01XP07X
 Number:    533
-Address:   0x0013
+Address:   0x0213
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6927,11 +6927,11 @@ ENGCoeff:  180.832	1.26766
 }
 //====================================//
 
-RCS02XP08X	{
+RCS01XP08X	{
 Type:      TRcmp
-Name:      RCS02XP08X
+Name:      RCS01XP08X
 Number:    534
-Address:   0x0024
+Address:   0x0224
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6940,11 +6940,11 @@ ENGCoeff:  152.64	1.29489
 }
 //====================================//
 
-RCS02XP09X	{
+RCS01XP09X	{
 Type:      TRcmp
-Name:      RCS02XP09X
+Name:      RCS01XP09X
 Number:    535
-Address:   0x0014
+Address:   0x0214
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6953,11 +6953,11 @@ ENGCoeff:  171.244	1.31172
 }
 //====================================//
 
-RCS02XP10X	{
+RCS01XP10X	{
 Type:      TRcmp
-Name:      RCS02XP10X
+Name:      RCS01XP10X
 Number:    536
-Address:   0x0025
+Address:   0x0225
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6966,11 +6966,11 @@ ENGCoeff:  158.5	1.30757
 }
 //====================================//
 
-RCS02XP11X	{
+RCS01XP11X	{
 Type:      TRcmp
-Name:      RCS02XP11X
+Name:      RCS01XP11X
 Number:    537
-Address:   0x0015
+Address:   0x0215
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6979,11 +6979,11 @@ ENGCoeff:  146.932	1.33214
 }
 //====================================//
 
-RCS02XP12X	{
+RCS01XP12X	{
 Type:      TRcmp
-Name:      RCS02XP12X
+Name:      RCS01XP12X
 Number:    538
-Address:   0x0026
+Address:   0x0226
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6992,11 +6992,11 @@ ENGCoeff:  169.187	1.28958
 }
 //====================================//
 
-RCS02XP13X	{
+RCS01XP13X	{
 Type:      TRcmp
-Name:      RCS02XP13X
+Name:      RCS01XP13X
 Number:    539
-Address:   0x0016
+Address:   0x0216
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7005,11 +7005,11 @@ ENGCoeff:  143.398	1.32134
 }
 //====================================//
 
-RCS02XP14X	{
+RCS01XP14X	{
 Type:      TRcmp
-Name:      RCS02XP14X
+Name:      RCS01XP14X
 Number:    540
-Address:   0x0027
+Address:   0x0227
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7018,11 +7018,11 @@ ENGCoeff:  162.662	1.30774
 }
 //====================================//
 
-RCS02XP15X	{
+RCS01XP15X	{
 Type:      TRcmp
-Name:      RCS02XP15X
+Name:      RCS01XP15X
 Number:    541
-Address:   0x0017
+Address:   0x0217
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7031,11 +7031,11 @@ ENGCoeff:  119.062	1.3002
 }
 //====================================//
 
-RCS02XP16X	{
+RCS01XP16X	{
 Type:      TRcmp
-Name:      RCS02XP16X
+Name:      RCS01XP16X
 Number:    542
-Address:   0x002f
+Address:   0x022f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7044,11 +7044,11 @@ ENGCoeff:  157.066	1.34229
 }
 //====================================//
 
-RCS02XP17X	{
+RCS01XP17X	{
 Type:      TRcmp
-Name:      RCS02XP17X
+Name:      RCS01XP17X
 Number:    543
-Address:   0x001f
+Address:   0x021f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7057,11 +7057,11 @@ ENGCoeff:  147.185	1.30606
 }
 //====================================//
 
-RCS02XP18X	{
+RCS01XP18X	{
 Type:      TRcmp
-Name:      RCS02XP18X
+Name:      RCS01XP18X
 Number:    544
-Address:   0x002e
+Address:   0x022e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7070,11 +7070,11 @@ ENGCoeff:  148.917	1.28356
 }
 //====================================//
 
-RCS02XP19X	{
+RCS01XP19X	{
 Type:      TRcmp
-Name:      RCS02XP19X
+Name:      RCS01XP19X
 Number:    545
-Address:   0x001e
+Address:   0x021e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7083,11 +7083,11 @@ ENGCoeff:  162.603	1.2298
 }
 //====================================//
 
-RCS02XP20X	{
+RCS01XP20X	{
 Type:      TRcmp
-Name:      RCS02XP20X
+Name:      RCS01XP20X
 Number:    546
-Address:   0x002d
+Address:   0x022d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7096,11 +7096,11 @@ ENGCoeff:  143.22	1.33953
 }
 //====================================//
 
-RCS02XP21X	{
+RCS01XP21X	{
 Type:      TRcmp
-Name:      RCS02XP21X
+Name:      RCS01XP21X
 Number:    547
-Address:   0x001d
+Address:   0x021d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7109,11 +7109,11 @@ ENGCoeff:  150.253	1.40049
 }
 //====================================//
 
-RCS02XP22X	{
+RCS01XP22X	{
 Type:      TRcmp
-Name:      RCS02XP22X
+Name:      RCS01XP22X
 Number:    548
-Address:   0x002c
+Address:   0x022c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7122,11 +7122,11 @@ ENGCoeff:  146.328	1.25461
 }
 //====================================//
 
-RCS02XP23X	{
+RCS01XP23X	{
 Type:      TRcmp
-Name:      RCS02XP23X
+Name:      RCS01XP23X
 Number:    549
-Address:   0x001c
+Address:   0x021c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7135,11 +7135,11 @@ ENGCoeff:  171.334	1.27031
 }
 //====================================//
 
-RCS02XP24X	{
+RCS01XP24X	{
 Type:      TRcmp
-Name:      RCS02XP24X
+Name:      RCS01XP24X
 Number:    550
-Address:   0x002b
+Address:   0x022b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7148,11 +7148,11 @@ ENGCoeff:  150.458	1.35
 }
 //====================================//
 
-RCS02XP25X	{
+RCS01XP25X	{
 Type:      TRcmp
-Name:      RCS02XP25X
+Name:      RCS01XP25X
 Number:    551
-Address:   0x001b
+Address:   0x021b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7161,11 +7161,11 @@ ENGCoeff:  0	1	0
 }
 //====================================//
 
-RCS02XP26X	{
+RCS01XP26X	{
 Type:      TRcmp
-Name:      RCS02XP26X
+Name:      RCS01XP26X
 Number:    552
-Address:   0x002a
+Address:   0x022a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7174,11 +7174,11 @@ ENGCoeff:  170.11	1.2904
 }
 //====================================//
 
-RCS02XP27X	{
+RCS01XP27X	{
 Type:      TRcmp
-Name:      RCS02XP27X
+Name:      RCS01XP27X
 Number:    553
-Address:   0x001a
+Address:   0x021a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7187,11 +7187,11 @@ ENGCoeff:  177.385	1.31342
 }
 //====================================//
 
-RCS02XP28X	{
+RCS01XP28X	{
 Type:      TRcmp
-Name:      RCS02XP28X
+Name:      RCS01XP28X
 Number:    554
-Address:   0x0029
+Address:   0x0229
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7200,11 +7200,11 @@ ENGCoeff:  159.302	1.32158
 }
 //====================================//
 
-RCS02XP29X	{
+RCS01XP29X	{
 Type:      TRcmp
-Name:      RCS02XP29X
+Name:      RCS01XP29X
 Number:    555
-Address:   0x0019
+Address:   0x0219
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7213,11 +7213,11 @@ ENGCoeff:  169.502	1.2574
 }
 //====================================//
 
-RCS02XP30X	{
+RCS01XP30X	{
 Type:      TRcmp
-Name:      RCS02XP30X
+Name:      RCS01XP30X
 Number:    556
-Address:   0x0028
+Address:   0x0228
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7226,11 +7226,11 @@ ENGCoeff:  154.071	1.28501
 }
 //====================================//
 
-RCS02XP31X	{
+RCS01XP31X	{
 Type:      TRcmp
-Name:      RCS02XP31X
+Name:      RCS01XP31X
 Number:    557
-Address:   0x0018
+Address:   0x0218
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7239,11 +7239,11 @@ ENGCoeff:  228.028	1.29524
 }
 //====================================//
 
-RCS01XN00X	{
+RCS02XN00X	{
 Type:      TRcmp
-Name:      RCS01XN00X
+Name:      RCS02XN00X
 Number:    622
-Address:   0x0320
+Address:   0x0120
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7252,11 +7252,11 @@ ENGCoeff:  216.038	1.23972
 }
 //====================================//
 
-RCS01XN01X	{
+RCS02XN01X	{
 Type:      TRcmp
-Name:      RCS01XN01X
+Name:      RCS02XN01X
 Number:    623
-Address:   0x0310
+Address:   0x0110
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7265,11 +7265,11 @@ ENGCoeff:  216.886	1.34046
 }
 //====================================//
 
-RCS01XN02X	{
+RCS02XN02X	{
 Type:      TRcmp
-Name:      RCS01XN02X
+Name:      RCS02XN02X
 Number:    624
-Address:   0x0321
+Address:   0x0121
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7278,11 +7278,11 @@ ENGCoeff:  203.396	1.29319
 }
 //====================================//
 
-RCS01XN03X	{
+RCS02XN03X	{
 Type:      TRcmp
-Name:      RCS01XN03X
+Name:      RCS02XN03X
 Number:    625
-Address:   0x0311
+Address:   0x0111
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7291,11 +7291,11 @@ ENGCoeff:  209.225	1.31947
 }
 //====================================//
 
-RCS01XN04X	{
+RCS02XN04X	{
 Type:      TRcmp
-Name:      RCS01XN04X
+Name:      RCS02XN04X
 Number:    626
-Address:   0x0322
+Address:   0x0122
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7304,11 +7304,11 @@ ENGCoeff:  183.676	1.3088
 }
 //====================================//
 
-RCS01XN05X	{
+RCS02XN05X	{
 Type:      TRcmp
-Name:      RCS01XN05X
+Name:      RCS02XN05X
 Number:    627
-Address:   0x0312
+Address:   0x0112
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7317,11 +7317,11 @@ ENGCoeff:  181.493	1.34238
 }
 //====================================//
 
-RCS01XN06X	{
+RCS02XN06X	{
 Type:      TRcmp
-Name:      RCS01XN06X
+Name:      RCS02XN06X
 Number:    628
-Address:   0x0323
+Address:   0x0123
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7330,11 +7330,11 @@ ENGCoeff:  200.834	1.26863
 }
 //====================================//
 
-RCS01XN07X	{
+RCS02XN07X	{
 Type:      TRcmp
-Name:      RCS01XN07X
+Name:      RCS02XN07X
 Number:    629
-Address:   0x0313
+Address:   0x0113
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7343,11 +7343,11 @@ ENGCoeff:  174.623	1.30244
 }
 //====================================//
 
-RCS01XN08X	{
+RCS02XN08X	{
 Type:      TRcmp
-Name:      RCS01XN08X
+Name:      RCS02XN08X
 Number:    630
-Address:   0x0324
+Address:   0x0124
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7356,11 +7356,11 @@ ENGCoeff:  194.027	1.29991
 }
 //====================================//
 
-RCS01XN09X	{
+RCS02XN09X	{
 Type:      TRcmp
-Name:      RCS01XN09X
+Name:      RCS02XN09X
 Number:    631
-Address:   0x0314
+Address:   0x0114
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7369,11 +7369,11 @@ ENGCoeff:  220.658	1.26821
 }
 //====================================//
 
-RCS01XN10X	{
+RCS02XN10X	{
 Type:      TRcmp
-Name:      RCS01XN10X
+Name:      RCS02XN10X
 Number:    632
-Address:   0x0325
+Address:   0x0125
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7382,11 +7382,11 @@ ENGCoeff:  169.855	1.34138
 }
 //====================================//
 
-RCS01XN11X	{
+RCS02XN11X	{
 Type:      TRcmp
-Name:      RCS01XN11X
+Name:      RCS02XN11X
 Number:    633
-Address:   0x0315
+Address:   0x0115
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7395,11 +7395,11 @@ ENGCoeff:  171.756	1.2103
 }
 //====================================//
 
-RCS01XN12X	{
+RCS02XN12X	{
 Type:      TRcmp
-Name:      RCS01XN12X
+Name:      RCS02XN12X
 Number:    634
-Address:   0x0326
+Address:   0x0126
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7408,11 +7408,11 @@ ENGCoeff:  166.731	1.40639
 }
 //====================================//
 
-RCS01XN13X	{
+RCS02XN13X	{
 Type:      TRcmp
-Name:      RCS01XN13X
+Name:      RCS02XN13X
 Number:    635
-Address:   0x0316
+Address:   0x0116
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7421,11 +7421,11 @@ ENGCoeff:  184.472	1.28794
 }
 //====================================//
 
-RCS01XN14X	{
+RCS02XN14X	{
 Type:      TRcmp
-Name:      RCS01XN14X
+Name:      RCS02XN14X
 Number:    636
-Address:   0x0327
+Address:   0x0127
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7434,11 +7434,11 @@ ENGCoeff:  186.31	1.32627
 }
 //====================================//
 
-RCS01XN15X	{
+RCS02XN15X	{
 Type:      TRcmp
-Name:      RCS01XN15X
+Name:      RCS02XN15X
 Number:    637
-Address:   0x0317
+Address:   0x0117
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7447,11 +7447,11 @@ ENGCoeff:  171.963	1.2499
 }
 //====================================//
 
-RCS01XN16X	{
+RCS02XN16X	{
 Type:      TRcmp
-Name:      RCS01XN16X
+Name:      RCS02XN16X
 Number:    638
-Address:   0x032f
+Address:   0x012f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7460,11 +7460,11 @@ ENGCoeff:  190.118	1.35486
 }
 //====================================//
 
-RCS01XN17X	{
+RCS02XN17X	{
 Type:      TRcmp
-Name:      RCS01XN17X
+Name:      RCS02XN17X
 Number:    639
-Address:   0x031f
+Address:   0x011f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7473,11 +7473,11 @@ ENGCoeff:  168.709	1.36896
 }
 //====================================//
 
-RCS01XN18X	{
+RCS02XN18X	{
 Type:      TRcmp
-Name:      RCS01XN18X
+Name:      RCS02XN18X
 Number:    640
-Address:   0x032e
+Address:   0x012e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7486,11 +7486,11 @@ ENGCoeff:  170.303	1.39514
 }
 //====================================//
 
-RCS01XN19X	{
+RCS02XN19X	{
 Type:      TRcmp
-Name:      RCS01XN19X
+Name:      RCS02XN19X
 Number:    641
-Address:   0x031e
+Address:   0x011e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7499,11 +7499,11 @@ ENGCoeff:  164.662	1.35335
 }
 //====================================//
 
-RCS01XN20X	{
+RCS02XN20X	{
 Type:      TRcmp
-Name:      RCS01XN20X
+Name:      RCS02XN20X
 Number:    642
-Address:   0x032d
+Address:   0x012d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7512,11 +7512,11 @@ ENGCoeff:  181.116	1.30902
 }
 //====================================//
 
-RCS01XN21X	{
+RCS02XN21X	{
 Type:      TRcmp
-Name:      RCS01XN21X
+Name:      RCS02XN21X
 Number:    643
-Address:   0x031d
+Address:   0x011d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7525,11 +7525,11 @@ ENGCoeff:  176.346	1.29186
 }
 //====================================//
 
-RCS01XN22X	{
+RCS02XN22X	{
 Type:      TRcmp
-Name:      RCS01XN22X
+Name:      RCS02XN22X
 Number:    644
-Address:   0x032c
+Address:   0x012c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7538,11 +7538,11 @@ ENGCoeff:  188.094	1.36876
 }
 //====================================//
 
-RCS01XN23X	{
+RCS02XN23X	{
 Type:      TRcmp
-Name:      RCS01XN23X
+Name:      RCS02XN23X
 Number:    645
-Address:   0x031c
+Address:   0x011c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7551,11 +7551,11 @@ ENGCoeff:  190.01	1.3124
 }
 //====================================//
 
-RCS01XN24X	{
+RCS02XN24X	{
 Type:      TRcmp
-Name:      RCS01XN24X
+Name:      RCS02XN24X
 Number:    646
-Address:   0x032b
+Address:   0x012b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7564,11 +7564,11 @@ ENGCoeff:  190.364	1.27708
 }
 //====================================//
 
-RCS01XN25X	{
+RCS02XN25X	{
 Type:      TRcmp
-Name:      RCS01XN25X
+Name:      RCS02XN25X
 Number:    647
-Address:   0x031b
+Address:   0x011b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7577,11 +7577,11 @@ ENGCoeff:  192.984	1.25708
 }
 //====================================//
 
-RCS01XN26X	{
+RCS02XN26X	{
 Type:      TRcmp
-Name:      RCS01XN26X
+Name:      RCS02XN26X
 Number:    648
-Address:   0x032a
+Address:   0x012a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7590,11 +7590,11 @@ ENGCoeff:  204.826	1.31196
 }
 //====================================//
 
-RCS01XN27X	{
+RCS02XN27X	{
 Type:      TRcmp
-Name:      RCS01XN27X
+Name:      RCS02XN27X
 Number:    649
-Address:   0x031a
+Address:   0x011a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7603,11 +7603,11 @@ ENGCoeff:  197.059	1.30312
 }
 //====================================//
 
-RCS01XN28X	{
+RCS02XN28X	{
 Type:      TRcmp
-Name:      RCS01XN28X
+Name:      RCS02XN28X
 Number:    650
-Address:   0x0329
+Address:   0x0129
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7616,11 +7616,11 @@ ENGCoeff:  196.537	1.22228
 }
 //====================================//
 
-RCS01XN29X	{
+RCS02XN29X	{
 Type:      TRcmp
-Name:      RCS01XN29X
+Name:      RCS02XN29X
 Number:    651
-Address:   0x0319
+Address:   0x0119
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7629,11 +7629,11 @@ ENGCoeff:  188.553	1.27386
 }
 //====================================//
 
-RCS01XN30X	{
+RCS02XN30X	{
 Type:      TRcmp
-Name:      RCS01XN30X
+Name:      RCS02XN30X
 Number:    652
-Address:   0x0328
+Address:   0x0128
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7642,11 +7642,11 @@ ENGCoeff:  194.832	1.33572
 }
 //====================================//
 
-RCS01XN31X	{
+RCS02XN31X	{
 Type:      TRcmp
-Name:      RCS01XN31X
+Name:      RCS02XN31X
 Number:    653
-Address:   0x0318
+Address:   0x0118
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7655,11 +7655,11 @@ ENGCoeff:  0	1	0
 }
 //====================================//
 
-RCS01XP00X	{
+RCS02XP00X	{
 Type:      TRcmp
-Name:      RCS01XP00X
+Name:      RCS02XP00X
 Number:    590
-Address:   0x0220
+Address:   0x0020
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7668,11 +7668,11 @@ ENGCoeff:  215.801	1.23977
 }
 //====================================//
 
-RCS01XP01X	{
+RCS02XP01X	{
 Type:      TRcmp
-Name:      RCS01XP01X
+Name:      RCS02XP01X
 Number:    591
-Address:   0x0210
+Address:   0x0010
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7681,11 +7681,11 @@ ENGCoeff:  142.127	1.31773
 }
 //====================================//
 
-RCS01XP02X	{
+RCS02XP02X	{
 Type:      TRcmp
-Name:      RCS01XP02X
+Name:      RCS02XP02X
 Number:    592
-Address:   0x0221
+Address:   0x0021
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7694,11 +7694,11 @@ ENGCoeff:  226.688	1.29927
 }
 //====================================//
 
-RCS01XP03X	{
+RCS02XP03X	{
 Type:      TRcmp
-Name:      RCS01XP03X
+Name:      RCS02XP03X
 Number:    593
-Address:   0x0211
+Address:   0x0011
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7707,11 +7707,11 @@ ENGCoeff:  213.524	1.30894
 }
 //====================================//
 
-RCS01XP04X	{
+RCS02XP04X	{
 Type:      TRcmp
-Name:      RCS01XP04X
+Name:      RCS02XP04X
 Number:    594
-Address:   0x0222
+Address:   0x0022
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7720,11 +7720,11 @@ ENGCoeff:  207.762	1.36191
 }
 //====================================//
 
-RCS01XP05X	{
+RCS02XP05X	{
 Type:      TRcmp
-Name:      RCS01XP05X
+Name:      RCS02XP05X
 Number:    595
-Address:   0x0212
+Address:   0x0012
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7733,11 +7733,11 @@ ENGCoeff:  210.373	1.29522
 }
 //====================================//
 
-RCS01XP06X	{
+RCS02XP06X	{
 Type:      TRcmp
-Name:      RCS01XP06X
+Name:      RCS02XP06X
 Number:    596
-Address:   0x0223
+Address:   0x0023
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7746,11 +7746,11 @@ ENGCoeff:  228.352	1.26173
 }
 //====================================//
 
-RCS01XP07X	{
+RCS02XP07X	{
 Type:      TRcmp
-Name:      RCS01XP07X
+Name:      RCS02XP07X
 Number:    597
-Address:   0x0213
+Address:   0x0013
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7759,11 +7759,11 @@ ENGCoeff:  212.077	1.27222
 }
 //====================================//
 
-RCS01XP08X	{
+RCS02XP08X	{
 Type:      TRcmp
-Name:      RCS01XP08X
+Name:      RCS02XP08X
 Number:    598
-Address:   0x0224
+Address:   0x0024
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7772,11 +7772,11 @@ ENGCoeff:  182.786	1.3246
 }
 //====================================//
 
-RCS01XP09X	{
+RCS02XP09X	{
 Type:      TRcmp
-Name:      RCS01XP09X
+Name:      RCS02XP09X
 Number:    599
-Address:   0x0214
+Address:   0x0014
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7785,11 +7785,11 @@ ENGCoeff:  166.839	1.35213
 }
 //====================================//
 
-RCS01XP10X	{
+RCS02XP10X	{
 Type:      TRcmp
-Name:      RCS01XP10X
+Name:      RCS02XP10X
 Number:    600
-Address:   0x0225
+Address:   0x0025
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7798,11 +7798,11 @@ ENGCoeff:  198.729	1.31569
 }
 //====================================//
 
-RCS01XP11X	{
+RCS02XP11X	{
 Type:      TRcmp
-Name:      RCS01XP11X
+Name:      RCS02XP11X
 Number:    601
-Address:   0x0215
+Address:   0x0015
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7811,11 +7811,11 @@ ENGCoeff:  169.237	1.30693
 }
 //====================================//
 
-RCS01XP12X	{
+RCS02XP12X	{
 Type:      TRcmp
-Name:      RCS01XP12X
+Name:      RCS02XP12X
 Number:    602
-Address:   0x0226
+Address:   0x0026
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7824,11 +7824,11 @@ ENGCoeff:  167.398	1.35597
 }
 //====================================//
 
-RCS01XP13X	{
+RCS02XP13X	{
 Type:      TRcmp
-Name:      RCS01XP13X
+Name:      RCS02XP13X
 Number:    603
-Address:   0x0216
+Address:   0x0016
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7837,11 +7837,11 @@ ENGCoeff:  202.299	1.28318
 }
 //====================================//
 
-RCS01XP14X	{
+RCS02XP14X	{
 Type:      TRcmp
-Name:      RCS01XP14X
+Name:      RCS02XP14X
 Number:    604
-Address:   0x0227
+Address:   0x0027
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7850,11 +7850,11 @@ ENGCoeff:  162.036	1.30172
 }
 //====================================//
 
-RCS01XP15X	{
+RCS02XP15X	{
 Type:      TRcmp
-Name:      RCS01XP15X
+Name:      RCS02XP15X
 Number:    605
-Address:   0x0217
+Address:   0x0017
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7863,11 +7863,11 @@ ENGCoeff:  144.718	1.29208
 }
 //====================================//
 
-RCS01XP16X	{
+RCS02XP16X	{
 Type:      TRcmp
-Name:      RCS01XP16X
+Name:      RCS02XP16X
 Number:    606
-Address:   0x022f
+Address:   0x002f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7876,11 +7876,11 @@ ENGCoeff:  190.968	1.35464
 }
 //====================================//
 
-RCS01XP17X	{
+RCS02XP17X	{
 Type:      TRcmp
-Name:      RCS01XP17X
+Name:      RCS02XP17X
 Number:    607
-Address:   0x021f
+Address:   0x001f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7889,11 +7889,11 @@ ENGCoeff:  165.413	1.23185
 }
 //====================================//
 
-RCS01XP18X	{
+RCS02XP18X	{
 Type:      TRcmp
-Name:      RCS01XP18X
+Name:      RCS02XP18X
 Number:    608
-Address:   0x022e
+Address:   0x002e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7902,11 +7902,11 @@ ENGCoeff:  229.441	1.29335
 }
 //====================================//
 
-RCS01XP19X	{
+RCS02XP19X	{
 Type:      TRcmp
-Name:      RCS01XP19X
+Name:      RCS02XP19X
 Number:    609
-Address:   0x021e
+Address:   0x001e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7915,11 +7915,11 @@ ENGCoeff:  161.988	1.40712
 }
 //====================================//
 
-RCS01XP20X	{
+RCS02XP20X	{
 Type:      TRcmp
-Name:      RCS01XP20X
+Name:      RCS02XP20X
 Number:    610
-Address:   0x022d
+Address:   0x002d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7928,11 +7928,11 @@ ENGCoeff:  172.005	1.30628
 }
 //====================================//
 
-RCS01XP21X	{
+RCS02XP21X	{
 Type:      TRcmp
-Name:      RCS01XP21X
+Name:      RCS02XP21X
 Number:    611
-Address:   0x021d
+Address:   0x001d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7941,11 +7941,11 @@ ENGCoeff:  167.477	1.28605
 }
 //====================================//
 
-RCS01XP22X	{
+RCS02XP22X	{
 Type:      TRcmp
-Name:      RCS01XP22X
+Name:      RCS02XP22X
 Number:    612
-Address:   0x022c
+Address:   0x002c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7954,11 +7954,11 @@ ENGCoeff:  164.872	1.29746
 }
 //====================================//
 
-RCS01XP23X	{
+RCS02XP23X	{
 Type:      TRcmp
-Name:      RCS01XP23X
+Name:      RCS02XP23X
 Number:    613
-Address:   0x021c
+Address:   0x001c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7967,11 +7967,11 @@ ENGCoeff:  114.921	1.50822
 }
 //====================================//
 
-RCS01XP24X	{
+RCS02XP24X	{
 Type:      TRcmp
-Name:      RCS01XP24X
+Name:      RCS02XP24X
 Number:    614
-Address:   0x022b
+Address:   0x002b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7980,11 +7980,11 @@ ENGCoeff:  141.391	1.34136
 }
 //====================================//
 
-RCS01XP25X	{
+RCS02XP25X	{
 Type:      TRcmp
-Name:      RCS01XP25X
+Name:      RCS02XP25X
 Number:    615
-Address:   0x021b
+Address:   0x001b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7993,11 +7993,11 @@ ENGCoeff:  177.96	1.36132
 }
 //====================================//
 
-RCS01XP26X	{
+RCS02XP26X	{
 Type:      TRcmp
-Name:      RCS01XP26X
+Name:      RCS02XP26X
 Number:    616
-Address:   0x022a
+Address:   0x002a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -8006,11 +8006,11 @@ ENGCoeff:  165.775	1.26432
 }
 //====================================//
 
-RCS01XP27X	{
+RCS02XP27X	{
 Type:      TRcmp
-Name:      RCS01XP27X
+Name:      RCS02XP27X
 Number:    617
-Address:   0x021a
+Address:   0x001a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -8019,11 +8019,11 @@ ENGCoeff:  187.064	1.28246
 }
 //====================================//
 
-RCS01XP28X	{
+RCS02XP28X	{
 Type:      TRcmp
-Name:      RCS01XP28X
+Name:      RCS02XP28X
 Number:    618
-Address:   0x0229
+Address:   0x0029
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -8032,11 +8032,11 @@ ENGCoeff:  195.952	1.29193
 }
 //====================================//
 
-RCS01XP29X	{
+RCS02XP29X	{
 Type:      TRcmp
-Name:      RCS01XP29X
+Name:      RCS02XP29X
 Number:    619
-Address:   0x0219
+Address:   0x0019
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -8045,11 +8045,11 @@ ENGCoeff:  204.466	1.30721
 }
 //====================================//
 
-RCS01XP30X	{
+RCS02XP30X	{
 Type:      TRcmp
-Name:      RCS01XP30X
+Name:      RCS02XP30X
 Number:    620
-Address:   0x0228
+Address:   0x0028
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -8058,11 +8058,11 @@ ENGCoeff:  199.556	1.31322
 }
 //====================================//
 
-RCS01XP31X	{
+RCS02XP31X	{
 Type:      TRcmp
-Name:      RCS01XP31X
+Name:      RCS02XP31X
 Number:    621
-Address:   0x0218
+Address:   0x0018
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0

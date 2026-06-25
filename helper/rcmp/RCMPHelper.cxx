@@ -78,6 +78,8 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
         int mappedstrip1bis = frontMapsBis[det1][hit1->GetSegment()];
         int mappedstrip2bis = backMapsBis[det2][hit2->GetSegment()];
 
+        //cout << det1 << " " << strip1 << " " << mappedstrip1 << endl;
+
         string side1 = hit1->GetChannel()->GetMnemonic()->CollectedChargeString();
         string side2 = hit2->GetChannel()->GetMnemonic()->CollectedChargeString();
 
@@ -101,8 +103,8 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
                 fH2[slot].at(Form("ChargeVSPixelFront%d", ndet))->Fill(pixel, hit1->GetCharge());
                 fH2[slot].at(Form("ChargeVSPixelBack%d", ndet))->Fill(pixel, hit2->GetCharge());
             
-                if(ndet == 1) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip1, 31 - mappedstrip2); 
-                if(ndet == 2) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(31 - mappedstrip2, mappedstrip1);
+                if(ndet == 1) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip1, mappedstrip2); 
+                if(ndet == 2) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip2, mappedstrip1);
 
                 if(ndet == 3) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip1, mappedstrip2);
                 if(ndet == 4) fH2[slot].at(Form("HitMapCorrectedGood%d", ndet))->Fill(mappedstrip2, mappedstrip1);

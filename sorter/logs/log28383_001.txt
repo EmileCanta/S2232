@@ -1,72 +1,0 @@
-grsisort --recommended  /home/emile/postdoc/data/s2232/raw/run28383_001.mid
-	grsisort version 4.0.0.5
-	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-Already loaded handle 0x5f0dd0ba4470
-Title: [0;34mRCMP_Channel_mapping_RCS04[m
-Comment: [0;34mRCMP_Channel_mapping_RCS04[m
-using GRIFFIN path to analyzer info: /DAQ/PSC...
-910	 TChannels created.
-found 910 channels
-	file [1;34m/home/emile/postdoc/data/s2232/raw/run28383_001.mid[m opened as [1;34m_raw0[m
-Already loaded handle 0x5f0dd0ba4470
-found 910 channels
-[1;34mfBuildWindow: [0;36m2000
-[1;34mfBuildEventsByTimeStamp: [0;36m0
-[1;34mfAddbackWindow: [0;36m300
-[1;34mfSuppressionWindow: [0;36m300
-[1;34mfSuppressionEnergy: [0;36m0
-[1;34mfStaticWindow: [0;36m0
-[1;34mfWaveformFitting: [0;36m0
-[1;34mfIsCorrectingCrossTalk: [0;36m0
-[m
-[0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
-1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
-
-not running        |*                  |N/A: 0             |N/A: 0             |N/A: 0             |                              8_analysis_write_loop: added "TLaBr" branch, 0x760634000cd0, 0x760634000c40                              
-                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x760664025f90, 0x76063406d170                              
-                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x760647ff9770, 0x7606340a9920                              
-                              8_analysis_write_loop: added "TGriffin" branch, 0x7606340a7690, 0x7606340e25f0                              
-                              8_analysis_write_loop: added "TRcmp" branch, 0x760634130130, 0x760640006d10                              
-                              8_analysis_write_loop: added "TTAC" branch, 0x76063400e5d0, 0x76064000aa90                              
-not running        |*                  |*****************  |****************** |**********         |
-Sorting depth of 200000 was insufficient. time: 846768953.026 Last: 2.97330626151e+12 
-Not all events were built correctly
-Please increase sort depth with --sort-depth=N
-not running        |***                |****************** |****************** |**********         |not running        |****               |****************** |****************** |***********        |                              8_analysis_write_loop: added "TZeroDegree" branch, 0x7606341a7a90, 0x7606353707e0                              
-not running        |******             |****************** |****************** |**********         |not running        |*******            |****************** |****************** |**********         |not running        |*********          |****************** |****************** |**********         |not running        |**********         |****************** |****************** |***********        |not running        |***********        |****************** |****************** |************       |not running        |     8248/    13152|  5686911/  5736911|  3032119/  3132117|  2032145/  3032118|
-not running        |***********        |****************** |****************** |************       |not running        |************       |****************** |****************** |*************      |not running        |*************      |****************** |****************** |*************      |not running        |**************     |****************** |****************** |*************      |not running        |**************     |****************** |****************** |**************     |not running        |***************    |****************** |****************** |**************     |not running        |****************   |****************** |****************** |**************     |not running        |*****************  |****************** |****************** |**************     |not running        |*****************  |****************** |****************** |**************     |not running        |****************** |****************** |****************** |***************    |not running        |    13152/    13152|  9148934/  9148934|  5087158/  5108177|  4087157/  5087157|
-not running        |****************** |****************** |****************** |***************    |
-
-not running        |not running        |not running        |****************** |***************    |
-not running        |not running        |not running        |not running        |****************   |not running        |not running        |not running        |not running        |*****************  |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |
-  910 TChannels saved to analysis28383_001.root
-Writing TRunInfo to analysis28383_001.root
-Writing TAnalysisOptions to analysis28383_001.root
-Writing PPG with 0 events and 4 ODB settings
-not running        |not running        |not running        |not running        |not running        |
-Stopping thread 1_input_loop
-
-
-Stopping thread 1_input_loop
-
-Joining thread 1_input_loop
-Joining thread 2_unpack_loop
-2_unpack_loop:	9545612 good fragments out of 9545755 fragments => 99.9985% passed
-********************************************************************************
-good_frag_queue_0: 9148934 pushed, 9148934 popped, 0 left
-********************************************************************************
-Joining thread 5_event_build_loop
-good_frag_queue_0: 9148934/9148934 items popped
-Joining thread 6_det_build_loop
-Joining thread 8_analysis_write_loop
-8_analysis_write_loop:	 5221864/5221864, ??? good events
-Deleting thread 1_input_loop
-Deleting thread 2_unpack_loop
-Deleting thread 5_event_build_loop
-Deleting thread 6_det_build_loop
-Deleting thread 8_analysis_write_loop
-[0;32mNo hits were removed![m
-[0;31m7 fragments were out of order, maximum entry difference was 6018292!
-Please consider increasing the sort depth with --sort-depth=6018292[m
-[0;35m
-bye,bye	[0;36memile[m after 0:00:28.192 h:m:s

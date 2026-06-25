@@ -1,66 +1,0 @@
-grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration28226.cal /home/emile/postdoc/data/s2232/raw/run28241_011.mid
-	grsisort version 4.0.0.5
-	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-Already loaded handle 0x5920757e0480
-Title: [0;34mAlpha-calibration_Calibration_Vertical-Source-Holder_RCMP-ON_241Am244Cm239Pu-1.11e+03Bq-01April2011[m
-Comment: [0;34mAlpha-calibration_Calibration_Vertical-Source-Holder_RCMP-ON_241Am244Cm239Pu-1.11e+03Bq-01April2011[m
-using GRIFFIN path to analyzer info: /DAQ/PSC...
-910	 TChannels created.
-found 910 channels
-	file [1;34m/home/emile/postdoc/data/s2232/raw/run28241_011.mid[m opened as [1;34m_raw0[m
-Already loaded handle 0x5920757e0480
-Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration28226.cal[m.....found 910 channels
-[1;34mfBuildWindow: [0;36m2000
-[1;34mfBuildEventsByTimeStamp: [0;36m0
-[1;34mfAddbackWindow: [0;36m300
-[1;34mfSuppressionWindow: [0;36m300
-[1;34mfSuppressionEnergy: [0;36m0
-[1;34mfStaticWindow: [0;36m0
-[1;34mfWaveformFitting: [0;36m0
-[1;34mfIsCorrectingCrossTalk: [0;36m0
-[m
-[0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
-1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
-
-not running        |*                  |                   |N/A: 0             |N/A: 0             |                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x7788cc000cb0, 0x7788cc000c40                              
-                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x7788f4844df0, 0x7788cc043210                              
-                              8_analysis_write_loop: added "TLaBr" branch, 0x7788d8000eb0, 0x7788d8000e30                              
-                              8_analysis_write_loop: added "TGriffin" branch, 0x7788cc00c140, 0x7788cc0e2860                              
-                              8_analysis_write_loop: added "TRcmp" branch, 0x7788d8001720, 0x7788d8002650                              
-                              8_analysis_write_loop: added "TTAC" branch, 0x7788cc0dfd40, 0x7788d8008680                              
-not running        |*                  |*****************  |****************** |**********         |not running        |***                |****************** |****************** |**********         |not running        |*****              |****************** |****************** |**********         |not running        |******             |****************** |****************** |**********         |not running        |********           |****************** |****************** |**********         |not running        |*********          |****************** |****************** |***********        |not running        |**********         |****************** |****************** |***********        |not running        |***********        |****************** |****************** |************       |not running        |     6303/    10060|  5584525/  5634524|  3204769/  3304768|  2204768/  3204768|
-not running        |***********        |****************** |****************** |*************      |not running        |************       |****************** |****************** |*************      |not running        |*************      |****************** |****************** |*************      |not running        |**************     |****************** |****************** |**************     |not running        |***************    |****************** |****************** |**************     |not running        |****************   |****************** |****************** |**************     |not running        |*****************  |****************** |****************** |**************     |not running        |****************** |****************** |****************** |***************    |not running        |****************** |****************** |****************** |***************    |not running        |****************** |****************** |****************** |***************    |
-
-not running        |not running        |not running        |  5420163/  5420163|  4656960/  5420163|
-not running        |not running        |not running        |****************** |****************   |
-not running        |not running        |not running        |not running        |*****************  |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |
-not running        |not running        |not running        |not running        |not running        |
-Stopping thread 1_input_loop
-
-
-Stopping thread 1_input_loop
-
-Joining thread 1_input_loop
-Joining thread 2_unpack_loop
-2_unpack_loop:	9334130 good fragments out of 9334983 fragments => 99.9909% passed
-********************************************************************************
-good_frag_queue_0: 8994391 pushed, 8994391 popped, 0 left
-********************************************************************************
-Joining thread 5_event_build_loop
-good_frag_queue_0: 8994391/8994391 items popped
-Joining thread 6_det_build_loop
-Joining thread 8_analysis_write_loop
-8_analysis_write_loop:	 5420163/5420163, ??? good events
-  910 TChannels saved to analysis28241_011.root
-Writing TRunInfo to analysis28241_011.root
-Writing TAnalysisOptions to analysis28241_011.root
-Writing PPG with 0 events and 4 ODB settings
-Deleting thread 1_input_loop
-Deleting thread 2_unpack_loop
-Deleting thread 5_event_build_loop
-Deleting thread 6_det_build_loop
-Deleting thread 8_analysis_write_loop
-[0;32mNo hits were removed![m
-[0;32mNo fragments out of order![m
-[0;35m
-bye,bye	[0;36memile[m after 0:00:26.193 h:m:s
