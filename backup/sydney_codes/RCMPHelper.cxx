@@ -1,7 +1,6 @@
 // Written by Dhruval Shah, 2024
 
 #include "RCMPHelper.hh"
-#include "/home/sydney/root/include/TStyle.h" // to use SetOptStat
 #include <limits>
 
 // Coincidences Gates (nanoseconds)
@@ -198,7 +197,9 @@ void RCMPHelper::Exec(unsigned int slot, TGriffin& grif, TGriffinBgo& grifBgo, T
    // determine lowest and highest RCMP energy
    double highE = std::numeric_limits<double>::lowest(); //min returns the smallest positive value for floating point numbers
    double lowE = std::numeric_limits<double>::max();
-   for(int i = 0; i < rcmp.GetPixelMultiplicity(); ++i)
+   int multii = rcmp.GetPixelMultiplicity();
+
+   for(int i = 0; i < multii; ++i)
    {
       auto* rcmp1 = rcmp.GetRcmpHit(i);
       if(rcmp1->GetEnergy() < lowE)  {  lowE = rcmp1->GetEnergy(); }
@@ -206,11 +207,11 @@ void RCMPHelper::Exec(unsigned int slot, TGriffin& grif, TGriffinBgo& grifBgo, T
    }
 
    // Fill RCMP Pixel Multiplicity spectra
-   for(int i = 0; i < rcmp.GetPixelMultiplicity(); ++i)
+   for(int i = 0; i < multii; ++i)
    {
       auto rcmp1 = rcmp.GetRcmpHit(i);
 
-      fH1[slot].at("rcmpE")->Fill(rcmp1->GetEnergy());
+      if(multii == 1) fH1[slot].at("rcmpE")->Fill(rcmp1->GetEnergy());
       fH2[slot].at("rcmpEDet")->Fill(rcmp1->GetEnergy(), rcmp1->GetDetector());
       
       if(lowE < highE)
@@ -279,7 +280,7 @@ void RCMPHelper::Exec(unsigned int slot, TGriffin& grif, TGriffinBgo& grifBgo, T
       
    }
    // Coincidence in rcmp and grif
-   for(int i = 0; i < rcmp.GetPixelMultiplicity(); ++i)
+   for(int i = 0; i < multii; ++i)
    {
       auto rcmp1 = rcmp.GetRcmpHit(i);
 
@@ -293,7 +294,7 @@ void RCMPHelper::Exec(unsigned int slot, TGriffin& grif, TGriffinBgo& grifBgo, T
 
    // RCMP Heat map filling. Broken up into different loops based on how the detectors were installed
 
-   for(int i = 0; i < rcmp.GetPixelMultiplicity(); ++i) 
+   for(int i = 0; i < multii; ++i) 
    {
       auto rcmp1 = rcmp.GetRcmpHit(i);
       int det = rcmp1 -> GetDetector();
@@ -444,7 +445,7 @@ void RCMPHelper::Exec(unsigned int slot, TGriffin& grif, TGriffinBgo& grifBgo, T
 
 }
 
-void RCMPHelper::EndOfSort(std::shared_ptr<std::map<std::string, TList>> list)
+void RCMPHelper::EndOfSort(std::shared_ptr<std::map<std::string, TList>>& list)
 {
 
 }

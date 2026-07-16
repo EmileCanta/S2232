@@ -4,12 +4,12 @@
 #ifndef RCMPHELPER_HH
 #define RCMPHELPER_HH
 
-#include "/home/sydney/GRSISort/include/TGRSIHelper.h"
+#include "/home/emile/OldGRSISort/GRSISort/include/TGRSIHelper.h"
 
 // TODO: edit these include statments to match the detectors you want to use!
-#include "/home/sydney/GRSISort/GRSIData/include/TGriffin.h"
-#include "/home/sydney/GRSISort/GRSIData/include/TGriffinBgo.h"
-#include "/home/sydney/GRSISort/GRSIData/include/TRcmp.h"
+#include "/home/emile/OldGRSISort/GRSISort/GRSIData/include/TGriffin.h"
+#include "/home/emile/OldGRSISort/GRSISort/GRSIData/include/TGriffinBgo.h"
+#include "/home/emile/OldGRSISort/GRSISort/GRSIData/include/TRcmp.h"
 
 // This is a custom action which respects a well defined interface. It supports parallelism,
 // in the sense that it behaves correctly if implicit multi threading is enabled.
@@ -37,7 +37,7 @@ public:
    // TODO: edit the function arguments to match the detectors you want to use!
    void Exec(unsigned int slot, TGriffin& grif, TGriffinBgo& grifBgo, TRcmp& rcmp);
    // this function is optional and is called after the output lists off all slots/workers have been merged
-   void EndOfSort(std::shared_ptr<std::map<std::string, TList>> list) override;
+   void EndOfSort(std::shared_ptr<std::map<std::string, TList>>& list) override;
 
 private:
    // any constants that are set in the CreateHistograms function and used in the Exec function can be stored here

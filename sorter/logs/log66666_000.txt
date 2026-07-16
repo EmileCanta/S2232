@@ -1,0 +1,252 @@
+grsisort --recommended  /home/emile/postdoc/data/s2232/raw/run66666_000.mid
+	grsisort version 4.0.0.5
+	Using library /home/emile/OldGRSISort/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
+Already loaded handle 0x6119ad8d4f50
+using GRIFFIN path to analyzer info: /DAQ/PSC...
+96	 TChannels created.
+found 96 channels
+	file [1;34m/home/emile/postdoc/data/s2232/raw/run66666_000.mid[m opened as [1;34m_raw0[m
+Already loaded handle 0x6119ad8d4f50
+found 96 channels
+[1;34mfBuildWindow: [0;36m2000
+[1;34mfBuildEventsByTimeStamp: [0;36m0
+[1;34mfAddbackWindow: [0;36m300
+[1;34mfSuppressionWindow: [0;36m300
+[1;34mfSuppressionEnergy: [0;36m0
+[1;34mfStaticWindow: [0;36m0
+[1;34mfWaveformFitting: [0;36m0
+[1;34mfIsCorrectingCrossTalk: [0;36m0
+[m
+[0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
+1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
+
+not running        |*                  |N/A: 0             |N/A: 0             |N/A: 0             |not running        |*                  |****************** |N/A: 0             |N/A: 0             |not running        |***                |****************** |N/A: 0             |N/A: 0             |not running        |*****              |****************** |N/A: 0             |N/A: 0             |not running        |*******            |****************** |N/A: 0             |N/A: 0             |not running        |*********          |****************** |N/A: 0             |N/A: 0             |not running        |***********        |****************** |N/A: 0             |N/A: 0             |not running        |*************      |****************** |N/A: 0             |N/A: 0             |not running        |***************    |****************** |N/A: 0             |N/A: 0             |not running        |    39316/    43509|  9200705/  9250705|        0/        0|        0/        0|
+not running        |*****************  |****************** |N/A: 0             |N/A: 0             |not running        |****************** |****************** |N/A: 0             |N/A: 0             |
+not running        |not running        |****************** |N/A: 0             |N/A: 0             |
+not running        |not running        |not running        |****************** |N/A: 0             |not running        |not running        |not running        |****************** |N/A: 0             |                              8_analysis_write_loop: added "TGenericDetector" branch, 0x7e5ba00a0490, 0x7e5ba00a0420                              
+                              8_analysis_write_loop: added "TRcmp" branch, 0x7e5ba0006600, 0x7e5ba0010720                              
+not running        |not running        |not running        |****************** |****************** |
+not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |        1/        1|
+not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+Warning, digitizer type '' not recognized, options are 'GRF16', 'FMC32', 'GRF4G', 'TIG10', 'TIG64', 'CAEN', 'MADC!' && 'V1190'!
+  96 TChannels saved to analysis66666_000.root
+Writing TRunInfo to analysis66666_000.root
+Writing TAnalysisOptions to analysis66666_000.root
+Writing PPG with 0 events and 4 ODB settings
+not running        |not running        |not running        |not running        |not running        |
+Stopping thread 1_input_loop
+
+
+Stopping thread 1_input_loop
+
+Joining thread 1_input_loop
+Joining thread 2_unpack_loop
+2_unpack_loop:	10268943 good fragments out of 10268962 fragments => 99.9998% passed
+********************************************************************************
+good_frag_queue_0: 10236771 pushed, 10236771 popped, 0 left
+********************************************************************************
+Joining thread 5_event_build_loop
+good_frag_queue_0: 10236771/10236771 items popped
+Joining thread 6_det_build_loop
+Joining thread 8_analysis_write_loop
+8_analysis_write_loop:	       1/1, ??? good events
+Deleting thread 1_input_loop
+Deleting thread 2_unpack_loop
+Deleting thread 5_event_build_loop
+Deleting thread 6_det_build_loop
+Deleting thread 8_analysis_write_loop
+[0;32mNo hits were removed![m
+[0;32mNo fragments out of order![m
+[0;35m
+bye,bye	[0;36memile[m after 0:00:24.181 h:m:s
