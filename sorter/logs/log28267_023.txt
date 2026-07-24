@@ -1,15 +1,15 @@
-grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_corrected.cal /home/emile/postdoc/data/s2232/raw/run28267_023.mid
+grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_base.cal /home/emile/postdoc/data/s2232/raw/run28267_023.mid
 	grsisort version 4.0.0.5
 	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-Already loaded handle 0x5b3de66bfae0
+Already loaded handle 0x61bc79331660
 Title: [0;34m20Mg long cycles[m
 Comment: [0;34m55 s beam on, 5 s beam off[m
 using GRIFFIN path to analyzer info: /DAQ/PSC...
 910	 TChannels created.
 found 910 channels
 	file [1;34m/home/emile/postdoc/data/s2232/raw/run28267_023.mid[m opened as [1;34m_raw0[m
-Already loaded handle 0x5b3de66bfae0
-Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_corrected.cal[m.....found 910 channels
+Already loaded handle 0x61bc79331660
+Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_base.cal[m.....found 910 channels
 [1;34mfBuildWindow: [0;36m2000
 [1;34mfBuildEventsByTimeStamp: [0;36m0
 [1;34mfAddbackWindow: [0;36m300
@@ -21,29 +21,33 @@ Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/
 [m
 [0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
 1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
-****************** |                   |                   |N/A: 0             |N/A: 0             |
-                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x7796ac000cb0, 0x7796ac000c40                              
-                              8_analysis_write_loop: added "TGriffin" branch, 0x779734057f60, 0x7796ac043290                              
-                              8_analysis_write_loop: added "TRcmp" branch, 0x77972d5e0fc0, 0x7796ac046a10                              
-                              8_analysis_write_loop: added "TLaBr" branch, 0x7796ac00c140, 0x7796c0c35fb0                              
-                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x77972c001c60, 0x7796ac134f90                              
-                              8_analysis_write_loop: added "TTAC" branch, 0x7796ac132750, 0x779735bf5500                              
+*****************  |*******            |                   |N/A: 0             |N/A: 0             |
+                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x7eaa34000cb0, 0x7eaa34000c40                              
+                              8_analysis_write_loop: added "TGriffin" branch, 0x7eaabc0235c0, 0x7eaa34043290                              
+                              8_analysis_write_loop: added "TRcmp" branch, 0x7eaab55e0f60, 0x7eaa34046a10                              
+                              8_analysis_write_loop: added "TLaBr" branch, 0x7eaa3400c140, 0x7eaa44c35fd0                              
+                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x7eaab4001c60, 0x7eaa34134ea0                              
+                              8_analysis_write_loop: added "TTAC" branch, 0x7eaa34132790, 0x7eaabc058a20                              
 
-Sorting depth of 200000 was insufficient. time: 98284518.9085 Last: 3.26305189056e+12 
+Sorting depth of 200000 was insufficient. time: 98284519.4803 Last: 3.26305189056e+12 
 Not all events were built correctly
 Please increase sort depth with --sort-depth=N
 not running        |                   |****************** |****************** |****************   |not running        |*                  |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************** |not running        |***                |****************** |****************** |****************   |not running        |***                |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |*****              |****************** |****************** |*****************  |not running        |******             |****************** |****************** |*****************  |not running        |    20104/    56186|  7381758/  7431751|  1576179/  1576179|  1427739/  1573155|
-not running        |******             |****************** |****************** |*****************  |not running        |*******            |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |                              8_analysis_write_loop: added "TZeroDegree" branch, 0x77972eda8200, 0x7796ad51d360                              
-not running        |***********        |****************** |****************** |*****************  |not running        |************       |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |*************      |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |    40631/    56186| 14993900/ 15043899|  3254566/  3254566|  2864075/  3254566|
-not running        |*************      |****************** |****************** |****************   |not running        |**************     |****************** |****************** |*****************  |not running        |***************    |****************** |****************** |****************   |not running        |***************    |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |****************   |not running        |*****************  |****************** |****************** |*****************  |not running        |*****************  |****************** |****************** |****************   |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |
+not running        |*****              |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |    19580/    56186|  7190675/  7239951|  1535014/  1535070|  1401467/  1533710|
+not running        |******             |****************** |****************** |*****************  |not running        |*******            |****************** |****************** |*****************  |not running        |*******            |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |                              8_analysis_write_loop: added "TZeroDegree" branch, 0x7eaab845aa10, 0x7eaa35584340                              
+not running        |***********        |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |    39495/    56186| 14577883/ 14627883|  3147504/  3147505|  2841792/  3147503|
+not running        |*************      |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |***************    |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |not running        |*****************  |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |
 
-not running        |not running        |not running        |****************** |*****************  |
-not running        |not running        |not running        |not running        |  4414536/  4535894|
+not running        |not running        |not running        |  4535889/  4535889|  4324390/  4535889|
+not running        |not running        |not running        |****************** |****************** |
 not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |
+  910 TChannels saved to analysis28267_023.root
+Writing TRunInfo to analysis28267_023.root
+Writing TAnalysisOptions to analysis28267_023.root
+Writing PPG with 4 events and 2 ODB settings
 not running        |not running        |not running        |not running        |not running        |
 Stopping thread 1_input_loop
 
@@ -60,11 +64,7 @@ Joining thread 5_event_build_loop
 good_frag_queue_0: 20757506/20757506 items popped
 Joining thread 6_det_build_loop
 Joining thread 8_analysis_write_loop
-8_analysis_write_loop:	 4535894/4535894, ??? good events
-  910 TChannels saved to analysis28267_023.root
-Writing TRunInfo to analysis28267_023.root
-Writing TAnalysisOptions to analysis28267_023.root
-Writing PPG with 4 events and 2 ODB settings
+8_analysis_write_loop:	 4535889/4535889, ??? good events
 Deleting thread 1_input_loop
 Deleting thread 2_unpack_loop
 Deleting thread 5_event_build_loop
@@ -74,4 +74,4 @@ Deleting thread 8_analysis_write_loop
 [0;31m57 fragments were out of order, maximum entry difference was 19030165!
 Please consider increasing the sort depth with --sort-depth=19030165[m
 [0;35m
-bye,bye	[0;36memile[m after 0:00:34.192 h:m:s
+bye,bye	[0;36memile[m after 0:00:34.195 h:m:s

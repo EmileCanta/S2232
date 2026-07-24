@@ -6411,12 +6411,12 @@ RCS01XN00X	{
 Type:      TRcmp
 Name:      RCS01XN00X
 Number:    558
-Address:   0x0320
+Address:   0x0120
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  206.857	1.24263	
+ENGCoeff:  186.432	1.31259	
 }
 //====================================//
 
@@ -6424,12 +6424,12 @@ RCS01XN01X	{
 Type:      TRcmp
 Name:      RCS01XN01X
 Number:    559
-Address:   0x0310
+Address:   0x0110
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  200.958	1.34536	
+ENGCoeff:  188.569	1.29243	
 }
 //====================================//
 
@@ -6437,12 +6437,12 @@ RCS01XN02X	{
 Type:      TRcmp
 Name:      RCS01XN02X
 Number:    560
-Address:   0x0321
+Address:   0x0121
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  192.884	1.29642	
+ENGCoeff:  181.127	1.24763	
 }
 //====================================//
 
@@ -6450,12 +6450,12 @@ RCS01XN03X	{
 Type:      TRcmp
 Name:      RCS01XN03X
 Number:    561
-Address:   0x0311
+Address:   0x0111
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  196.519	1.3235	
+ENGCoeff:  180.188	1.28664	
 }
 //====================================//
 
@@ -6463,12 +6463,12 @@ RCS01XN04X	{
 Type:      TRcmp
 Name:      RCS01XN04X
 Number:    562
-Address:   0x0322
+Address:   0x0122
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  189.952	1.30793	
+ENGCoeff:  161.585	1.30226	
 }
 //====================================//
 
@@ -6476,12 +6476,12 @@ RCS01XN05X	{
 Type:      TRcmp
 Name:      RCS01XN05X
 Number:    563
-Address:   0x0312
+Address:   0x0112
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  156.84	1.34951	
+ENGCoeff:  179.501	1.29194	
 }
 //====================================//
 
@@ -6489,12 +6489,12 @@ RCS01XN06X	{
 Type:      TRcmp
 Name:      RCS01XN06X
 Number:    564
-Address:   0x0323
+Address:   0x0123
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  189.351	1.27202	
+ENGCoeff:  175.803	1.27607	
 }
 //====================================//
 
@@ -6502,12 +6502,12 @@ RCS01XN07X	{
 Type:      TRcmp
 Name:      RCS01XN07X
 Number:    565
-Address:   0x0313
+Address:   0x0113
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  163.427	1.30597	
+ENGCoeff:  171.608	1.27047	
 }
 //====================================//
 
@@ -6515,12 +6515,12 @@ RCS01XN08X	{
 Type:      TRcmp
 Name:      RCS01XN08X
 Number:    566
-Address:   0x0324
+Address:   0x0124
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.654	1.30535	
+ENGCoeff:  159.525	1.27841	
 }
 //====================================//
 
@@ -6528,12 +6528,12 @@ RCS01XN09X	{
 Type:      TRcmp
 Name:      RCS01XN09X
 Number:    567
-Address:   0x0314
+Address:   0x0114
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  228.695	1.26689	
+ENGCoeff:  162.856	1.31438	
 }
 //====================================//
 
@@ -6541,12 +6541,12 @@ RCS01XN10X	{
 Type:      TRcmp
 Name:      RCS01XN10X
 Number:    568
-Address:   0x0325
+Address:   0x0125
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  148.499	1.34748	
+ENGCoeff:  177.888	1.26233	
 }
 //====================================//
 
@@ -6554,12 +6554,12 @@ RCS01XN11X	{
 Type:      TRcmp
 Name:      RCS01XN11X
 Number:    569
-Address:   0x0315
+Address:   0x0115
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  164.278	1.21252	
+ENGCoeff:  147.349	1.30139	
 }
 //====================================//
 
@@ -6567,12 +6567,12 @@ RCS01XN12X	{
 Type:      TRcmp
 Name:      RCS01XN12X
 Number:    570
-Address:   0x0326
+Address:   0x0126
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  160.97	1.40897	
+ENGCoeff:  159.634	1.26138	
 }
 //====================================//
 
@@ -6580,12 +6580,12 @@ RCS01XN13X	{
 Type:      TRcmp
 Name:      RCS01XN13X
 Number:    571
-Address:   0x0316
+Address:   0x0116
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  178.954	1.29001	
+ENGCoeff:  174.986	1.34052	
 }
 //====================================//
 
@@ -6593,12 +6593,12 @@ RCS01XN14X	{
 Type:      TRcmp
 Name:      RCS01XN14X
 Number:    572
-Address:   0x0327
+Address:   0x0127
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  187.648	1.32674	
+ENGCoeff:  158.253	1.30284	
 }
 //====================================//
 
@@ -6606,12 +6606,12 @@ RCS01XN15X	{
 Type:      TRcmp
 Name:      RCS01XN15X
 Number:    573
-Address:   0x0317
+Address:   0x0117
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  167.023	1.25184	
+ENGCoeff:  160.457	1.33112	
 }
 //====================================//
 
@@ -6619,12 +6619,12 @@ RCS01XN16X	{
 Type:      TRcmp
 Name:      RCS01XN16X
 Number:    574
-Address:   0x032f
+Address:   0x012f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  168.622	1.36113	
+ENGCoeff:  152.116	1.29706	
 }
 //====================================//
 
@@ -6632,12 +6632,12 @@ RCS01XN17X	{
 Type:      TRcmp
 Name:      RCS01XN17X
 Number:    575
-Address:   0x031f
+Address:   0x011f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  158.791	1.37236	
+ENGCoeff:  174.032	1.32006	
 }
 //====================================//
 
@@ -6645,12 +6645,12 @@ RCS01XN18X	{
 Type:      TRcmp
 Name:      RCS01XN18X
 Number:    576
-Address:   0x032e
+Address:   0x012e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  150.19	1.40116	
+ENGCoeff:  164.391	1.27389	
 }
 //====================================//
 
@@ -6658,12 +6658,12 @@ RCS01XN19X	{
 Type:      TRcmp
 Name:      RCS01XN19X
 Number:    577
-Address:   0x031e
+Address:   0x011e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  162.861	1.35456	
+ENGCoeff:  145.035	1.29347	
 }
 //====================================//
 
@@ -6671,12 +6671,12 @@ RCS01XN20X	{
 Type:      TRcmp
 Name:      RCS01XN20X
 Number:    578
-Address:   0x032d
+Address:   0x012d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.051	1.31155	
+ENGCoeff:  166.572	1.30303	
 }
 //====================================//
 
@@ -6684,12 +6684,12 @@ RCS01XN21X	{
 Type:      TRcmp
 Name:      RCS01XN21X
 Number:    579
-Address:   0x031d
+Address:   0x011d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  163.498	1.2957	
+ENGCoeff:  160.841	1.33747	
 }
 //====================================//
 
@@ -6697,12 +6697,12 @@ RCS01XN22X	{
 Type:      TRcmp
 Name:      RCS01XN22X
 Number:    580
-Address:   0x032c
+Address:   0x012c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  172.58	1.37344	
+ENGCoeff:  179.116	1.33975	
 }
 //====================================//
 
@@ -6710,12 +6710,12 @@ RCS01XN23X	{
 Type:      TRcmp
 Name:      RCS01XN23X
 Number:    581
-Address:   0x031c
+Address:   0x011c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  182.228	1.31511	
+ENGCoeff:  160.718	1.27348	
 }
 //====================================//
 
@@ -6723,12 +6723,12 @@ RCS01XN24X	{
 Type:      TRcmp
 Name:      RCS01XN24X
 Number:    582
-Address:   0x032b
+Address:   0x012b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  183.888	1.27952	
+ENGCoeff:  189.434	1.28706	
 }
 //====================================//
 
@@ -6736,12 +6736,12 @@ RCS01XN25X	{
 Type:      TRcmp
 Name:      RCS01XN25X
 Number:    583
-Address:   0x031b
+Address:   0x011b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  182.466	1.26026	
+ENGCoeff:  189.434	1.28706	
 }
 //====================================//
 
@@ -6749,12 +6749,12 @@ RCS01XN26X	{
 Type:      TRcmp
 Name:      RCS01XN26X
 Number:    584
-Address:   0x032a
+Address:   0x012a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  186.355	1.31735	
+ENGCoeff:  189.441	1.23623	
 }
 //====================================//
 
@@ -6762,12 +6762,12 @@ RCS01XN27X	{
 Type:      TRcmp
 Name:      RCS01XN27X
 Number:    585
-Address:   0x031a
+Address:   0x011a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  184.675	1.30674	
+ENGCoeff:  193.811	1.28777	
 }
 //====================================//
 
@@ -6775,12 +6775,12 @@ RCS01XN28X	{
 Type:      TRcmp
 Name:      RCS01XN28X
 Number:    586
-Address:   0x0329
+Address:   0x0129
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  178.827	1.22698	
+ENGCoeff:  213.801	1.29282	
 }
 //====================================//
 
@@ -6788,12 +6788,12 @@ RCS01XN29X	{
 Type:      TRcmp
 Name:      RCS01XN29X
 Number:    587
-Address:   0x0319
+Address:   0x0119
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  186.083	1.27514	
+ENGCoeff:  198.17	1.28879	
 }
 //====================================//
 
@@ -6801,12 +6801,12 @@ RCS01XN30X	{
 Type:      TRcmp
 Name:      RCS01XN30X
 Number:    588
-Address:   0x0328
+Address:   0x0128
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  184.212	1.33903	
+ENGCoeff:  0	1	0	
 }
 //====================================//
 
@@ -6814,12 +6814,12 @@ RCS01XN31X	{
 Type:      TRcmp
 Name:      RCS01XN31X
 Number:    589
-Address:   0x0318
+Address:   0x0118
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  192.716	1.30372	
+ENGCoeff:  181.152	1.30648	
 }
 //====================================//
 
@@ -6827,7 +6827,7 @@ RCS01XP00X	{
 Type:      TRcmp
 Name:      RCS01XP00X
 Number:    526
-Address:   0x0220
+Address:   0x0020
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -6840,12 +6840,12 @@ RCS01XP01X	{
 Type:      TRcmp
 Name:      RCS01XP01X
 Number:    527
-Address:   0x0210
+Address:   0x0010
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  197.024	1.30515	
+ENGCoeff:  191.224	1.39382	
 }
 //====================================//
 
@@ -6853,12 +6853,12 @@ RCS01XP02X	{
 Type:      TRcmp
 Name:      RCS01XP02X
 Number:    528
-Address:   0x0221
+Address:   0x0021
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  214.529	1.30288	
+ENGCoeff:  180.449	1.23264	
 }
 //====================================//
 
@@ -6866,12 +6866,12 @@ RCS01XP03X	{
 Type:      TRcmp
 Name:      RCS01XP03X
 Number:    529
-Address:   0x0211
+Address:   0x0011
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  209.094	1.31075	
+ENGCoeff:  179.649	1.30395	
 }
 //====================================//
 
@@ -6879,12 +6879,12 @@ RCS01XP04X	{
 Type:      TRcmp
 Name:      RCS01XP04X
 Number:    530
-Address:   0x0222
+Address:   0x0022
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  197.614	1.36524	
+ENGCoeff:  184.815	1.31626	
 }
 //====================================//
 
@@ -6892,12 +6892,12 @@ RCS01XP05X	{
 Type:      TRcmp
 Name:      RCS01XP05X
 Number:    531
-Address:   0x0212
+Address:   0x0012
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  201.95	1.29785	
+ENGCoeff:  170.139	1.29248	
 }
 //====================================//
 
@@ -6905,12 +6905,12 @@ RCS01XP06X	{
 Type:      TRcmp
 Name:      RCS01XP06X
 Number:    532
-Address:   0x0223
+Address:   0x0023
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  213.157	1.26582	
+ENGCoeff:  163.38	1.32345	
 }
 //====================================//
 
@@ -6918,12 +6918,12 @@ RCS01XP07X	{
 Type:      TRcmp
 Name:      RCS01XP07X
 Number:    533
-Address:   0x0213
+Address:   0x0013
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  208.962	1.27367	
+ENGCoeff:  180.832	1.26766	
 }
 //====================================//
 
@@ -6931,12 +6931,12 @@ RCS01XP08X	{
 Type:      TRcmp
 Name:      RCS01XP08X
 Number:    534
-Address:   0x0224
+Address:   0x0024
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  176.067	1.32691	
+ENGCoeff:  152.64	1.29489	
 }
 //====================================//
 
@@ -6944,12 +6944,12 @@ RCS01XP09X	{
 Type:      TRcmp
 Name:      RCS01XP09X
 Number:    535
-Address:   0x0214
+Address:   0x0014
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  163.137	1.35386	
+ENGCoeff:  171.244	1.31172	
 }
 //====================================//
 
@@ -6957,12 +6957,12 @@ RCS01XP10X	{
 Type:      TRcmp
 Name:      RCS01XP10X
 Number:    536
-Address:   0x0225
+Address:   0x0025
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  194.456	1.31744	
+ENGCoeff:  158.5	1.30757	
 }
 //====================================//
 
@@ -6970,12 +6970,12 @@ RCS01XP11X	{
 Type:      TRcmp
 Name:      RCS01XP11X
 Number:    537
-Address:   0x0215
+Address:   0x0015
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  167.806	1.30796	
+ENGCoeff:  146.932	1.33214	
 }
 //====================================//
 
@@ -6983,12 +6983,12 @@ RCS01XP12X	{
 Type:      TRcmp
 Name:      RCS01XP12X
 Number:    538
-Address:   0x0226
+Address:   0x0026
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  166.856	1.35677	
+ENGCoeff:  169.187	1.28958	
 }
 //====================================//
 
@@ -6996,12 +6996,12 @@ RCS01XP13X	{
 Type:      TRcmp
 Name:      RCS01XP13X
 Number:    539
-Address:   0x0216
+Address:   0x0016
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  199.989	1.28449	
+ENGCoeff:  143.398	1.32134	
 }
 //====================================//
 
@@ -7009,12 +7009,12 @@ RCS01XP14X	{
 Type:      TRcmp
 Name:      RCS01XP14X
 Number:    540
-Address:   0x0227
+Address:   0x0027
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  160.443	1.30272	
+ENGCoeff:  162.662	1.30774	
 }
 //====================================//
 
@@ -7022,12 +7022,12 @@ RCS01XP15X	{
 Type:      TRcmp
 Name:      RCS01XP15X
 Number:    541
-Address:   0x0217
+Address:   0x0017
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  147.386	1.29213	
+ENGCoeff:  119.062	1.3002	
 }
 //====================================//
 
@@ -7035,7 +7035,7 @@ RCS01XP16X	{
 Type:      TRcmp
 Name:      RCS01XP16X
 Number:    542
-Address:   0x022f
+Address:   0x002f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7048,12 +7048,12 @@ RCS01XP17X	{
 Type:      TRcmp
 Name:      RCS01XP17X
 Number:    543
-Address:   0x021f
+Address:   0x001f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  166.335	1.23227	
+ENGCoeff:  147.185	1.30606	
 }
 //====================================//
 
@@ -7061,12 +7061,12 @@ RCS01XP18X	{
 Type:      TRcmp
 Name:      RCS01XP18X
 Number:    544
-Address:   0x022e
+Address:   0x002e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  212.759	1.29798	
+ENGCoeff:  148.917	1.28356	
 }
 //====================================//
 
@@ -7074,12 +7074,12 @@ RCS01XP19X	{
 Type:      TRcmp
 Name:      RCS01XP19X
 Number:    545
-Address:   0x021e
+Address:   0x001e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  157.657	1.40908	
+ENGCoeff:  162.603	1.2298	
 }
 //====================================//
 
@@ -7087,12 +7087,12 @@ RCS01XP20X	{
 Type:      TRcmp
 Name:      RCS01XP20X
 Number:    546
-Address:   0x022d
+Address:   0x002d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.51	1.30623	
+ENGCoeff:  143.22	1.33953	
 }
 //====================================//
 
@@ -7100,12 +7100,12 @@ RCS01XP21X	{
 Type:      TRcmp
 Name:      RCS01XP21X
 Number:    547
-Address:   0x021d
+Address:   0x001d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.091	1.28581	
+ENGCoeff:  150.253	1.40049	
 }
 //====================================//
 
@@ -7113,12 +7113,12 @@ RCS01XP22X	{
 Type:      TRcmp
 Name:      RCS01XP22X
 Number:    548
-Address:   0x022c
+Address:   0x002c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  165.115	1.29798	
+ENGCoeff:  146.328	1.25461	
 }
 //====================================//
 
@@ -7126,12 +7126,12 @@ RCS01XP23X	{
 Type:      TRcmp
 Name:      RCS01XP23X
 Number:    549
-Address:   0x021c
+Address:   0x001c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  138.999	1.50305	
+ENGCoeff:  171.334	1.27031	
 }
 //====================================//
 
@@ -7139,12 +7139,12 @@ RCS01XP24X	{
 Type:      TRcmp
 Name:      RCS01XP24X
 Number:    550
-Address:   0x022b
+Address:   0x002b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  146.707	1.34064	
+ENGCoeff:  150.458	1.35	
 }
 //====================================//
 
@@ -7152,12 +7152,12 @@ RCS01XP25X	{
 Type:      TRcmp
 Name:      RCS01XP25X
 Number:    551
-Address:   0x021b
+Address:   0x001b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.034	1.36372	
+ENGCoeff:  0	1	0	
 }
 //====================================//
 
@@ -7165,12 +7165,12 @@ RCS01XP26X	{
 Type:      TRcmp
 Name:      RCS01XP26X
 Number:    552
-Address:   0x022a
+Address:   0x002a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  169.995	1.26376	
+ENGCoeff:  170.11	1.2904	
 }
 //====================================//
 
@@ -7178,12 +7178,12 @@ RCS01XP27X	{
 Type:      TRcmp
 Name:      RCS01XP27X
 Number:    553
-Address:   0x021a
+Address:   0x001a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  179.716	1.28488	
+ENGCoeff:  177.385	1.31342	
 }
 //====================================//
 
@@ -7191,12 +7191,12 @@ RCS01XP28X	{
 Type:      TRcmp
 Name:      RCS01XP28X
 Number:    554
-Address:   0x0229
+Address:   0x0029
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  202.376	1.29096	
+ENGCoeff:  159.302	1.32158	
 }
 //====================================//
 
@@ -7204,12 +7204,12 @@ RCS01XP29X	{
 Type:      TRcmp
 Name:      RCS01XP29X
 Number:    555
-Address:   0x0219
+Address:   0x0019
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  205.751	1.30754	
+ENGCoeff:  169.502	1.2574	
 }
 //====================================//
 
@@ -7217,12 +7217,12 @@ RCS01XP30X	{
 Type:      TRcmp
 Name:      RCS01XP30X
 Number:    556
-Address:   0x0228
+Address:   0x0028
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  192.049	1.31579	
+ENGCoeff:  154.071	1.28501	
 }
 //====================================//
 
@@ -7230,12 +7230,12 @@ RCS01XP31X	{
 Type:      TRcmp
 Name:      RCS01XP31X
 Number:    557
-Address:   0x0218
+Address:   0x0018
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  202.274	1.32695	
+ENGCoeff:  228.028	1.29524	
 }
 //====================================//
 
@@ -7243,12 +7243,12 @@ RCS02XN00X	{
 Type:      TRcmp
 Name:      RCS02XN00X
 Number:    622
-Address:   0x0120
+Address:   0x0320
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  194.323	1.31055	
+ENGCoeff:  206.862	1.24263	
 }
 //====================================//
 
@@ -7256,12 +7256,12 @@ RCS02XN01X	{
 Type:      TRcmp
 Name:      RCS02XN01X
 Number:    623
-Address:   0x0110
+Address:   0x0310
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  165.213	1.29791	
+ENGCoeff:  200.959	1.34536	
 }
 //====================================//
 
@@ -7269,12 +7269,12 @@ RCS02XN02X	{
 Type:      TRcmp
 Name:      RCS02XN02X
 Number:    624
-Address:   0x0121
+Address:   0x0321
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  188.554	1.24592	
+ENGCoeff:  195.227	1.29599	
 }
 //====================================//
 
@@ -7282,12 +7282,12 @@ RCS02XN03X	{
 Type:      TRcmp
 Name:      RCS02XN03X
 Number:    625
-Address:   0x0111
+Address:   0x0311
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  180.04	1.28659	
+ENGCoeff:  196.517	1.3235	
 }
 //====================================//
 
@@ -7295,12 +7295,12 @@ RCS02XN04X	{
 Type:      TRcmp
 Name:      RCS02XN04X
 Number:    626
-Address:   0x0122
+Address:   0x0322
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  161.555	1.30227	
+ENGCoeff:  177.943	1.31103	
 }
 //====================================//
 
@@ -7308,12 +7308,12 @@ RCS02XN05X	{
 Type:      TRcmp
 Name:      RCS02XN05X
 Number:    627
-Address:   0x0112
+Address:   0x0312
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.189	1.2931	
+ENGCoeff:  167.191	1.34698	
 }
 //====================================//
 
@@ -7321,12 +7321,12 @@ RCS02XN06X	{
 Type:      TRcmp
 Name:      RCS02XN06X
 Number:    628
-Address:   0x0123
+Address:   0x0323
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  175.804	1.27607	
+ENGCoeff:  192.369	1.2714	
 }
 //====================================//
 
@@ -7334,12 +7334,12 @@ RCS02XN07X	{
 Type:      TRcmp
 Name:      RCS02XN07X
 Number:    629
-Address:   0x0113
+Address:   0x0313
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.764	1.27043	
+ENGCoeff:  163.594	1.30601	
 }
 //====================================//
 
@@ -7347,12 +7347,12 @@ RCS02XN08X	{
 Type:      TRcmp
 Name:      RCS02XN08X
 Number:    630
-Address:   0x0124
+Address:   0x0324
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  157.697	1.27883	
+ENGCoeff:  180.733	1.30394	
 }
 //====================================//
 
@@ -7360,12 +7360,12 @@ RCS02XN09X	{
 Type:      TRcmp
 Name:      RCS02XN09X
 Number:    631
-Address:   0x0114
+Address:   0x0314
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  167.006	1.31331	
+ENGCoeff:  211.005	1.27134	
 }
 //====================================//
 
@@ -7373,12 +7373,12 @@ RCS02XN10X	{
 Type:      TRcmp
 Name:      RCS02XN10X
 Number:    632
-Address:   0x0125
+Address:   0x0325
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.922	1.2637	
+ENGCoeff:  160.011	1.34468	
 }
 //====================================//
 
@@ -7386,12 +7386,12 @@ RCS02XN11X	{
 Type:      TRcmp
 Name:      RCS02XN11X
 Number:    633
-Address:   0x0115
+Address:   0x0315
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  147.457	1.30136	
+ENGCoeff:  164.843	1.21257	
 }
 //====================================//
 
@@ -7399,12 +7399,12 @@ RCS02XN12X	{
 Type:      TRcmp
 Name:      RCS02XN12X
 Number:    634
-Address:   0x0126
+Address:   0x0326
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  159.618	1.26139	
+ENGCoeff:  160.973	1.40897	
 }
 //====================================//
 
@@ -7412,12 +7412,12 @@ RCS02XN13X	{
 Type:      TRcmp
 Name:      RCS02XN13X
 Number:    635
-Address:   0x0116
+Address:   0x0316
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  182.915	1.33829	
+ENGCoeff:  176.23	1.2907	
 }
 //====================================//
 
@@ -7425,12 +7425,12 @@ RCS02XN14X	{
 Type:      TRcmp
 Name:      RCS02XN14X
 Number:    636
-Address:   0x0127
+Address:   0x0327
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  151.6	1.30441	
+ENGCoeff:  187.663	1.32674	
 }
 //====================================//
 
@@ -7438,12 +7438,12 @@ RCS02XN15X	{
 Type:      TRcmp
 Name:      RCS02XN15X
 Number:    637
-Address:   0x0117
+Address:   0x0317
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  167.584	1.32926	
+ENGCoeff:  167.008	1.25184	
 }
 //====================================//
 
@@ -7451,12 +7451,12 @@ RCS02XN16X	{
 Type:      TRcmp
 Name:      RCS02XN16X
 Number:    638
-Address:   0x012f
+Address:   0x032f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  152.071	1.29707	
+ENGCoeff:  181.586	1.35794	
 }
 //====================================//
 
@@ -7464,12 +7464,12 @@ RCS02XN17X	{
 Type:      TRcmp
 Name:      RCS02XN17X
 Number:    639
-Address:   0x011f
+Address:   0x031f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.014	1.32006	
+ENGCoeff:  158.804	1.37236	
 }
 //====================================//
 
@@ -7477,12 +7477,12 @@ RCS02XN18X	{
 Type:      TRcmp
 Name:      RCS02XN18X
 Number:    640
-Address:   0x012e
+Address:   0x032e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  164.433	1.27388	
+ENGCoeff:  158.344	1.39922	
 }
 //====================================//
 
@@ -7490,12 +7490,12 @@ RCS02XN19X	{
 Type:      TRcmp
 Name:      RCS02XN19X
 Number:    641
-Address:   0x011e
+Address:   0x031e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  145.051	1.29347	
+ENGCoeff:  156.788	1.35617	
 }
 //====================================//
 
@@ -7503,12 +7503,12 @@ RCS02XN20X	{
 Type:      TRcmp
 Name:      RCS02XN20X
 Number:    642
-Address:   0x012d
+Address:   0x032d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  166.492	1.30305	
+ENGCoeff:  174.045	1.31155	
 }
 //====================================//
 
@@ -7516,12 +7516,12 @@ RCS02XN21X	{
 Type:      TRcmp
 Name:      RCS02XN21X
 Number:    643
-Address:   0x011d
+Address:   0x031d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  160.809	1.33748	
+ENGCoeff:  163.495	1.2957	
 }
 //====================================//
 
@@ -7529,12 +7529,12 @@ RCS02XN22X	{
 Type:      TRcmp
 Name:      RCS02XN22X
 Number:    644
-Address:   0x012c
+Address:   0x032c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  179.116	1.33975	
+ENGCoeff:  178.082	1.37222	
 }
 //====================================//
 
@@ -7542,12 +7542,12 @@ RCS02XN23X	{
 Type:      TRcmp
 Name:      RCS02XN23X
 Number:    645
-Address:   0x011c
+Address:   0x031c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.537	1.27078	
+ENGCoeff:  182.24	1.3151	
 }
 //====================================//
 
@@ -7555,12 +7555,12 @@ RCS02XN24X	{
 Type:      TRcmp
 Name:      RCS02XN24X
 Number:    646
-Address:   0x012b
+Address:   0x032b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  189.184	1.28708	
+ENGCoeff:  183.887	1.27952	
 }
 //====================================//
 
@@ -7568,12 +7568,12 @@ RCS02XN25X	{
 Type:      TRcmp
 Name:      RCS02XN25X
 Number:    647
-Address:   0x011b
+Address:   0x031b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  189.184	1.28708	
+ENGCoeff:  182.521	1.26027	
 }
 //====================================//
 
@@ -7581,12 +7581,12 @@ RCS02XN26X	{
 Type:      TRcmp
 Name:      RCS02XN26X
 Number:    648
-Address:   0x012a
+Address:   0x032a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  189.541	1.2362	
+ENGCoeff:  192.088	1.31598	
 }
 //====================================//
 
@@ -7594,12 +7594,12 @@ RCS02XN27X	{
 Type:      TRcmp
 Name:      RCS02XN27X
 Number:    649
-Address:   0x011a
+Address:   0x031a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  193.823	1.28777	
+ENGCoeff:  188.185	1.30597	
 }
 //====================================//
 
@@ -7607,12 +7607,12 @@ RCS02XN28X	{
 Type:      TRcmp
 Name:      RCS02XN28X
 Number:    650
-Address:   0x0129
+Address:   0x0329
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  214.928	1.29253	
+ENGCoeff:  187.156	1.22513	
 }
 //====================================//
 
@@ -7620,12 +7620,12 @@ RCS02XN29X	{
 Type:      TRcmp
 Name:      RCS02XN29X
 Number:    651
-Address:   0x0119
+Address:   0x0319
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  198.017	1.28883	
+ENGCoeff:  186.063	1.27514	
 }
 //====================================//
 
@@ -7633,12 +7633,12 @@ RCS02XN30X	{
 Type:      TRcmp
 Name:      RCS02XN30X
 Number:    652
-Address:   0x0128
+Address:   0x0328
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  194.832	1.33572	
+ENGCoeff:  180.964	1.34002	
 }
 //====================================//
 
@@ -7646,12 +7646,12 @@ RCS02XN31X	{
 Type:      TRcmp
 Name:      RCS02XN31X
 Number:    653
-Address:   0x0118
+Address:   0x0318
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  181.152	1.30648	
+ENGCoeff:  0	1	0	
 }
 //====================================//
 
@@ -7659,12 +7659,12 @@ RCS02XP00X	{
 Type:      TRcmp
 Name:      RCS02XP00X
 Number:    590
-Address:   0x0020
+Address:   0x0220
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  186.212	1.33017	
+ENGCoeff:  215.801	1.23977	
 }
 //====================================//
 
@@ -7672,12 +7672,12 @@ RCS02XP01X	{
 Type:      TRcmp
 Name:      RCS02XP01X
 Number:    591
-Address:   0x0010
+Address:   0x0210
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  188.187	1.39542	
+ENGCoeff:  142.127	1.31773	
 }
 //====================================//
 
@@ -7685,12 +7685,12 @@ RCS02XP02X	{
 Type:      TRcmp
 Name:      RCS02XP02X
 Number:    592
-Address:   0x0021
+Address:   0x0221
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  183.995	1.23238	
+ENGCoeff:  226.688	1.29927	
 }
 //====================================//
 
@@ -7698,12 +7698,12 @@ RCS02XP03X	{
 Type:      TRcmp
 Name:      RCS02XP03X
 Number:    593
-Address:   0x0011
+Address:   0x0211
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  183.349	1.30364	
+ENGCoeff:  213.524	1.30894	
 }
 //====================================//
 
@@ -7711,12 +7711,12 @@ RCS02XP04X	{
 Type:      TRcmp
 Name:      RCS02XP04X
 Number:    594
-Address:   0x0022
+Address:   0x0222
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  178.742	1.31843	
+ENGCoeff:  207.762	1.36191	
 }
 //====================================//
 
@@ -7724,12 +7724,12 @@ RCS02XP05X	{
 Type:      TRcmp
 Name:      RCS02XP05X
 Number:    595
-Address:   0x0012
+Address:   0x0212
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  168.163	1.29354	
+ENGCoeff:  210.373	1.29522	
 }
 //====================================//
 
@@ -7737,12 +7737,12 @@ RCS02XP06X	{
 Type:      TRcmp
 Name:      RCS02XP06X
 Number:    596
-Address:   0x0023
+Address:   0x0223
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  165.12	1.32365	
+ENGCoeff:  228.352	1.26173	
 }
 //====================================//
 
@@ -7750,7 +7750,7 @@ RCS02XP07X	{
 Type:      TRcmp
 Name:      RCS02XP07X
 Number:    597
-Address:   0x0013
+Address:   0x0213
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7763,12 +7763,12 @@ RCS02XP08X	{
 Type:      TRcmp
 Name:      RCS02XP08X
 Number:    598
-Address:   0x0024
+Address:   0x0224
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  156.887	1.29442	
+ENGCoeff:  182.786	1.3246	
 }
 //====================================//
 
@@ -7776,7 +7776,7 @@ RCS02XP09X	{
 Type:      TRcmp
 Name:      RCS02XP09X
 Number:    599
-Address:   0x0014
+Address:   0x0214
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7789,12 +7789,12 @@ RCS02XP10X	{
 Type:      TRcmp
 Name:      RCS02XP10X
 Number:    600
-Address:   0x0025
+Address:   0x0225
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  154.026	1.3093	
+ENGCoeff:  198.729	1.31569	
 }
 //====================================//
 
@@ -7802,12 +7802,12 @@ RCS02XP11X	{
 Type:      TRcmp
 Name:      RCS02XP11X
 Number:    601
-Address:   0x0015
+Address:   0x0215
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  154.706	1.3308	
+ENGCoeff:  169.237	1.30693	
 }
 //====================================//
 
@@ -7815,12 +7815,12 @@ RCS02XP12X	{
 Type:      TRcmp
 Name:      RCS02XP12X
 Number:    602
-Address:   0x0026
+Address:   0x0226
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  182.213	1.28703	
+ENGCoeff:  167.398	1.35597	
 }
 //====================================//
 
@@ -7828,12 +7828,12 @@ RCS02XP13X	{
 Type:      TRcmp
 Name:      RCS02XP13X
 Number:    603
-Address:   0x0016
+Address:   0x0216
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  152.186	1.31973	
+ENGCoeff:  202.299	1.28318	
 }
 //====================================//
 
@@ -7841,12 +7841,12 @@ RCS02XP14X	{
 Type:      TRcmp
 Name:      RCS02XP14X
 Number:    604
-Address:   0x0027
+Address:   0x0227
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  158.241	1.30947	
+ENGCoeff:  162.036	1.30172	
 }
 //====================================//
 
@@ -7854,12 +7854,12 @@ RCS02XP15X	{
 Type:      TRcmp
 Name:      RCS02XP15X
 Number:    605
-Address:   0x0017
+Address:   0x0217
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  127.779	1.29871	
+ENGCoeff:  144.718	1.29208	
 }
 //====================================//
 
@@ -7867,12 +7867,12 @@ RCS02XP16X	{
 Type:      TRcmp
 Name:      RCS02XP16X
 Number:    606
-Address:   0x002f
+Address:   0x022f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  164.325	1.34109	
+ENGCoeff:  190.968	1.35464	
 }
 //====================================//
 
@@ -7880,12 +7880,12 @@ RCS02XP17X	{
 Type:      TRcmp
 Name:      RCS02XP17X
 Number:    607
-Address:   0x001f
+Address:   0x021f
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  156.662	1.30432	
+ENGCoeff:  165.413	1.23185	
 }
 //====================================//
 
@@ -7893,12 +7893,12 @@ RCS02XP18X	{
 Type:      TRcmp
 Name:      RCS02XP18X
 Number:    608
-Address:   0x002e
+Address:   0x022e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  156.353	1.28232	
+ENGCoeff:  229.441	1.29335	
 }
 //====================================//
 
@@ -7906,12 +7906,12 @@ RCS02XP19X	{
 Type:      TRcmp
 Name:      RCS02XP19X
 Number:    609
-Address:   0x001e
+Address:   0x021e
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  165.659	1.22964	
+ENGCoeff:  161.988	1.40712	
 }
 //====================================//
 
@@ -7919,12 +7919,12 @@ RCS02XP20X	{
 Type:      TRcmp
 Name:      RCS02XP20X
 Number:    610
-Address:   0x002d
+Address:   0x022d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  145.351	1.3397	
+ENGCoeff:  172.005	1.30628	
 }
 //====================================//
 
@@ -7932,12 +7932,12 @@ RCS02XP21X	{
 Type:      TRcmp
 Name:      RCS02XP21X
 Number:    611
-Address:   0x001d
+Address:   0x021d
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  150.243	1.40123	
+ENGCoeff:  167.477	1.28605	
 }
 //====================================//
 
@@ -7945,12 +7945,12 @@ RCS02XP22X	{
 Type:      TRcmp
 Name:      RCS02XP22X
 Number:    612
-Address:   0x002c
+Address:   0x022c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  154.336	1.25324	
+ENGCoeff:  164.872	1.29746	
 }
 //====================================//
 
@@ -7958,7 +7958,7 @@ RCS02XP23X	{
 Type:      TRcmp
 Name:      RCS02XP23X
 Number:    613
-Address:   0x001c
+Address:   0x021c
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7971,12 +7971,12 @@ RCS02XP24X	{
 Type:      TRcmp
 Name:      RCS02XP24X
 Number:    614
-Address:   0x002b
+Address:   0x022b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  156.444	1.34916	
+ENGCoeff:  141.391	1.34136	
 }
 //====================================//
 
@@ -7984,7 +7984,7 @@ RCS02XP25X	{
 Type:      TRcmp
 Name:      RCS02XP25X
 Number:    615
-Address:   0x001b
+Address:   0x021b
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
@@ -7997,12 +7997,12 @@ RCS02XP26X	{
 Type:      TRcmp
 Name:      RCS02XP26X
 Number:    616
-Address:   0x002a
+Address:   0x022a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.122	1.28997	
+ENGCoeff:  165.775	1.26432	
 }
 //====================================//
 
@@ -8010,12 +8010,12 @@ RCS02XP27X	{
 Type:      TRcmp
 Name:      RCS02XP27X
 Number:    617
-Address:   0x001a
+Address:   0x021a
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.605	1.31478	
+ENGCoeff:  187.064	1.28246	
 }
 //====================================//
 
@@ -8023,12 +8023,12 @@ RCS02XP28X	{
 Type:      TRcmp
 Name:      RCS02XP28X
 Number:    618
-Address:   0x0029
+Address:   0x0229
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  164.64	1.32081	
+ENGCoeff:  195.952	1.29193	
 }
 //====================================//
 
@@ -8036,12 +8036,12 @@ RCS02XP29X	{
 Type:      TRcmp
 Name:      RCS02XP29X
 Number:    619
-Address:   0x0019
+Address:   0x0219
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  181.674	1.25503	
+ENGCoeff:  204.466	1.30721	
 }
 //====================================//
 
@@ -8049,12 +8049,12 @@ RCS02XP30X	{
 Type:      TRcmp
 Name:      RCS02XP30X
 Number:    620
-Address:   0x0028
+Address:   0x0228
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  164.54	1.28315	
+ENGCoeff:  199.556	1.31322	
 }
 //====================================//
 
@@ -8062,12 +8062,12 @@ RCS02XP31X	{
 Type:      TRcmp
 Name:      RCS02XP31X
 Number:    621
-Address:   0x0018
+Address:   0x0218
 Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  185.402	1.30618	
+ENGCoeff:  185.63	1.33216	
 }
 //====================================//
 
@@ -8080,7 +8080,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  211.169	1.55281	
+ENGCoeff:  216.55	1.55129	
 }
 //====================================//
 
@@ -8093,7 +8093,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  222.85	1.6182	
+ENGCoeff:  205.998	1.62424	
 }
 //====================================//
 
@@ -8106,7 +8106,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  181.472	1.56056	
+ENGCoeff:  181.718	1.56062	
 }
 //====================================//
 
@@ -8119,7 +8119,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  216.267	1.58017	
+ENGCoeff:  205.731	1.58347	
 }
 //====================================//
 
@@ -8132,7 +8132,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  152.088	1.67018	
+ENGCoeff:  159.135	1.66824	
 }
 //====================================//
 
@@ -8145,7 +8145,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  210.667	1.62192	
+ENGCoeff:  203.903	1.62409	
 }
 //====================================//
 
@@ -8158,7 +8158,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  163.526	1.62145	
+ENGCoeff:  163.499	1.62146	
 }
 //====================================//
 
@@ -8171,7 +8171,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  200.25	1.56106	
+ENGCoeff:  200.417	1.56101	
 }
 //====================================//
 
@@ -8184,7 +8184,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.348	1.60251	
+ENGCoeff:  186.252	1.59905	
 }
 //====================================//
 
@@ -8197,7 +8197,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  229.606	1.67489	
+ENGCoeff:  215.14	1.67971	
 }
 //====================================//
 
@@ -8210,7 +8210,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  161.724	1.65522	
+ENGCoeff:  162.018	1.65525	
 }
 //====================================//
 
@@ -8223,7 +8223,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.706	1.58783	
+ENGCoeff:  174.841	1.58779	
 }
 //====================================//
 
@@ -8236,7 +8236,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  208.59	1.57432	
+ENGCoeff:  208.633	1.57431	
 }
 //====================================//
 
@@ -8249,7 +8249,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  231.274	1.55532	
+ENGCoeff:  231.122	1.55536	
 }
 //====================================//
 
@@ -8262,7 +8262,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  210.493	1.58628	
+ENGCoeff:  210.503	1.58627	
 }
 //====================================//
 
@@ -8275,7 +8275,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  192.762	1.53094	
+ENGCoeff:  192.761	1.53094	
 }
 //====================================//
 
@@ -8288,7 +8288,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  163.92	1.63087	
+ENGCoeff:  180.994	1.62605	
 }
 //====================================//
 
@@ -8301,7 +8301,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  219.991	1.62114	
+ENGCoeff:  208.348	1.62494	
 }
 //====================================//
 
@@ -8314,7 +8314,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  185.669	1.65802	
+ENGCoeff:  185.663	1.65803	
 }
 //====================================//
 
@@ -8327,7 +8327,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  214.573	1.6227	
+ENGCoeff:  204.772	1.62585	
 }
 //====================================//
 
@@ -8340,7 +8340,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  169.647	1.59771	
+ENGCoeff:  175.87	1.59612	
 }
 //====================================//
 
@@ -8353,7 +8353,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  233.427	1.58959	
+ENGCoeff:  221.242	1.59353	
 }
 //====================================//
 
@@ -8366,7 +8366,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  194.975	1.63028	
+ENGCoeff:  195.006	1.63027	
 }
 //====================================//
 
@@ -8379,7 +8379,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  126.161	1.6499	
+ENGCoeff:  141.012	1.6455	
 }
 //====================================//
 
@@ -8392,7 +8392,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  202.11	1.54402	
+ENGCoeff:  187.27	1.54855	
 }
 //====================================//
 
@@ -8405,7 +8405,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.673	1.6479	
+ENGCoeff:  175.466	1.64677	
 }
 //====================================//
 
@@ -8418,7 +8418,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.452	1.70578	
+ENGCoeff:  163.666	1.70951	
 }
 //====================================//
 
@@ -8431,7 +8431,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  134.565	1.64189	
+ENGCoeff:  134.599	1.64188	
 }
 //====================================//
 
@@ -8444,7 +8444,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  199.304	1.63469	
+ENGCoeff:  195.492	1.63603	
 }
 //====================================//
 
@@ -8457,7 +8457,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  199.704	1.58957	
+ENGCoeff:  199.716	1.58957	
 }
 //====================================//
 
@@ -8470,7 +8470,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  195.746	1.56104	
+ENGCoeff:  195.795	1.56103	
 }
 //====================================//
 
@@ -8483,7 +8483,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  207.601	1.58783	
+ENGCoeff:  206.417	1.58837	
 }
 //====================================//
 
@@ -8496,7 +8496,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  199.717	1.5909	
+ENGCoeff:  205.334	1.5886	
 }
 //====================================//
 
@@ -8509,7 +8509,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  142.002	1.59583	
+ENGCoeff:  214.722	1.57464	
 }
 //====================================//
 
@@ -8522,7 +8522,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  198.98	1.67174	
+ENGCoeff:  207.942	1.6682	
 }
 //====================================//
 
@@ -8535,7 +8535,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  192.993	1.61894	
+ENGCoeff:  204.715	1.61467	
 }
 //====================================//
 
@@ -8548,7 +8548,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  192.283	1.59655	
+ENGCoeff:  193.841	1.59553	
 }
 //====================================//
 
@@ -8561,7 +8561,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  186.962	1.54551	
+ENGCoeff:  188.206	1.54469	
 }
 //====================================//
 
@@ -8574,7 +8574,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  182.84	1.62202	
+ENGCoeff:  191.364	1.61876	
 }
 //====================================//
 
@@ -8587,7 +8587,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  206.939	1.6079	
+ENGCoeff:  212.71	1.60547	
 }
 //====================================//
 
@@ -8613,7 +8613,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  168.14	1.56391	
+ENGCoeff:  177.768	1.56053	
 }
 //====================================//
 
@@ -8626,7 +8626,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  184.956	1.65646	
+ENGCoeff:  187.464	1.65448	
 }
 //====================================//
 
@@ -8639,7 +8639,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  188.524	1.62429	
+ENGCoeff:  197.032	1.62058	
 }
 //====================================//
 
@@ -8652,7 +8652,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  204.218	1.60205	
+ENGCoeff:  211.845	1.59892	
 }
 //====================================//
 
@@ -8665,7 +8665,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  183.362	1.67333	
+ENGCoeff:  185.646	1.67132	
 }
 //====================================//
 
@@ -8678,7 +8678,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  199.031	1.59341	
+ENGCoeff:  206.359	1.59041	
 }
 //====================================//
 
@@ -8691,7 +8691,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  199.522	1.53373	
+ENGCoeff:  208.646	1.53024	
 }
 //====================================//
 
@@ -8704,7 +8704,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  228.246	1.55396	
+ENGCoeff:  228.08	1.55366	
 }
 //====================================//
 
@@ -8730,7 +8730,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  194.285	1.57669	
+ENGCoeff:  208.81	1.57159	
 }
 //====================================//
 
@@ -8743,7 +8743,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  207.522	1.57337	
+ENGCoeff:  213.155	1.57091	
 }
 //====================================//
 
@@ -8756,7 +8756,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  187.843	1.63716	
+ENGCoeff:  200.576	1.63213	
 }
 //====================================//
 
@@ -8769,7 +8769,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  234.103	1.57598	
+ENGCoeff:  247.089	1.5711	
 }
 //====================================//
 
@@ -8782,7 +8782,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  187.15	1.59976	
+ENGCoeff:  194.523	1.59679	
 }
 //====================================//
 
@@ -8795,7 +8795,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  204.211	1.51822	
+ENGCoeff:  200.046	1.51847	
 }
 //====================================//
 
@@ -8808,7 +8808,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  202.364	1.58805	
+ENGCoeff:  207.213	1.58596	
 }
 //====================================//
 
@@ -8821,7 +8821,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  208.094	1.60918	
+ENGCoeff:  215.267	1.60617	
 }
 //====================================//
 
@@ -8834,7 +8834,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  196.505	1.54091	
+ENGCoeff:  208.875	1.5367	
 }
 //====================================//
 
@@ -8847,7 +8847,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.505	1.58034	
+ENGCoeff:  217.242	1.56646	
 }
 //====================================//
 
@@ -8860,7 +8860,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  208.015	1.61543	
+ENGCoeff:  216.869	1.61192	
 }
 //====================================//
 
@@ -8873,7 +8873,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  203.48	1.52945	
+ENGCoeff:  212.678	1.52621	
 }
 //====================================//
 
@@ -8886,7 +8886,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  206.895	1.65777	
+ENGCoeff:  246.09	1.64481	
 }
 //====================================//
 
@@ -8899,7 +8899,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  204.314	1.63609	
+ENGCoeff:  215.768	1.63162	
 }
 //====================================//
 
@@ -8912,7 +8912,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  193.885	1.64907	
+ENGCoeff:  193.812	1.64909	
 }
 //====================================//
 
@@ -8925,7 +8925,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  209.081	1.62609	
+ENGCoeff:  209.073	1.62609	
 }
 //====================================//
 
@@ -8938,7 +8938,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  173.539	1.62779	
+ENGCoeff:  181.178	1.62578	
 }
 //====================================//
 
@@ -8951,7 +8951,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  202.613	1.62617	
+ENGCoeff:  202.658	1.62615	
 }
 //====================================//
 
@@ -8964,7 +8964,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  197.545	1.63724	
+ENGCoeff:  204.669	1.63511	
 }
 //====================================//
 
@@ -8977,7 +8977,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  195.242	1.63365	
+ENGCoeff:  198.841	1.63259	
 }
 //====================================//
 
@@ -8990,7 +8990,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  176.593	1.59302	
+ENGCoeff:  176.627	1.59301	
 }
 //====================================//
 
@@ -9003,7 +9003,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  176.556	1.56351	
+ENGCoeff:  184.831	1.56127	
 }
 //====================================//
 
@@ -9016,7 +9016,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  186.419	1.57262	
+ENGCoeff:  189.566	1.57194	
 }
 //====================================//
 
@@ -9029,7 +9029,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  177.448	1.58332	
+ENGCoeff:  187.385	1.58047	
 }
 //====================================//
 
@@ -9042,7 +9042,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  176.09	1.58874	
+ENGCoeff:  176.044	1.58875	
 }
 //====================================//
 
@@ -9055,7 +9055,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  178.275	1.51705	
+ENGCoeff:  166.469	1.52057	
 }
 //====================================//
 
@@ -9068,7 +9068,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  168.185	1.61281	
+ENGCoeff:  171.029	1.61198	
 }
 //====================================//
 
@@ -9081,7 +9081,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  181.96	1.52768	
+ENGCoeff:  189.516	1.52558	
 }
 //====================================//
 
@@ -9094,7 +9094,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  186.243	1.5982	
+ENGCoeff:  186.185	1.59822	
 }
 //====================================//
 
@@ -9107,7 +9107,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.845	1.56759	
+ENGCoeff:  174.873	1.56758	
 }
 //====================================//
 
@@ -9120,7 +9120,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  186.251	1.5794	
+ENGCoeff:  179.525	1.58157	
 }
 //====================================//
 
@@ -9146,7 +9146,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  209.967	1.57653	
+ENGCoeff:  200.934	1.57935	
 }
 //====================================//
 
@@ -9159,7 +9159,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  201.411	1.55105	
+ENGCoeff:  196.577	1.55253	
 }
 //====================================//
 
@@ -9172,7 +9172,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  208.714	1.61237	
+ENGCoeff:  215.341	1.61042	
 }
 //====================================//
 
@@ -9185,7 +9185,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  213.518	1.56975	
+ENGCoeff:  220.607	1.56772	
 }
 //====================================//
 
@@ -9198,7 +9198,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  186.863	1.57743	
+ENGCoeff:  186.908	1.57741	
 }
 //====================================//
 
@@ -9211,7 +9211,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  200.112	1.57574	
+ENGCoeff:  193.75	1.57772	
 }
 //====================================//
 
@@ -9224,7 +9224,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  178.44	1.63704	
+ENGCoeff:  204.16	1.62942	
 }
 //====================================//
 
@@ -9237,7 +9237,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  153.669	1.60513	
+ENGCoeff:  173.521	1.59938	
 }
 //====================================//
 
@@ -9250,7 +9250,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  155.932	1.62093	
+ENGCoeff:  172.747	1.61601	
 }
 //====================================//
 
@@ -9276,7 +9276,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  222.495	1.58449	
+ENGCoeff:  222.52	1.58448	
 }
 //====================================//
 
@@ -9289,7 +9289,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  168.971	1.65645	
+ENGCoeff:  168.918	1.65647	
 }
 //====================================//
 
@@ -9302,7 +9302,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  189.342	1.62641	
+ENGCoeff:  183.383	1.62836	
 }
 //====================================//
 
@@ -9315,7 +9315,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  183.081	1.65613	
+ENGCoeff:  183.162	1.65611	
 }
 //====================================//
 
@@ -9328,7 +9328,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  155.599	1.36926	
+ENGCoeff:  246.914	1.34518	
 }
 //====================================//
 
@@ -9341,7 +9341,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  200.622	1.34934	
+ENGCoeff:  194.725	1.35015	
 }
 //====================================//
 
@@ -9354,7 +9354,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  212.325	1.30193	
+ENGCoeff:  213.582	1.30087	
 }
 //====================================//
 
@@ -9367,7 +9367,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  194.24	1.25955	
+ENGCoeff:  195.456	1.25856	
 }
 //====================================//
 
@@ -9380,7 +9380,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  166.355	1.31308	
+ENGCoeff:  198.717	1.30397	
 }
 //====================================//
 
@@ -9393,7 +9393,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.459	1.35124	
+ENGCoeff:  172.139	1.35075	
 }
 //====================================//
 
@@ -9406,7 +9406,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  182.979	1.27357	
+ENGCoeff:  181.982	1.2725	
 }
 //====================================//
 
@@ -9419,7 +9419,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  173.55	1.36844	
+ENGCoeff:  187.551	1.36356	
 }
 //====================================//
 
@@ -9432,7 +9432,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  210.135	1.2988	
+ENGCoeff:  210.769	1.29764	
 }
 //====================================//
 
@@ -9445,7 +9445,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  185.042	1.40948	
+ENGCoeff:  200.782	1.40417	
 }
 //====================================//
 
@@ -9458,7 +9458,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  204.591	1.30896	
+ENGCoeff:  213.753	1.30597	
 }
 //====================================//
 
@@ -9471,7 +9471,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  200.615	1.25711	
+ENGCoeff:  203.271	1.25586	
 }
 //====================================//
 
@@ -9484,7 +9484,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  190.275	1.34202	
+ENGCoeff:  191.343	1.34112	
 }
 //====================================//
 
@@ -9497,7 +9497,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  198.356	1.3548	
+ENGCoeff:  202.274	1.35308	
 }
 //====================================//
 
@@ -9510,7 +9510,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  193.532	1.28882	
+ENGCoeff:  185.406	1.29022	
 }
 //====================================//
 
@@ -9523,7 +9523,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  176.342	1.30225	
+ENGCoeff:  181.221	1.30034	
 }
 //====================================//
 
@@ -9536,7 +9536,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  181.386	1.31509	
+ENGCoeff:  182.133	1.31422	
 }
 //====================================//
 
@@ -9549,7 +9549,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  167.646	1.29904	
+ENGCoeff:  169.348	1.29797	
 }
 //====================================//
 
@@ -9562,7 +9562,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  185.77	1.30349	
+ENGCoeff:  188.477	1.30201	
 }
 //====================================//
 
@@ -9575,7 +9575,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  181.582	1.28128	
+ENGCoeff:  186.702	1.27933	
 }
 //====================================//
 
@@ -9588,7 +9588,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  184.238	1.2867	
+ENGCoeff:  191.733	1.28409	
 }
 //====================================//
 
@@ -9601,7 +9601,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  198.284	1.3405	
+ENGCoeff:  202.386	1.33862	
 }
 //====================================//
 
@@ -9614,7 +9614,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  184.104	1.28517	
+ENGCoeff:  178.498	1.28581	
 }
 //====================================//
 
@@ -9627,7 +9627,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  183.364	1.335	
+ENGCoeff:  186.533	1.33336	
 }
 //====================================//
 
@@ -9640,7 +9640,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  184.765	1.27281	
+ENGCoeff:  181.842	1.27268	
 }
 //====================================//
 
@@ -9653,7 +9653,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  222.713	1.30688	
+ENGCoeff:  219.34	1.30693	
 }
 //====================================//
 
@@ -9666,7 +9666,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  198.909	1.38235	
+ENGCoeff:  202.335	1.38051	
 }
 //====================================//
 
@@ -9679,7 +9679,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.355	1.28516	
+ENGCoeff:  178.54	1.28267	
 }
 //====================================//
 
@@ -9692,7 +9692,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  201.162	1.34124	
+ENGCoeff:  203.86	1.33966	
 }
 //====================================//
 
@@ -9705,7 +9705,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  221.242	1.29683	
+ENGCoeff:  217.287	1.29706	
 }
 //====================================//
 
@@ -9718,7 +9718,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  199.803	1.27712	
+ENGCoeff:  205.146	1.27499	
 }
 //====================================//
 
@@ -9731,7 +9731,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  235.314	1.29975	
+ENGCoeff:  244.988	1.29778	
 }
 //====================================//
 
@@ -9744,7 +9744,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  190.768	1.31331	
+ENGCoeff:  190.808	1.31332	
 }
 //====================================//
 
@@ -9757,7 +9757,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  206.631	1.32372	
+ENGCoeff:  203.702	1.32451	
 }
 //====================================//
 
@@ -9770,7 +9770,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  223.078	1.22486	
+ENGCoeff:  219.181	1.22581	
 }
 //====================================//
 
@@ -9783,7 +9783,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  197.685	1.28407	
+ENGCoeff:  197.689	1.28407	
 }
 //====================================//
 
@@ -9796,7 +9796,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  223.366	1.2672	
+ENGCoeff:  222.811	1.26738	
 }
 //====================================//
 
@@ -9809,7 +9809,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  181.503	1.30626	
+ENGCoeff:  177.398	1.30749	
 }
 //====================================//
 
@@ -9822,7 +9822,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  167.873	1.21224	
+ENGCoeff:  167.883	1.21224	
 }
 //====================================//
 
@@ -9835,7 +9835,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.339	1.27469	
+ENGCoeff:  174.349	1.27468	
 }
 //====================================//
 
@@ -9848,7 +9848,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  144.664	1.25356	
+ENGCoeff:  144.97	1.25358	
 }
 //====================================//
 
@@ -9861,7 +9861,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  165.599	1.32891	
+ENGCoeff:  165.764	1.32894	
 }
 //====================================//
 
@@ -9874,7 +9874,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  168.766	1.30102	
+ENGCoeff:  168.846	1.30104	
 }
 //====================================//
 
@@ -9887,7 +9887,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  182.135	1.29178	
+ENGCoeff:  176.596	1.29319	
 }
 //====================================//
 
@@ -9900,7 +9900,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  172.07	1.34577	
+ENGCoeff:  172.072	1.34577	
 }
 //====================================//
 
@@ -9913,7 +9913,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  153.505	1.3288	
+ENGCoeff:  165.748	1.32593	
 }
 //====================================//
 
@@ -9926,7 +9926,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  164.391	1.28842	
+ENGCoeff:  164.39	1.28842	
 }
 //====================================//
 
@@ -9952,7 +9952,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  160.063	1.29605	
+ENGCoeff:  160.068	1.29605	
 }
 //====================================//
 
@@ -9965,7 +9965,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.054	1.38013	
+ENGCoeff:  174.058	1.38013	
 }
 //====================================//
 
@@ -9978,7 +9978,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  168.159	1.29324	
+ENGCoeff:  168.258	1.29326	
 }
 //====================================//
 
@@ -9991,7 +9991,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  116.557	1.34144	
+ENGCoeff:  113.462	1.34225	
 }
 //====================================//
 
@@ -10004,7 +10004,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  162.861	1.31802	
+ENGCoeff:  173.897	1.31545	
 }
 //====================================//
 
@@ -10017,7 +10017,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  144.831	1.30705	
+ENGCoeff:  144.837	1.30705	
 }
 //====================================//
 
@@ -10030,7 +10030,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  162.367	1.35077	
+ENGCoeff:  154.53	1.35284	
 }
 //====================================//
 
@@ -10043,7 +10043,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  179.426	1.33525	
+ENGCoeff:  176.58	1.336	
 }
 //====================================//
 
@@ -10056,7 +10056,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  172.67	1.31645	
+ENGCoeff:  172.673	1.31645	
 }
 //====================================//
 
@@ -10069,7 +10069,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  178.857	1.3118	
+ENGCoeff:  169.234	1.31428	
 }
 //====================================//
 
@@ -10082,7 +10082,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  181.901	1.3241	
+ENGCoeff:  184.291	1.32352	
 }
 //====================================//
 
@@ -10095,7 +10095,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  177.27	1.37942	
+ENGCoeff:  177.279	1.37942	
 }
 //====================================//
 
@@ -10108,7 +10108,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  170.081	1.32713	
+ENGCoeff:  170.089	1.32712	
 }
 //====================================//
 
@@ -10121,7 +10121,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  174.75	1.33007	
+ENGCoeff:  174.745	1.33007	
 }
 //====================================//
 
@@ -10134,7 +10134,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  200.703	1.34299	
+ENGCoeff:  200.707	1.34298	
 }
 //====================================//
 
@@ -10147,7 +10147,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  188.047	1.30176	
+ENGCoeff:  188.065	1.30175	
 }
 //====================================//
 
@@ -10160,7 +10160,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  235.032	1.25957	
+ENGCoeff:  264.163	1.25219	
 }
 //====================================//
 
@@ -10173,7 +10173,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  196.851	1.28825	
+ENGCoeff:  205.224	1.28558	
 }
 //====================================//
 
@@ -10186,7 +10186,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  195.327	1.29463	
+ENGCoeff:  199.471	1.29294	
 }
 //====================================//
 
@@ -10199,7 +10199,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  188.326	1.21977	
+ENGCoeff:  188.979	1.21899	
 }
 //====================================//
 
@@ -10212,7 +10212,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  179.699	1.36471	
+ENGCoeff:  173.384	1.36565	
 }
 //====================================//
 
@@ -10225,7 +10225,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  180.624	1.36456	
+ENGCoeff:  188.868	1.36174	
 }
 //====================================//
 
@@ -10251,7 +10251,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  155.262	1.25407	
+ENGCoeff:  153.061	1.25417	
 }
 //====================================//
 
@@ -10264,7 +10264,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  154.099	1.3525	
+ENGCoeff:  157.458	1.35121	
 }
 //====================================//
 
@@ -10277,7 +10277,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  162.335	1.31862	
+ENGCoeff:  161.392	1.31835	
 }
 //====================================//
 
@@ -10290,7 +10290,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.64	1.29372	
+ENGCoeff:  160.676	1.29583	
 }
 //====================================//
 
@@ -10303,7 +10303,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  144.687	1.27772	
+ENGCoeff:  154.549	1.27483	
 }
 //====================================//
 
@@ -10316,7 +10316,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  168.052	1.317	
+ENGCoeff:  153.637	1.31999	
 }
 //====================================//
 
@@ -10329,7 +10329,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  173.365	1.2963	
+ENGCoeff:  165.544	1.29763	
 }
 //====================================//
 
@@ -10342,7 +10342,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  154.261	1.33261	
+ENGCoeff:  143.435	1.33464	
 }
 //====================================//
 
@@ -10355,7 +10355,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  153.656	1.34356	
+ENGCoeff:  138.99	1.34674	
 }
 //====================================//
 
@@ -10381,7 +10381,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  176.238	1.34558	
+ENGCoeff:  166.971	1.34742	
 }
 //====================================//
 
@@ -10394,7 +10394,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.868	1.26309	
+ENGCoeff:  165.417	1.26405	
 }
 //====================================//
 
@@ -10407,7 +10407,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  162.432	1.29802	
+ENGCoeff:  152.861	1.29986	
 }
 //====================================//
 
@@ -10420,7 +10420,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  154.818	1.34129	
+ENGCoeff:  148.562	1.34226	
 }
 //====================================//
 
@@ -10433,7 +10433,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  176.54	1.30174	
+ENGCoeff:  166.221	1.30376	
 }
 //====================================//
 
@@ -10446,7 +10446,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  175.089	1.32112	
+ENGCoeff:  167.023	1.32255	
 }
 //====================================//
 
@@ -10459,7 +10459,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  181.932	1.29173	
+ENGCoeff:  172.819	1.29345	
 }
 //====================================//
 
@@ -10472,7 +10472,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  201.569	1.2825	
+ENGCoeff:  199.063	1.28254	
 }
 //====================================//
 
@@ -10485,7 +10485,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  172.025	1.29344	
+ENGCoeff:  170.531	1.29337	
 }
 //====================================//
 
@@ -10498,7 +10498,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  190.695	1.35371	
+ENGCoeff:  184.909	1.35452	
 }
 //====================================//
 
@@ -10511,7 +10511,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  208.405	1.3271	
+ENGCoeff:  200.679	1.32862	
 }
 //====================================//
 
@@ -10524,7 +10524,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  192.134	1.43116	
+ENGCoeff:  189.899	1.43108	
 }
 //====================================//
 
@@ -10537,7 +10537,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  196.87	1.31795	
+ENGCoeff:  198.576	1.31707	
 }
 //====================================//
 
@@ -10550,7 +10550,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  186.13	1.31463	
+ENGCoeff:  187.693	1.31377	
 }
 //====================================//
 
@@ -10563,7 +10563,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  180.82	1.26866	
+ENGCoeff:  197.132	1.26432	
 }
 //====================================//
 
@@ -10589,7 +10589,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  183.791	1.39286	
+ENGCoeff:  183.783	1.39287	
 }
 //====================================//
 
@@ -10602,7 +10602,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  183.358	1.33145	
+ENGCoeff:  183.34	1.33145	
 }
 //====================================//
 
@@ -10615,7 +10615,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  173.458	1.38904	
+ENGCoeff:  173.451	1.38905	
 }
 //====================================//
 
@@ -10628,7 +10628,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  177.522	1.36101	
+ENGCoeff:  177.528	1.36101	
 }
 //====================================//
 
@@ -10641,7 +10641,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.668	1.34258	
+ENGCoeff:  175.607	1.34162	
 }
 //====================================//
 
@@ -10654,7 +10654,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  167.901	1.35375	
+ENGCoeff:  167.902	1.35375	
 }
 //====================================//
 
@@ -10667,7 +10667,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  183.211	1.34455	
+ENGCoeff:  175.999	1.34655	
 }
 //====================================//
 
@@ -10680,7 +10680,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  160.276	1.37368	
+ENGCoeff:  160.279	1.37368	
 }
 //====================================//
 
@@ -10693,7 +10693,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  167.08	1.38476	
+ENGCoeff:  167.077	1.38476	
 }
 //====================================//
 
@@ -10706,7 +10706,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  162.724	1.38932	
+ENGCoeff:  160.302	1.39004	
 }
 //====================================//
 
@@ -10719,7 +10719,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  173.598	1.34315	
+ENGCoeff:  167.41	1.34478	
 }
 //====================================//
 
@@ -10732,7 +10732,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  157.862	1.3183	
+ENGCoeff:  157.87	1.3183	
 }
 //====================================//
 
@@ -10745,7 +10745,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  156.253	1.40548	
+ENGCoeff:  156.261	1.40548	
 }
 //====================================//
 
@@ -10758,7 +10758,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  155.986	1.363	
+ENGCoeff:  153.01	1.36383	
 }
 //====================================//
 
@@ -10771,7 +10771,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  154.226	1.39347	
+ENGCoeff:  154.231	1.39347	
 }
 //====================================//
 
@@ -10784,7 +10784,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  157.074	1.38792	
+ENGCoeff:  154.285	1.38874	
 }
 //====================================//
 
@@ -10797,7 +10797,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  157.723	1.33614	
+ENGCoeff:  157.853	1.33616	
 }
 //====================================//
 
@@ -10810,7 +10810,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  157.389	1.38572	
+ENGCoeff:  157.399	1.38572	
 }
 //====================================//
 
@@ -10823,7 +10823,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  164.435	1.30058	
+ENGCoeff:  161.381	1.30141	
 }
 //====================================//
 
@@ -10836,7 +10836,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  153.625	1.40214	
+ENGCoeff:  157.265	1.40122	
 }
 //====================================//
 
@@ -10849,7 +10849,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  146.862	1.35583	
+ENGCoeff:  144.237	1.35652	
 }
 //====================================//
 
@@ -10862,7 +10862,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  157.462	1.39693	
+ENGCoeff:  157.458	1.39694	
 }
 //====================================//
 
@@ -10875,7 +10875,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  169.269	1.31853	
+ENGCoeff:  169.276	1.31853	
 }
 //====================================//
 
@@ -10888,7 +10888,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  165.476	1.34406	
+ENGCoeff:  165.483	1.34406	
 }
 //====================================//
 
@@ -10901,7 +10901,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  165.309	1.3724	
+ENGCoeff:  165.303	1.3724	
 }
 //====================================//
 
@@ -10914,7 +10914,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  171.182	1.3367	
+ENGCoeff:  171.223	1.33671	
 }
 //====================================//
 
@@ -10927,7 +10927,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  166.251	1.38438	
+ENGCoeff:  170.809	1.38333	
 }
 //====================================//
 
@@ -10940,7 +10940,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  175.249	1.38402	
+ENGCoeff:  175.268	1.38402	
 }
 //====================================//
 
@@ -10953,7 +10953,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  175.903	1.38606	
+ENGCoeff:  175.91	1.38605	
 }
 //====================================//
 
@@ -10966,7 +10966,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  173.365	1.32642	
+ENGCoeff:  186.444	1.32328	
 }
 //====================================//
 
@@ -10979,7 +10979,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  173.02	1.35795	
+ENGCoeff:  173.04	1.35794	
 }
 //====================================//
 
@@ -10992,7 +10992,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  175.281	1.34837	
+ENGCoeff:  217.644	1.33737	
 }
 //====================================//
 
@@ -11005,7 +11005,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  182.342	1.38003	
+ENGCoeff:  177.475	1.38063	
 }
 //====================================//
 
@@ -11018,7 +11018,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  182.064	1.34662	
+ENGCoeff:  175.944	1.34757	
 }
 //====================================//
 
@@ -11031,7 +11031,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  169.654	1.42693	
+ENGCoeff:  161.148	1.42857	
 }
 //====================================//
 
@@ -11044,7 +11044,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  170.133	1.39827	
+ENGCoeff:  165.965	1.39868	
 }
 //====================================//
 
@@ -11057,7 +11057,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  167.894	1.40311	
+ENGCoeff:  165.105	1.40325	
 }
 //====================================//
 
@@ -11070,7 +11070,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  168.103	1.39488	
+ENGCoeff:  159.124	1.39664	
 }
 //====================================//
 
@@ -11083,7 +11083,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  165.578	1.39531	
+ENGCoeff:  153.329	1.3979	
 }
 //====================================//
 
@@ -11096,7 +11096,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  152.844	1.40754	
+ENGCoeff:  157.437	1.40559	
 }
 //====================================//
 
@@ -11109,7 +11109,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  164.054	1.33914	
+ENGCoeff:  155.415	1.34081	
 }
 //====================================//
 
@@ -11122,7 +11122,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  154.678	1.41058	
+ENGCoeff:  151.019	1.41087	
 }
 //====================================//
 
@@ -11135,7 +11135,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  162.368	1.38497	
+ENGCoeff:  155.476	1.38615	
 }
 //====================================//
 
@@ -11148,7 +11148,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  158.212	1.33873	
+ENGCoeff:  149.02	1.34043	
 }
 //====================================//
 
@@ -11161,7 +11161,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  161.465	1.38504	
+ENGCoeff:  151.776	1.38694	
 }
 //====================================//
 
@@ -11174,7 +11174,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  154.388	1.4022	
+ENGCoeff:  144.628	1.40405	
 }
 //====================================//
 
@@ -11187,7 +11187,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  120.043	1.44651	
+ENGCoeff:  125.904	1.44395	
 }
 //====================================//
 
@@ -11200,7 +11200,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  159.659	1.3676	
+ENGCoeff:  151.257	1.36909	
 }
 //====================================//
 
@@ -11213,7 +11213,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  148.164	1.33284	
+ENGCoeff:  137.031	1.33479	
 }
 //====================================//
 
@@ -11226,7 +11226,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  156.663	1.39911	
+ENGCoeff:  153.611	1.39924	
 }
 //====================================//
 
@@ -11239,7 +11239,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  159.229	1.38704	
+ENGCoeff:  149.142	1.38904	
 }
 //====================================//
 
@@ -11252,7 +11252,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  166.481	1.31616	
+ENGCoeff:  164.078	1.3161	
 }
 //====================================//
 
@@ -11265,7 +11265,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  161.857	1.42795	
+ENGCoeff:  173.484	1.42409	
 }
 //====================================//
 
@@ -11278,7 +11278,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  163.584	1.39334	
+ENGCoeff:  162.003	1.39288	
 }
 //====================================//
 
@@ -11291,7 +11291,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  165.49	1.38278	
+ENGCoeff:  153.006	1.38546	
 }
 //====================================//
 
@@ -11304,7 +11304,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  170.086	1.3518	
+ENGCoeff:  162.715	1.35308	
 }
 //====================================//
 
@@ -11317,7 +11317,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  176.176	1.3229	
+ENGCoeff:  170.648	1.32373	
 }
 //====================================//
 
@@ -11330,7 +11330,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  164.759	1.38715	
+ENGCoeff:  158.516	1.38822	
 }
 //====================================//
 
@@ -11343,7 +11343,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  170.007	1.35899	
+ENGCoeff:  168.743	1.35873	
 }
 //====================================//
 
@@ -11356,7 +11356,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  178.307	1.33357	
+ENGCoeff:  170.011	1.33508	
 }
 //====================================//
 
@@ -11369,7 +11369,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  175.491	1.37433	
+ENGCoeff:  161.824	1.37715	
 }
 //====================================//
 
@@ -11382,7 +11382,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  182.745	1.40672	
+ENGCoeff:  178.171	1.40726	
 }
 //====================================//
 
@@ -11395,7 +11395,7 @@ Digitizer: FMC32
 TimeOffset: 0
 TimeDrift: 0
 Integration: 0
-ENGCoeff:  184.392	1.35489	
+ENGCoeff:  241.095	1.3401	
 }
 //====================================//
 

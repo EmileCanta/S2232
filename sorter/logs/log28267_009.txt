@@ -1,15 +1,15 @@
-grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_corrected.cal /home/emile/postdoc/data/s2232/raw/run28267_009.mid
+grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_base.cal /home/emile/postdoc/data/s2232/raw/run28267_009.mid
 	grsisort version 4.0.0.5
 	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-Already loaded handle 0x6533860c9530
+Already loaded handle 0x5833323594b0
 Title: [0;34m20Mg long cycles[m
 Comment: [0;34m55 s beam on, 5 s beam off[m
 using GRIFFIN path to analyzer info: /DAQ/PSC...
 910	 TChannels created.
 found 910 channels
 	file [1;34m/home/emile/postdoc/data/s2232/raw/run28267_009.mid[m opened as [1;34m_raw0[m
-Already loaded handle 0x6533860c9530
-Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_corrected.cal[m.....found 910 channels
+Already loaded handle 0x5833323594b0
+Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_base.cal[m.....found 910 channels
 [1;34mfBuildWindow: [0;36m2000
 [1;34mfBuildEventsByTimeStamp: [0;36m0
 [1;34mfAddbackWindow: [0;36m300
@@ -21,28 +21,28 @@ Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/
 [m
 [0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
 1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
-****************** |****               |N/A: 0             |N/A: 0             |N/A: 0             |
-                              8_analysis_write_loop: added "TRcmp" branch, 0x758c50000cb0, 0x758c50000c40                              
-                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x758cd81be700, 0x758c50041070                              
-                              8_analysis_write_loop: added "TGriffin" branch, 0x758c5007cb50, 0x758c5007ca90                              
-                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x758c500cd8c0, 0x758c500801b0                              
-                              8_analysis_write_loop: added "TLaBr" branch, 0x758c50106530, 0x758c500cedf0                              
-                              8_analysis_write_loop: added "TTAC" branch, 0x758c50168d60, 0x758c9fff7fc0                              
+****************** |*********          |                   |N/A: 0             |N/A: 0             |
+                              8_analysis_write_loop: added "TRcmp" branch, 0x70eda4000cb0, 0x70eda4000c40                              
+                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x70ee2c073820, 0x70eda4041100                              
+                              8_analysis_write_loop: added "TGriffin" branch, 0x70eda407cb40, 0x70eda407ca80                              
+                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x70eda40cd8b0, 0x70eda40801a0                              
+                              8_analysis_write_loop: added "TLaBr" branch, 0x70eda4106520, 0x70eda40cede0                              
+                              8_analysis_write_loop: added "TTAC" branch, 0x70eda4168d50, 0x70edebffcfc0                              
 
-Sorting depth of 200000 was insufficient. time: 2187312460.6 Last: 1.31098480023e+12 
+Sorting depth of 200000 was insufficient. time: 2187312460.77 Last: 1.31098480023e+12 
 Not all events were built correctly
 Please increase sort depth with --sort-depth=N
 Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 not running        |                   |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |*                  |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************** |not running        |***                |****************** |****************** |*****************  |not running        |***                |****************** |****************** |****************** |not running        |****               |****************** |****************** |****************   |not running        |*****              |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |    19793/    56168|  7272774/  7322774|  1540056/  1540056|  1430533/  1522163|
+not running        |*                  |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************** |not running        |***                |****************** |****************** |****************   |not running        |***                |****************** |****************** |*****************  |not running        |****               |****************** |****************** |****************   |not running        |*****              |****************** |****************** |*****************  |not running        |******             |****************** |****************** |*****************  |not running        |    20034/    56168|  7360942/  7410925|  1558976/  1558976|  1430503/  1546526|
 not running        |******             |****************** |****************** |*****************  |not running        |*******            |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |*********          |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |    40209/    56168| 14791157/ 14841155|  3166579/  3166579|  2983718/  3163485|
+not running        |*********          |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |    40315/    56168| 14830013/ 14880013|  3174681/  3174681|  2972135/  3173940|
 not running        |*************      |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |***************    |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
 not running        |*****************  |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |****************** |
 
-not running        |not running        |not running        |  4528694/  4528694|  4506569/  4528694|
+not running        |not running        |not running        |  4528696/  4528696|  4487746/  4528696|
 not running        |not running        |not running        |****************** |****************** |
 not running        |not running        |not running        |not running        |****************** |
   910 TChannels saved to analysis28267_009.root
@@ -65,7 +65,7 @@ Joining thread 5_event_build_loop
 good_frag_queue_0: 20783273/20783273 items popped
 Joining thread 6_det_build_loop
 Joining thread 8_analysis_write_loop
-8_analysis_write_loop:	 4528694/4528694, ??? good events
+8_analysis_write_loop:	 4528696/4528696, ??? good events
 Deleting thread 1_input_loop
 Deleting thread 2_unpack_loop
 Deleting thread 5_event_build_loop
@@ -75,4 +75,4 @@ Deleting thread 8_analysis_write_loop
 [0;31m19 fragments were out of order, maximum entry difference was 19857579!
 Please consider increasing the sort depth with --sort-depth=19857579[m
 [0;35m
-bye,bye	[0;36memile[m after 0:00:34.187 h:m:s
+bye,bye	[0;36memile[m after 0:00:34.179 h:m:s

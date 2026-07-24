@@ -211,7 +211,8 @@ void RCMPHelper::Exec(unsigned int slot, TGriffin& grif, TGriffinBgo& grifBgo, T
    {
       auto rcmp1 = rcmp.GetRcmpHit(i);
 
-      if(multii == 1) fH1[slot].at("rcmpE")->Fill(rcmp1->GetEnergy());
+      if(multii == 1) fH1[slot].at("rcmpE")->Fill(rcmp1->GetEnergy()); //Added by Emile for tests
+      
       fH2[slot].at("rcmpEDet")->Fill(rcmp1->GetEnergy(), rcmp1->GetDetector());
       
       if(lowE < highE)

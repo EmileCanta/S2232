@@ -2,7 +2,7 @@ Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorte
 Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28380_001.root[m": adding TRunInfo 
 Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28380_001.root[m
 Looped over 2/2 files and got:
-Singleton 0x60234fbe6c10 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28380_001.root
+Singleton 0x58bcd0641b60 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28380_001.root
 Title: RCMP_Channel_mapping_RCS01_RCS02
 Comment: RCMP_Channel_mapping_RCS01_RCS02
 		RunNumber:          28380
@@ -27,4 +27,4 @@ Writing TAnalysisOptions to RCMP28380_000-001.root
   910 TChannels saved to RCMP28380_000-001.root
 Closed 'RCMP28380_000-001.root'
 
-Done after 0:00:36.948 h:m:s
+Done after 0:00:36.061 h:m:s

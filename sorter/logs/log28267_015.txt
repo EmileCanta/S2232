@@ -1,15 +1,15 @@
-grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_corrected.cal /home/emile/postdoc/data/s2232/raw/run28267_015.mid
+grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_base.cal /home/emile/postdoc/data/s2232/raw/run28267_015.mid
 	grsisort version 4.0.0.5
 	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-Already loaded handle 0x570eabe61c90
+Already loaded handle 0x60eacdcd3690
 Title: [0;34m20Mg long cycles[m
 Comment: [0;34m55 s beam on, 5 s beam off[m
 using GRIFFIN path to analyzer info: /DAQ/PSC...
 910	 TChannels created.
 found 910 channels
 	file [1;34m/home/emile/postdoc/data/s2232/raw/run28267_015.mid[m opened as [1;34m_raw0[m
-Already loaded handle 0x570eabe61c90
-Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_corrected.cal[m.....found 910 channels
+Already loaded handle 0x60eacdcd3690
+Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_base.cal[m.....found 910 channels
 [1;34mfBuildWindow: [0;36m2000
 [1;34mfBuildEventsByTimeStamp: [0;36m0
 [1;34mfAddbackWindow: [0;36m300
@@ -21,15 +21,15 @@ Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/
 [m
 [0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
 1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
-****************** |****               |                   |N/A: 0             |N/A: 0             |
-                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x74ad38000cb0, 0x74ad38000c40                              
-                              8_analysis_write_loop: added "TGriffin" branch, 0x74ad3800d680, 0x74ad3800d5c0                              
-                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x74ad38016350, 0x74ad38010dd0                              
-                              8_analysis_write_loop: added "TLaBr" branch, 0x74ad3801aa40, 0x74ad38017850                              
-                              8_analysis_write_loop: added "TRcmp" branch, 0x74ad38022cf0, 0x570eab856670                              
-                              8_analysis_write_loop: added "TTAC" branch, 0x74ad38021800, 0x74ad6fff8fc0                              
+*****************  |*********          |                   |N/A: 0             |N/A: 0             |
+                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x782444000cb0, 0x782444000c40                              
+                              8_analysis_write_loop: added "TGriffin" branch, 0x78244400d680, 0x78244400d5c0                              
+                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x782444016350, 0x782444010dd0                              
+                              8_analysis_write_loop: added "TLaBr" branch, 0x78244401aa40, 0x782444017850                              
+                              8_analysis_write_loop: added "TRcmp" branch, 0x782444022cf0, 0x60eacdd0f0d0                              
+                              8_analysis_write_loop: added "TTAC" branch, 0x782444021800, 0x7824cc04ed30                              
 
-Sorting depth of 200000 was insufficient. time: 1088034871.3 Last: 2.13388367373e+12 
+Sorting depth of 200000 was insufficient. time: 1088034871.32 Last: 2.13388367373e+12 
 Not all events were built correctly
 Please increase sort depth with --sort-depth=N
 [1;31mFailed to find channel for address 0x1018, this channel won't get sorted properly![m
@@ -39,27 +39,28 @@ Please increase sort depth with --sort-depth=N
 [1;31mFailed to find channel for address 0x1026, this channel won't get sorted properly![m
 [1;31mFailed to find channel for address 0x102d, this channel won't get sorted properly![m
 [1;31mFailed to find channel for address 0x2016, this channel won't get sorted properly![m
-not running        |                   |****************** |****************** |***************    |not running        |*                  |****************** |****************** |***************    |not running        |**                 |****************** |****************** |****************** |[1;31mFailed to find channel for address 0x2019, this channel won't get sorted properly![m
-Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-not running        |***                |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |****               |****************** |****************** |****************   |not running        |****               |****************** |****************** |****************   |not running        |*****              |****************** |****************** |****************   |[1;31mFailed to find channel for address 0x102e, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x201a, this channel won't get sorted properly![m
-not running        |******             |****************** |****************** |*****************  |not running        |    20775/    56174|  7583970/  7633962|  1602655/  1602655|  1421382/  1602654|
-not running        |*******            |****************** |****************** |****************   |not running        |*******            |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+not running        |                   |****************** |****************** |****************   |not running        |*                  |****************** |****************** |***************    |not running        |**                 |****************** |****************** |****************** |[1;31mFailed to find channel for address 0x2019, this channel won't get sorted properly![m
+not running        |***                |****************** |****************** |****************   |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
 Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |***********        |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |*************      |****************** |****************** |*****************  |not running        |    41425/    56174| 15201042/ 15251042|  3256018/  3256018|  2987196/  3256018|
-not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |***************    |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |[1;31mFailed to find channel for address 0x201c, this channel won't get sorted properly![m
+not running        |***                |****************** |****************** |*****************  |not running        |****               |****************** |****************** |*****************  |not running        |*****              |****************** |****************** |*****************  |not running        |******             |****************** |****************** |*****************  |[1;31mFailed to find channel for address 0x102e, this channel won't get sorted properly![m
+[1;31mFailed to find channel for address 0x201a, this channel won't get sorted properly![m
+not running        |    19868/    56174|  7252445/  7301309|  1532241/  1532254|  1400413/  1532240|
+not running        |******             |****************** |****************** |*****************  |not running        |*******            |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |****************** |not running        |**********         |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
+Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
+not running        |************       |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |    39997/    56174| 14679711/ 14729710|  3145222/  3145222|  2942802/  3145222|
+not running        |*************      |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |***************    |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |[1;31mFailed to find channel for address 0x201c, this channel won't get sorted properly![m
 [1;31mFailed to find channel for address 0x1028, this channel won't get sorted properly![m
 [1;31mFailed to find channel for address 0x2020, this channel won't get sorted properly![m
 [1;31mFailed to find channel for address 0x2026, this channel won't get sorted properly![m
+[1;31mFailed to find channel for address 0x202e, this channel won't get sorted properly![m
 [1;31mFailed to find channel for address 0x202d, this channel won't get sorted properly![m
 [1;31mFailed to find channel for address 0x1016, this channel won't get sorted properly![m
 [1;31mFailed to find channel for address 0x101c, this channel won't get sorted properly![m
 [1;31mFailed to find channel for address 0x1023, this channel won't get sorted properly![m
-not running        |*****************  |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |****************** |
+not running        |*****************  |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |
 
+not running        |not running        |not running        |  4451114/  4451114|  4451114/  4451114|
 not running        |not running        |not running        |****************** |****************** |
-not running        |not running        |not running        |not running        |  4451108/  4451108|
 not running        |not running        |not running        |not running        |****************** |
   910 TChannels saved to analysis28267_015.root
 Writing TRunInfo to analysis28267_015.root
@@ -81,7 +82,7 @@ Joining thread 5_event_build_loop
 good_frag_queue_0: 20601703/20601703 items popped
 Joining thread 6_det_build_loop
 Joining thread 8_analysis_write_loop
-8_analysis_write_loop:	 4451108/4451108, ??? good events
+8_analysis_write_loop:	 4451114/4451114, ??? good events
 Deleting thread 1_input_loop
 Deleting thread 2_unpack_loop
 Deleting thread 5_event_build_loop
@@ -91,6 +92,7 @@ Missing channels:
 0x101c: 0
 0x1016: 0
 0x202d: 0
+0x202e: 0
 0x1018: 0
 0x201a: 0
 0x2021: 0
@@ -110,4 +112,4 @@ Missing channels:
 [0;31m132 fragments were out of order, maximum entry difference was 20509502!
 Please consider increasing the sort depth with --sort-depth=20509502[m
 [0;35m
-bye,bye	[0;36memile[m after 0:00:32.188 h:m:s
+bye,bye	[0;36memile[m after 0:00:34.181 h:m:s
