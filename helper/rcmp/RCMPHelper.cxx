@@ -30,6 +30,7 @@ void RCMPHelper::CreateHistograms(unsigned int slot)
     {
         fH2[slot][Form("EnergyVSFrontStrip%d", ndet)] = new TH2F(Form("EnergyVSFrontStrip%d", ndet), Form("EnergyVSFrontStrip%d", ndet), 36, -2, 34, 10000, 0, 10000);
         fH2[slot][Form("EnergyVSFrontStripBis%d", ndet)] = new TH2F(Form("EnergyVSFrontStripBis%d", ndet), Form("EnergyVSFrontStripBis%d", ndet), 36, -2, 34, 10000, 0, 10000);
+        fH1[slot][Form("EnergyAddback%d", ndet)] = new TH1F(Form("EnergyAddback%d", ndet), Form("EnergyAddback%d", ndet), 10000, 0, 10000);
         fH2[slot][Form("EnergyVSBackStrip%d", ndet)] = new TH2F(Form("EnergyVSBackStrip%d", ndet), Form("EnergyVSBackStrip%d", ndet), 36, -2, 34, 10000, 0, 10000);
         fH2[slot][Form("EnergyVSBackStripBis%d", ndet)] = new TH2F(Form("EnergyVSBackStripBis%d", ndet), Form("EnergyVSBackStripBis%d", ndet), 36, -2, 34, 10000, 0, 10000);
         fH2[slot][Form("TDiffVSFrontStrip%d", ndet)] = new TH2F(Form("TDiffVSFrontStrip%d", ndet), Form("TDiffVSFrontStrip%d", ndet), 36, -2, 34, 2000, -1000, 1000);
@@ -55,13 +56,38 @@ void RCMPHelper::CreateHistograms(unsigned int slot)
 
 void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffinBgo& griffinbgo)
 {
+    frontstrip.clear();
+    backstrip.clear();
+    backenergy.clear();
+    frontenergy.clear();
+    frontdet.clear();
+    backdet.clear();
+
+    backaddbackvector.clear();
+    frontaddbackvector.clear();
+
+    firststripfront = 0;
+    firstenergyfront = 0.;
+    addbackenergyfront = 0.;
+
+    firststripback = 0;
+    firstenergyback = 0.;
+    addbackenergyback = 0.;
+
+    int countfront = 0;
+    bool isaddbackfront = false;
+    int countback = 0;
+    bool isaddbackback = false;
+
     TRcmpHit* hit1;
     TRcmpHit* hit2;
 
     double mult = rcmp.GetMultiplicity();
     double multGriffin = griffin.GetMultiplicity();
 
-    if(mult == 2) 
+    //MULT2 FILLER//
+
+    /*if(mult == 2) 
     {
         if(rcmp.GetRcmpHit(0)->GetChannel()->GetMnemonic()->CollectedChargeString() == "P")
         {
@@ -159,7 +185,152 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
         }
         
         fH2[slot].at("Mult2DetRepartition")->Fill(det1, det2);
+    }*/
+    
+    //Filling temp front/back vectors
+
+    for(int i = 0; i < mult; i++)
+    {
+        TRcmpHit* hit = rcmp.GetRcmpHit(i);
+
+        int det = hit->GetDetector();
+        string side = hit->GetChannel()->GetMnemonic()->CollectedChargeString();
+        double energy = hit->GetEnergy();
+
+        if(side == "P") 
+        {
+            int mappedstrip = frontMaps[det][hit->GetSegment()];
+            
+            frontenergy.push_back(energy);
+            frontstrip.push_back(mappedstrip);
+            frontdet.push_back(det);
+        }
+
+        if(side == "N") 
+        {
+            int mappedstrip = backMaps[det][hit->GetSegment()];
+            
+            backenergy.push_back(energy);
+            backstrip.push_back(mappedstrip);
+            backdet.push_back(det);
+        }
     }
+
+    //PRINTER//
+
+    if(mult > 2)
+    {
+        cout << "mult : " << mult << endl;
+
+        for(int i = 0; i < frontenergy.size(); i++)
+        {
+            cout << "front energy : " << frontenergy[i] << endl;
+            cout << "front det : " << frontdet[i] << endl;
+            cout << "front strip : " << frontstrip[i] << endl;
+        }
+
+        for(int i = 0; i < backenergy.size(); i++)
+        {
+            cout << "back energy : " << backenergy[i] << endl;
+            cout << "back det : " << backdet[i] << endl;
+            cout << "back strip : " << backstrip[i] << endl;
+        }
+    }
+
+    //Physical hitter//
+
+    //A physical hit is a hit that deposited a similar energy in front and back strips. It can be addback or non addback.
+
+    for(int i = 0; i < frontenergy.size(); i++)
+    {
+        double en1 = frontenergy[i];
+        double st1 = frontstrip[i];
+
+        int counter = 0;
+
+        for(int j = i+1; j < frontenergy.size(); j++)
+        {
+            double en2 = frontenergy[j];
+            double st2 = frontstrip[j];
+
+            if(TMath::Abs(st2-st1) == 1)
+            {
+                cout << "front addback energy : " << en1+en2 << endl;
+                frontaddbackvector.push_back(en1+en2);
+                counter++;
+                break; 
+            }
+
+         }
+        //this doesnt work, I count as non addback some addback events
+        if(counter == 0) frontnonaddbackvector.push_back(en1);
+    }
+
+    for(int i = 0; i < backenergy.size(); i++)
+    {
+        double en1 = backenergy[i];
+        double st1 = backstrip[i];
+
+        for(int j = i+1; j < backenergy.size(); j++)
+        {
+            double en2 = backenergy[j];
+            double st2 = backstrip[j];
+
+            if(TMath::Abs(st2-st1) == 1)
+            {
+                cout << "back addback energy : " << en1+en2 << endl;
+                backaddbackvector.push_back(en1+en2);
+            }
+        }
+    }
+
+
+    //ADDBACKER//
+
+    /*for(int i = 0; i < mult; i++)
+    {
+        TRcmpHit* hit = rcmp.GetRcmpHit(i);
+
+        int det = hit->GetDetector();
+
+        string side = hit->GetChannel()->GetMnemonic()->CollectedChargeString();
+
+        if(side == "P") //add condition on det has to exist in the elements of backdet 
+        {
+            if(countfront == 0) 
+            {
+                firstenergyfront = hit->GetEnergy();
+                firststripfront = frontMaps[det][hit->GetSegment()];
+
+                countfront++;
+            }
+
+            if(countfront > 0 && (frontMaps[det][hit->GetSegment()] == firststripfront + 1 || frontMaps[det][hit->GetSegment()] == firststripfront - 1))
+            {
+                addbackenergyfront = firstenergyfront+hit->GetEnergy();
+                isaddbackfront = true;  
+            }
+        }
+
+        if(side == "N") //add condition on det has to exist in the elements of backdet 
+        {
+            if(countback == 0) 
+            {
+                firstenergyback = hit->GetEnergy();
+                firststripback = backMaps[det][hit->GetSegment()];
+
+                countback++;
+            }
+
+            if(countback > 0 && (backMaps[det][hit->GetSegment()] == firststripback + 1 || backMaps[det][hit->GetSegment()] == firststripback - 1))
+            {
+                addbackenergyback = firstenergyback+hit->GetEnergy();
+                isaddbackback = true;  
+            }
+        }
+    }
+
+    //FILLER//
 
     for(int i = 0; i < mult; i++)
     {
@@ -171,28 +342,49 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
 
         fH2[slot].at("DetectorVSMultiplicity")->Fill(det, mult, 1./mult); // Careful, weighted histogram here
 
-        if(side == "P") 
+        //cout << i << " " << backstrip.size() << " " << side << endl;
+
+        if(side == "P" && backstrip.size() > 0) //add condition on det has to exist in the elements of backdet 
         {
-            fH2[slot].at("SideVSMultiplicity")->Fill(mult, 0);
+            //fH2[slot].at(Form("EnergyVSFrontStripBis%d", det))->Fill(frontMaps[det][hit->GetSegment()], hit->GetEnergy());
+            
+            if(isaddbackfront)
+            {
+                if(isaddbackback && TMath::Abs(addbackenergyfront - addbackenergyback) < 60.)
+                {
+                    fH1[slot].at(Form("EnergyAddback%d", det))->Fill(addbackenergy);
+                    break;
+                }
+
+                if(!isaddbackback && TMath::Abs(addbackenergyfront - addbackenergyback) < 60.)
+                {
+                    fH1[slot].at(Form("EnergyAddback%d", det))->Fill(addbackenergy);
+                    break;
+                }
+            }
+            
+            if(!isaddback)
+            {
+                fH2[slot].at(Form("EnergyVSFrontStripBis%d", det))->Fill(frontMaps[det][hit->GetSegment()], hit->GetEnergy());
+            }
         }
 
         if(side == "N") 
         {
             fH2[slot].at("SideVSMultiplicity")->Fill(mult, 1);
+            fH2[slot].at(Form("EnergyVSBackStripBis%d", det))->Fill(backMaps[det][hit->GetSegment()], hit->GetEnergy());
         }
 
         if(mult > 0) fH1[slot].at("Multiplicity")->Fill(mult, 1./mult); // Careful, weighted histogram here
 
-        if(side == "P") fH2[slot].at(Form("EnergyVSFrontStripBis%d", det))->Fill(frontMaps[det][hit->GetSegment()], hit->GetEnergy());
-
         //cout << hit->GetEnergy() << " " << side << " " << frontMaps[det][hit->GetSegment()] << endl;
+    }*/
 
-        if(side == "N") fH2[slot].at(Form("EnergyVSBackStripBis%d", det))->Fill(backMaps[det][hit->GetSegment()], hit->GetEnergy());
-    }
-   
+    cout << "NEXT EVENT" << endl;
+
     //Beta spectrum attempt//
 
-    for(int i = 0; i < mult; i++)
+    /*for(int i = 0; i < mult; i++)
     {
         TRcmpHit* hit = rcmp.GetRcmpHit(i);
 
@@ -214,7 +406,7 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
     {
         TGriffinHit* hit = griffin.GetGriffinHit(i);
         fH1[slot].at("EnergyGriffin")->Fill(hit->GetEnergy());
-    } 
+    }*/
 }
 
 void RCMPHelper::EndOfSort(std::shared_ptr<std::map<std::string, TList>>& list)

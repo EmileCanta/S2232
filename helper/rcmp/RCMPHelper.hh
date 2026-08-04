@@ -28,7 +28,22 @@ public:
    void EndOfSort(std::shared_ptr<std::map<std::string, TList>>& list) override;
 
 private:
-   Long64_t fCycleLength{0};
+   std::vector<int> frontstrip;
+   std::vector<double> frontenergy;
+   std::vector<int> backstrip;
+   std::vector<double> backenergy;
+   std::vector<double> frontdet;
+   std::vector<double> backdet;
+
+   std::vector<double> backaddbackvector;
+   std::vector<double> frontaddbackvector;
+
+   int firststripfront;
+   int firststripback;
+   double firstenergyfront;
+   double firstenergyback;
+   double addbackenergyfront;
+   double addbackenergyback;
 };
 
 extern "C" RCMPHelper* CreateHelper(TList* list) { return new RCMPHelper(list); }
