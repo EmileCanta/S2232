@@ -1,3 +1,0 @@
-grsiframe --max-workers 20 /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.cxx /home/emile/postdoc/data/s2232/sorted/analysis/analysis28226_000.root
-	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-redirecting stdout to RCMPHelper28226_000.log

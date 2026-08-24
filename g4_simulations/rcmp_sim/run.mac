@@ -22,7 +22,7 @@
 #/DetSys/gun/BeamSpot 0.5 mm
 #/DetSys/gun/coneMaxAngle 90 deg
 #/DetSys/gun/coneMinAngle 0 deg
-/DetSys/gun/position 0.0 0.0 -0.45055 mm
+/DetSys/gun/position 0.0 0.0 1.54945 mm
 #/DetSys/gun/position 0.0 0.0 3.9 mm
 
 #/gun/particle ion

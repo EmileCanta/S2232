@@ -1,76 +1,0 @@
-grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_base.cal /home/emile/postdoc/data/s2232/raw/run28267_022.mid
-	grsisort version 4.0.0.5
-	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-Already loaded handle 0x61047ca2a330
-Title: [0;34m20Mg long cycles[m
-Comment: [0;34m55 s beam on, 5 s beam off[m
-using GRIFFIN path to analyzer info: /DAQ/PSC...
-910	 TChannels created.
-found 910 channels
-	file [1;34m/home/emile/postdoc/data/s2232/raw/run28267_022.mid[m opened as [1;34m_raw0[m
-Already loaded handle 0x61047ca2a330
-Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_base.cal[m.....found 910 channels
-[1;34mfBuildWindow: [0;36m2000
-[1;34mfBuildEventsByTimeStamp: [0;36m0
-[1;34mfAddbackWindow: [0;36m300
-[1;34mfSuppressionWindow: [0;36m300
-[1;34mfSuppressionEnergy: [0;36m0
-[1;34mfStaticWindow: [0;36m0
-[1;34mfWaveformFitting: [0;36m0
-[1;34mfIsCorrectingCrossTalk: [0;36m0
-[m
-[0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
-1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
-*****************  |*********          |                   |N/A: 0             |N/A: 0             |
-                              8_analysis_write_loop: added "TRcmp" branch, 0x753648000cb0, 0x753648000c40                              
-                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x7536d00095a0, 0x7536bfff8fc0                              
-                              8_analysis_write_loop: added "TGriffin" branch, 0x75364807c930, 0x75364807c870                              
-                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x7536d0045ac0, 0x7536d0012190                              
-                              8_analysis_write_loop: added "TLaBr" branch, 0x753648108c80, 0x7536d004eb30                              
-                              8_analysis_write_loop: added "TTAC" branch, 0x75364816ae00, 0x7536d0032890                              
-
-Sorting depth of 200000 was insufficient. time: 2.77941437956e+12 Last: 3.12177947839e+12 
-Not all events were built correctly
-Please increase sort depth with --sort-depth=N
-not running        |                   |****************** |****************** |****************   |not running        |*                  |****************** |****************** |****************   |not running        |**                 |****************** |****************** |****************** |not running        |***                |****************** |****************** |****************   |not running        |***                |****************** |****************** |*****************  |not running        |****               |****************** |****************** |****************   |not running        |*****              |****************** |****************** |*****************  |not running        |******             |****************** |****************** |*****************  |not running        |    20034/    56185|  7326873/  7376866|  1540755/  1540755|  1400054/  1540754|
-not running        |******             |****************** |****************** |*****************  |not running        |*******            |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |********           |****************** |****************** |****************   |not running        |********           |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |    40306/    56185| 14811057/ 14861042|  3174139/  3174164|  2945880/  3174138|
-not running        |*************      |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |***************    |****************** |****************** |*****************  |Warning, unknown ppg pattern 0x0c81f0f1, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x0c84f0f4, setting old pattern to kJunk!
-not running        |****************   |****************** |****************** |*****************  |not running        |****************   |****************** |****************** |*****************  |not running        |*****************  |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |*****************  |not running        |****************** |****************** |****************** |****************** |
-
-not running        |not running        |not running        |  4539960/  4539960|  4495375/  4539960|
-not running        |not running        |not running        |****************** |****************** |
-not running        |not running        |not running        |not running        |****************** |
-  910 TChannels saved to analysis28267_022.root
-Writing TRunInfo to analysis28267_022.root
-Writing TAnalysisOptions to analysis28267_022.root
-Writing PPG with 4 events and 2 ODB settings
-not running        |not running        |not running        |not running        |not running        |
-Stopping thread 1_input_loop
-
-
-Stopping thread 1_input_loop
-
-Joining thread 1_input_loop
-Joining thread 2_unpack_loop
-2_unpack_loop:	20898431 good fragments out of 20899235 fragments => 99.9962% passed
-********************************************************************************
-good_frag_queue_0: 20764022 pushed, 20764022 popped, 0 left
-********************************************************************************
-Joining thread 5_event_build_loop
-good_frag_queue_0: 20764022/20764022 items popped
-Joining thread 6_det_build_loop
-Joining thread 8_analysis_write_loop
-8_analysis_write_loop:	 4539960/4539960, ??? good events
-Deleting thread 1_input_loop
-Deleting thread 2_unpack_loop
-Deleting thread 5_event_build_loop
-Deleting thread 6_det_build_loop
-Deleting thread 8_analysis_write_loop
-[0;32mNo hits were removed![m
-[0;31m95 fragments were out of order, maximum entry difference was 20519251!
-Please consider increasing the sort depth with --sort-depth=20519251[m
-[0;35m
-bye,bye	[0;36memile[m after 0:00:34.189 h:m:s

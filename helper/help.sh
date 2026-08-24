@@ -6,8 +6,9 @@ HELPERNAME=RCMP
 HELPERDIR=/home/emile/postdoc/analysis/s2232/helper/rcmp
 #HELPERDIR=/home/emile/postdoc/analysis/s2232/backup/sydney_codes
 OPTIONS="--max-workers 20"
+#OPTIONS="--max-workers 1"
 ANALYSISDIR=/home/emile/postdoc/data/s2232/sorted/analysis 
-HISTDIR=/home/emile/postdoc/analysis/s2232/histograms/rcmp
+HISTDIR=/home/emile/postdoc/data/s2232/histograms/rcmp
 LOGDIR=/home/emile/postdoc/analysis/s2232/helper/logs
 
 firstRun=1 

@@ -39,22 +39,26 @@
 /vis/viewer/set/targetPoint 0 0 0 m
 /vis/viewer/set/style surface
 /vis/scene/endOfEventAction accumulate 10000
+#/vis/viewer/set/viewpointThetaPhi 90 0
+/vis/viewer/set/viewpointVector 1 0 0
+/vis/viewer/set/upVector 0 0 1
 
 /Histo/RecordGun true
 
 #/DetSys/gun/BeamSpot 0.5 mm
 #/DetSys/gun/BeamSpot 2.5 mm
-#/DetSys/gun/coneMaxAngle 90 deg
-#/DetSys/gun/coneMinAngle 0 deg
+/DetSys/gun/coneMaxAngle -90 deg
+/DetSys/gun/coneMinAngle 0 deg
 #/DetSys/gun/position 0.0 0.0 3.9 mm
-/DetSys/gun/position 0.0 -1.0 2.54945 mm
+#/DetSys/gun/position 0.0 -1.0 2.54945 mm
+/DetSys/gun/position 0.0 0.0 1.54945 mm
 
 #/gun/particle ion
 #/gun/ion 12 20
 
 /gun/particle proton
 
-/DetSys/gun/efficiencyEnergy 1. MeV
+/DetSys/gun/efficiencyEnergy 1 MeV
 #/DetSys/gun/efficiencyEnergy 0. MeV
 
 /run/beamOn 0

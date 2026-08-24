@@ -1,147 +1,0 @@
-grsisort --recommended /home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_base.cal /home/emile/postdoc/data/s2232/raw/run28380_000.mid
-	grsisort version 4.0.0.5
-	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
-Already loaded handle 0x645b018b2b40
-Title: [0;34mRCMP_Channel_mapping_RCS01_RCS02[m
-Comment: [0;34mRCMP_Channel_mapping_RCS01_RCS02[m
-using GRIFFIN path to analyzer info: /DAQ/PSC...
-910	 TChannels created.
-found 910 channels
-	file [1;34m/home/emile/postdoc/data/s2232/raw/run28380_000.mid[m opened as [1;34m_raw0[m
-Already loaded handle 0x645b018b2b40
-Reading from calibration file: [1;36m/home/emile/postdoc/analysis/s2232/sorter/calfiles/energy_calibration_base.cal[m.....found 910 channels
-[1;34mfBuildWindow: [0;36m2000
-[1;34mfBuildEventsByTimeStamp: [0;36m0
-[1;34mfAddbackWindow: [0;36m300
-[1;34mfSuppressionWindow: [0;36m300
-[1;34mfSuppressionEnergy: [0;36m0
-[1;34mfStaticWindow: [0;36m0
-[1;34mfWaveformFitting: [0;36m0
-[1;34mfIsCorrectingCrossTalk: [0;36m0
-[m
-[0;33mSorting input by time: [0;33msorting by time, using build window of 2000![m
-1_input_loop       |2_unpack_loop      |5_event_build_loop |6_det_build_loop   |8_analysis_write_lo|
-Warning, unknown ppg pattern 0x0df0f0f0, setting old pattern to kJunk!
-Warning, unknown ppg pattern 0x00f0c0f0, setting new pattern to kJunk!
-Warning, unknown ppg pattern 0x0d80f0f0, setting old pattern to kJunk!
-****************** |******             |                   |N/A: 0             |N/A: 0             |
-                              8_analysis_write_loop: added "TGriffinBgo" branch, 0x7231a4000cb0, 0x7231a4000c40                              
-                              8_analysis_write_loop: added "TGriffin" branch, 0x7231a40128d0, 0x7231a4012810                              
-                              8_analysis_write_loop: added "TLaBrBgo" branch, 0x7231a401b6c0, 0x7231a4016020                              
-                              8_analysis_write_loop: added "TTAC" branch, 0x7231a401fed0, 0x7231a401cd10                              
-                              8_analysis_write_loop: added "TLaBr" branch, 0x7231a4025d50, 0x7231a4025d00                              
-                              8_analysis_write_loop: added "TPaces" branch, 0x7231a402dfc0, 0x645b01258540                              
-                              8_analysis_write_loop: added "TRcmp" branch, 0x7231cbffcc70, 0x72322c0206a0                              
-not running        |                   |*****************  |****************** |********           |not running        |                   |****************** |****************** |*********          |not running        |*                  |****************** |****************** |*********          |not running        |*                  |****************** |****************** |*********          |not running        |*                  |****************** |****************** |*********          |not running        |**                 |****************** |****************** |**********         |not running        |**                 |****************** |****************** |***********        |
-Sorting depth of 200000 was insufficient. time: 571161310.414 Last: 334993527457 
-Not all events were built correctly
-Please increase sort depth with --sort-depth=N
-[1;31mFailed to find channel for address 0x102d, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x1028, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x1019, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x102f, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x101f, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x1025, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x101c, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x2014, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x2023, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x102e, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x101d, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x1015, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x1029, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x2029, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x2020, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x2024, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x1012, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x1020, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x202f, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x2026, this channel won't get sorted properly![m
-not running        |**                 |****************** |****************** |************       |not running        |     7529/    56522|  5369262/  5419262|  2992810/  3092810|  1992808/  2992808|
-not running        |**                 |****************** |****************** |************       |not running        |**                 |****************** |****************** |*************      |not running        |**                 |****************** |****************** |*************      |not running        |**                 |****************** |****************** |*************      |not running        |***                |****************** |****************** |**************     |not running        |***                |****************** |****************** |**************     |not running        |***                |****************** |****************** |**************     |not running        |***                |****************** |****************** |**************     |not running        |***                |****************** |****************** |**************     |not running        |****               |****************** |****************** |***************    |not running        |    12443/    56522|  8933329/  8983329|  5127538/  5227532|  4127537/  5127537|
-not running        |****               |****************** |****************** |***************    |not running        |****               |****************** |****************** |***************    |not running        |****               |****************** |****************** |***************    |not running        |****               |****************** |****************** |***************    |not running        |****               |****************** |****************** |***************    |not running        |*****              |****************** |****************** |***************    |not running        |*****              |****************** |****************** |****************   |not running        |*****              |****************** |****************** |****************   |not running        |*****              |****************** |****************** |****************   |not running        |*****              |****************** |****************** |****************   |not running        |    17306/    56522| 12527636/ 12577635|  7272601/  7372601|  6272599/  7272599|
-not running        |*****              |****************** |****************** |****************   |not running        |*****              |****************** |****************** |****************   |[1;31mFailed to find channel for address 0x102b, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x101e, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x1018, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x1024, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x102a, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x1022, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x202d, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x2027, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x2021, this channel won't get sorted properly![m
-[1;31mFailed to find channel for address 0x202c, this channel won't get sorted properly![m
-not running        |******             |****************** |****************** |****************   |not running        |******             |****************** |****************** |****************   |not running        |******             |****************** |****************** |****************   |not running        |******             |****************** |****************** |****************   |not running        |******             |****************** |****************** |****************   |not running        |******             |****************** |****************** |****************   |not running        |*******            |****************** |****************** |****************   |not running        |*******            |****************** |****************** |****************   |not running        |    22255/    56522| 16174653/ 16224653|  9450547/  9550547|  8450545/  9450545|
-not running        |*******            |****************** |****************** |****************   |not running        |*******            |****************** |****************** |*****************  |not running        |*******            |****************** |****************** |*****************  |not running        |*******            |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |********           |****************** |****************** |*****************  |not running        |    27019/    56522| 19698491/ 19748490| 11551520/ 11651517| 10551522/ 11551519|
-not running        |*********          |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |*********          |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |    31908/    56522| 23322725/ 23372725| 13712067/ 13812067| 12712065/ 13712065|
-not running        |**********         |****************** |****************** |*****************  |not running        |**********         |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |not running        |***********        |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |    36606/    56522| 26792640/ 26842639| 15787804/ 15887804| 14787802/ 15787802|
-not running        |************       |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |************       |****************** |****************** |*****************  |not running        |*************      |****************** |****************** |*****************  |not running        |*************      |****************** |****************** |*****************  |not running        |*************      |****************** |****************** |*****************  |not running        |*************      |****************** |****************** |*****************  |not running        |*************      |****************** |****************** |*****************  |not running        |    41206/    56522| 30093358/ 30143358| 17855662/ 17955662| 16855661/ 17855661|
-not running        |*************      |****************** |****************** |*****************  |not running        |*************      |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |*****************  |not running        |**************     |****************** |****************** |****************** |not running        |**************     |****************** |****************** |****************** |not running        |***************    |****************** |****************** |****************** |not running        |***************    |****************** |****************** |****************** |not running        |    45863/    56522| 33537681/ 33587680| 19922165/ 20022163| 18922165/ 19922165|
-not running        |***************    |****************** |****************** |****************** |not running        |***************    |****************** |****************** |****************** |not running        |***************    |****************** |****************** |****************** |not running        |***************    |****************** |****************** |****************** |not running        |****************   |****************** |****************** |****************** |not running        |****************   |****************** |****************** |****************** |not running        |****************   |****************** |****************** |****************** |not running        |****************   |****************** |****************** |****************** |not running        |****************   |****************** |****************** |****************** |not running        |****************   |****************** |****************** |****************** |not running        |    50359/    56522| 36871153/ 36921153| 21924486/ 22024486| 20924484/ 21924484|
-not running        |****************   |****************** |****************** |****************** |not running        |*****************  |****************** |****************** |****************** |not running        |*****************  |****************** |****************** |****************** |not running        |*****************  |****************** |****************** |****************** |not running        |*****************  |****************** |****************** |****************** |not running        |*****************  |****************** |****************** |****************** |not running        |*****************  |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |not running        |    54669/    56522| 40072975/ 40122975| 23848559/ 23948559| 22848557/ 23848557|
-not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |                              8_analysis_write_loop: added "TZeroDegree" branch, 0x723227e69240, 0x723195c39d80                              
-not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |not running        |****************** |****************** |****************** |****************** |
-not running        |not running        |****************** |****************** |****************** |
-not running        |not running        |not running        | 24927656/ 24927656| 24137554/ 24927656|
-not running        |not running        |not running        |****************** |****************** |
-not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |not running        |not running        |not running        |not running        |****************** |
-  910 TChannels saved to analysis28380_000.root
-Writing TRunInfo to analysis28380_000.root
-Writing TAnalysisOptions to analysis28380_000.root
-Writing PPG with 1 events and 4 ODB settings
-not running        |not running        |not running        |not running        |not running        |
-Stopping thread 1_input_loop
-
-
-Stopping thread 1_input_loop
-
-Joining thread 1_input_loop
-Joining thread 2_unpack_loop
-2_unpack_loop:	43299061 good fragments out of 43300064 fragments => 99.9977% passed
-********************************************************************************
-good_frag_queue_0: 41502997 pushed, 41502997 popped, 0 left
-********************************************************************************
-Joining thread 5_event_build_loop
-good_frag_queue_0: 41502997/41502997 items popped
-Joining thread 6_det_build_loop
-Joining thread 8_analysis_write_loop
-8_analysis_write_loop:	24927656/24927656, ??? good events
-Deleting thread 1_input_loop
-Deleting thread 2_unpack_loop
-Deleting thread 5_event_build_loop
-Deleting thread 6_det_build_loop
-Deleting thread 8_analysis_write_loop
-Missing channels:
-0x202c: 0
-0x101d: 0
-0x102e: 1
-0x2027: 0
-0x2023: 1
-0x102a: 0
-0x1029: 1
-0x101c: 0
-0x1025: 1
-0x101f: 0
-0x1015: 0
-0x102f: 1
-0x1012: 0
-0x1019: 2
-0x202f: 0
-0x1028: 1
-0x2021: 0
-0x2014: 1
-0x102d: 0
-0x2026: 1
-0x2029: 0
-0x2020: 2
-0x2024: 0
-0x102b: 0
-0x1020: 0
-0x101e: 1
-0x1018: 0
-0x1024: 0
-0x1022: 0
-0x202d: 0
-[0;32mNo hits were removed![m
-[0;31m149 fragments were out of order, maximum entry difference was 12889241!
-Please consider increasing the sort depth with --sort-depth=12889241[m
-[0;35m
-bye,bye	[0;36memile[m after 0:02:8.197 h:m:s

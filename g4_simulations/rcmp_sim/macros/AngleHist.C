@@ -29,6 +29,7 @@ void AngleHist()
    
     vector<vector<double>> thetaVec(6144);
     vector<vector<double>> phiVec(6144);
+    vector<vector<double>> rhoVec(6144);
 
     tree->SetBranchAddress("detNumber", &detnbr);
     tree->SetBranchAddress("posx",&posx);
@@ -62,13 +63,13 @@ void AngleHist()
         TString nameHistPhiIni = Form("histPhiIni%d",i+1);
         TString nameHistThetaIni = Form("histThetaIni%d",i+1);
         
-        histsTheta[i] = new TH2D(nameHistTheta, nameHistTheta, 6146, 0, 6146, 4000, -200, 200);
-        histsPhi[i] = new TH2D(nameHistPhi, nameHistPhi, 6146, 0, 6146, 4000, -200, 200);
+        histsTheta[i] = new TH2D(nameHistTheta, nameHistTheta, 6146, 0, 6146, 4000, -400, 400);
+        histsPhi[i] = new TH2D(nameHistPhi, nameHistPhi, 6146, 0, 6146, 4000, -400, 400);
         histsRho[i] = new TH2D(nameHistRho, nameHistRho, 6146, 0, 6146, 1000, 0, 100);
-        histsHits[i] = new TH2D(nameHistHits, nameHistHits, 34, -1, 33, 34, -1, 33);
+        histsHits[i] = new TH2D(nameHistHits, nameHistHits, 32, 0, 32, 32, 0, 32);
         
-        histsThetaIni[i] = new TH2D(nameHistThetaIni, nameHistThetaIni, 6146, 0, 6146, 4000, -200, 200);
-        histsPhiIni[i] = new TH2D(nameHistPhiIni, nameHistPhiIni, 6146, 0, 6146, 4000, -200, 200);
+        histsThetaIni[i] = new TH2D(nameHistThetaIni, nameHistThetaIni, 6146, 0, 6146, 4000, -400, 400);
+        histsPhiIni[i] = new TH2D(nameHistPhiIni, nameHistPhiIni, 6146, 0, 6146, 4000, -400, 400);
     }
     
     for(int j = 0; j < fEntries; j++)
@@ -93,8 +94,15 @@ void AngleHist()
                 histsPhi[map[i-1]]->Fill(detnbr, newPhi*rad);
                 histsRho[map[i-1]]->Fill(detnbr, rho);
 
-                histsThetaIni[map[i-1]]->Fill(detnbr, newTheta_ini*rad);
-                histsPhiIni[map[i-1]]->Fill(detnbr, newPhi_ini*rad);
+                //histsThetaIni[map[i-1]]->Fill(detnbr, newTheta_ini*rad);
+                //histsPhiIni[map[i-1]]->Fill(detnbr, newPhi_ini*rad);
+                //histsThetaIni[map[i-1]]->Fill(detnbr, theta_ini*rad);
+                //histsPhiIni[map[i-1]]->Fill(detnbr, phi_ini*rad);
+                if(map[i-1] == 0 && phi_ini*rad < 0.) histsPhiIni[map[i-1]]->Fill(detnbr, phi_ini*rad+360.);
+                if(map[i-1] == 0 && phi_ini*rad >= 0.) histsPhiIni[map[i-1]]->Fill(detnbr, phi_ini*rad);
+                if(map[i-1] == 4 && phi_ini*rad < 0.) histsPhiIni[map[i-1]]->Fill(detnbr, phi_ini*rad+360.);
+                if(map[i-1] == 4 && phi_ini*rad >= 0.) histsPhiIni[map[i-1]]->Fill(detnbr, phi_ini*rad);
+                if(map[i-1] != 0 && map[i-1] != 4) histsPhiIni[map[i-1]]->Fill(detnbr, phi_ini*rad);
 
                 int modDet = detnbr - (i-1)*1024;
                 int strip1 = (modDet - 1) % 32;
@@ -105,19 +113,27 @@ void AngleHist()
                 if(map[i-1] == 2) histsHits[map[i-1]]->Fill(strip2, 31 - strip1);
                 if(map[i-1] == 3) histsHits[map[i-1]]->Fill(31 - strip2, 31 - strip1);
 
-                thetaVec[detnbr-1].push_back(newTheta_ini*rad);
-                phiVec[detnbr-1].push_back(newPhi_ini*rad);
+                //thetaVec[detnbr-1].push_back(newTheta_ini*rad);
+                //phiVec[detnbr-1].push_back(newPhi_ini*rad);
+                
 
+                if(map[i-1] == 0 && phi_ini*rad < 0.) phiVec[detnbr-1].push_back(phi_ini*rad+360.);
+                if(map[i-1] == 0 && phi_ini*rad >= 0.) phiVec[detnbr-1].push_back(phi_ini*rad);
+                if(map[i-1] == 4 && phi_ini*rad < 0.) phiVec[detnbr-1].push_back(phi_ini*rad+360.);
+                if(map[i-1] == 4 && phi_ini*rad >= 0.) phiVec[detnbr-1].push_back(phi_ini*rad);
+                if(map[i-1] != 0 && map[i-1] != 4) phiVec[detnbr-1].push_back(phi_ini*rad);
+                thetaVec[detnbr-1].push_back(theta_ini*rad);
+                rhoVec[detnbr-1].push_back(rho);
             }
         }
     }
 
     for(int k = 1; k <= 6; k++)
     {
-        string filename = "Det" + to_string(map[k-1]+1) + ".txt";
+        string filename = "Det" + to_string(map[k-1]+1) + ".txt"; //Mapping is here
         ofstream outFile(filename);
 
-        outFile << "phi " << "std_phi " << "theta " << "std_theta" << '\n';
+        outFile << "phi " << "std_phi " << "theta " << "std_theta " << "rho " << "std_rho " << "effective thickness" << '\n';
 
         for(int i = (k*1024-1024); i<(k*1024); i++)
         { 
@@ -125,6 +141,8 @@ void AngleHist()
             double thetaSum=0.;    
             double phiSum2=0.;    
             double thetaSum2=0.;    
+            double rhoSum=0.;    
+            double rhoSum2=0.;    
 
             double Nevents = phiVec[i].size();
 
@@ -135,6 +153,9 @@ void AngleHist()
 
                 phiSum2 += phiVec[i][j]*phiVec[i][j];
                 thetaSum2 += thetaVec[i][j]*thetaVec[i][j];
+
+                rhoSum += rhoVec[i][j];
+                rhoSum2 += rhoVec[i][j]*rhoVec[i][j];
             }
 
             if(i % 32 == 0)
@@ -146,11 +167,14 @@ void AngleHist()
             double meanPhi2 = phiSum2/Nevents;
             double meanTheta = thetaSum/Nevents;
             double meanTheta2 = thetaSum2/Nevents;
+            double meanRho = rhoSum/Nevents;
+            double meanRho2 = rhoSum2/Nevents;
 
             double stdPhi = sqrt(meanPhi2-(meanPhi*meanPhi));
             double stdTheta = sqrt(meanTheta2-(meanTheta*meanTheta));
+            double stdRho = sqrt(meanRho2-(meanRho*meanRho));
 
-            outFile << fixed << setprecision(3) << meanPhi << " " << stdPhi << " " << meanTheta << " " << stdTheta << '\n';
+            outFile << fixed << setprecision(3) << meanPhi << " " << stdPhi << " " << meanTheta << " " << stdTheta << " " << meanRho << " " << stdRho << " " << 444.3/(Cos(meanTheta*DegToRad())) << '\n';
         }
 
         outFile.close();
