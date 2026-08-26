@@ -1,0 +1,40 @@
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_000.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_001.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_001.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_002.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_002.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_003.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_003.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_004.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_004.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_005.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_005.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_006.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_006.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_007.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_007.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_008.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_008.root[m
+Looped over 9/9 files and got:
+Singleton 0x650c0f227810 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28288_008.root
+Title: 20Mg_cycle-55sbeamson_5s-beam-off
+Comment: 20Mg_cycle-55sbeamson_5s-beam-off
+		RunNumber:          28288
+		SubRunNumbers:      000-008
+		RunStart:           Fri Jul 12 20:21:36 2024
+		RunStop:            Fri Jul 12 20:56:41 2024
+		RunLength:          2103 s
+ODB cycle: 60 s
+Code   Duration
+0xc001 55000000
+0xc004 5000000
+[0;36mshared library /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.so exists and is newer than /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.cxx, /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.hh, and $GRSISYS/lib/libTGRSIFrame.so[m
+	Using library /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.so
+No g-values!
+Writing to RCMP28288_000-008.root
+Writing PPG with 71 events and 2 ODB settings
+Writing TAnalysisOptions to RCMP28288_000-008.root
+  910 TChannels saved to RCMP28288_000-008.root
+Closed 'RCMP28288_000-008.root'
+
+Done after 0:02:3.125 h:m:s

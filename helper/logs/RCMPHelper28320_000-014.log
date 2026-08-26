@@ -1,0 +1,52 @@
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_000.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_001.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_001.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_002.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_002.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_003.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_003.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_004.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_004.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_005.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_005.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_006.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_006.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_007.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_007.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_008.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_008.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_009.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_009.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_010.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_010.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_011.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_011.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_012.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_012.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_013.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_013.root[m
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_014.root[m": adding TRunInfo 
+Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_014.root[m
+Looped over 15/15 files and got:
+Singleton 0x5efde1ef9ae0 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28320_014.root
+Title: 20Mg (20Mg_long = 55s on, 5s off)
+Comment: 20Mg (20Mg_long = 55s on, 5s off)
+		RunNumber:          28320
+		SubRunNumbers:      000-014
+		RunStart:           Sat Jul 13 21:40:28 2024
+		RunStop:            Sat Jul 13 22:40:43 2024
+		RunLength:          3613 s
+ODB cycle: 60 s
+Code   Duration
+0xc001 55000000
+0xc004 5000000
+[0;36mshared library /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.so exists and is newer than /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.cxx, /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.hh, and $GRSISYS/lib/libTGRSIFrame.so[m
+	Using library /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.so
+No g-values!
+Writing to RCMP28320_000-014.root
+Writing PPG with 121 events and 2 ODB settings
+Writing TAnalysisOptions to RCMP28320_000-014.root
+  910 TChannels saved to RCMP28320_000-014.root
+Closed 'RCMP28320_000-014.root'
+
+Done after 0:02:16.726 h:m:s

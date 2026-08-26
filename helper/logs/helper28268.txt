@@ -1,0 +1,53 @@
+grsiframe --max-workers 20 /home/emile/postdoc/analysis/s2232/helper/rcmp/RCMPHelper.cxx /home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_000.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_001.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_002.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_003.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_004.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_005.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_006.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_007.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_008.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_009.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_010.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_011.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_012.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_013.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_014.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_015.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_016.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_017.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_018.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_019.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_020.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_021.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_022.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_023.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_024.root
+/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_025.root
+	Using library /home/emile/GRSISort/GRSIData/lib/libGRSIData.so version 0.1.1.2
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_001.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_002.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_003.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_004.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_005.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_006.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_007.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_008.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_009.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_010.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_011.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_012.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_013.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_014.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_015.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_016.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_017.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_018.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_019.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_020.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_021.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_022.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_023.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_024.root[m": adding TRunInfo 
+Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28268_025.root[m": adding TRunInfo 
+redirecting stdout to RCMPHelper28268_000-025.log
