@@ -21,7 +21,9 @@ void RCMPHelper::CreateHistograms(unsigned int slot)
    
     fH2[slot]["DetectorVSMultiplicity_Singles"] = new TH2F("DetectorVSMultiplicity_Singles", "DetectorVSMultiplicity_Singles", 100, 0, 100, 6, 1, 7);
 
+    fH2[slot]["EnergyFrontVSTimeFront_CondGRIF"] = new TH2F("EnergyFrontVSTimeFront_CondGRIF", "EnergyFrontVSTimeFront_CondGRIF", 6000, 0, 60e9, 1000, 0, 10000); //1 bin = 0.01e9 ns = 10 ms //Less bins
     fH2[slot]["EnergyFrontVSTimeFront_Singles"] = new TH2F("EnergyFrontVSTimeFront_Singles", "EnergyFrontVSTimeFront_Singles", 6000, 0, 60e9, 1000, 0, 10000); //1 bin = 0.01e9 ns = 10 ms //Less bins
+    fH2[slot]["EnergyGriffinVSTimeGriffin_CondRCMP"] = new TH2F("EnergyGriffinVSTimeGriffin_CondRCMP", "EnergyGriffinVSTimeGriffin_CondRCMP", 6000, 0, 60e9, 10000, 0, 10000); //1 bin = 0.01e9 ns = 10 ms
     fH2[slot]["EnergyGriffinVSTimeGriffin_Singles"] = new TH2F("EnergyGriffinVSTimeGriffin_Singles", "EnergyGriffinVSTimeGriffin_Singles", 6000, 0, 60e9, 10000, 0, 10000); //1 bin = 0.01e9 ns = 10 ms
 
     for(int ndet = 1; ndet <= 6; ndet++)
@@ -48,10 +50,10 @@ void RCMPHelper::CreateHistograms(unsigned int slot)
 
         fH2[slot][Form("EnergyFrontVSMult_Singles%d", ndet)] = new TH2F(Form("EnergyFrontVSMult_Singles%d", ndet), Form("EnergyFrontVSMult_Singles%d", ndet), 20, 0, 20, 1000, 0, 10000); //Less bins
 
-        fH2[slot][Form("EnergyFrontVSEnergyGriffin_Singles%d", ndet)] = new TH2F(Form("EnergyFrontVSEnergyGriffin_Singles%d", ndet), Form("EnergyFrontVSEnergyGriffin_Singles%d", ndet), 10000, 0, 10000, 1000, 0, 10000); //Less bins
+        fH2[slot][Form("EnergyFrontVSEnergyGriffin_CondRCMP%d", ndet)] = new TH2F(Form("EnergyFrontVSEnergyGriffin_CondRCMP%d", ndet), Form("EnergyFrontVSEnergyGriffin_CondRCMP%d", ndet), 10000, 0, 10000, 1000, 0, 10000); //Less bins
 
-        fH2[slot][Form("EnergyVSTimeDiffFrontGriffin_Singles%d", ndet)] = new TH2F(Form("EnergyVSTimeDiffFrontGriffin_Singles%d", ndet), Form("EnergyVSTimeDiffFrontGriffin_Singles%d", ndet), 500, -2500, 2500, 1000, 0, 10000); //Less bins
-        fH2[slot][Form("EnergyVSTimeDiffBackGriffin_Singles%d", ndet)] = new TH2F(Form("EnergyVSTimeDiffBackGriffin_Singles%d", ndet), Form("EnergyVSTimeDiffBackGriffin_Singles%d", ndet), 500, -2500, 2500, 1000, 0, 10000); //Less bins
+        fH2[slot][Form("EnergyVSTimeDiffFrontGriffin_CondGRIF%d", ndet)] = new TH2F(Form("EnergyVSTimeDiffFrontGriffin_CondGRIF%d", ndet), Form("EnergyVSTimeDiffFrontGriffin_CondGRIF%d", ndet), 500, -2500, 2500, 1000, 0, 10000); //Less bins
+        fH2[slot][Form("EnergyVSTimeDiffBackGriffin_CondGRIF%d", ndet)] = new TH2F(Form("EnergyVSTimeDiffBackGriffin_CondGRIF%d", ndet), Form("EnergyVSTimeDiffBackGriffin_CondGRIF%d", ndet), 500, -2500, 2500, 1000, 0, 10000); //Less bins
 
         fH2[slot][Form("EnergyBackVSEnergyFront_Gated%d", ndet)] = new TH2F(Form("EnergyBackVSEnergyFront_Gated%d", ndet), Form("EnergyBackVSEnergyFront_Gated%d", ndet), 1000, 0, 10000, 1000, 0, 10000); //Less bins
         
@@ -168,6 +170,7 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
         {
             fH2[slot].at(Form("EnergyVSFrontStrip_Singles%d", det))->Fill(frontMaps[det][hit->GetSegment()], energy);
             fH2[slot].at(Form("EnergyFrontVSMult_Singles%d", det))->Fill(mult, energy);
+            if(det != 3 && det != 4) fH2[slot].at("EnergyFrontVSTimeFront_Singles")->Fill(time, energy);
         }
 
         if(side == "N") 
@@ -186,23 +189,23 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
 
             if(side == "P")
             {
-                fH2[slot].at(Form("EnergyVSTimeDiffFrontGriffin_Singles%d", det))->Fill(tdiffgrif, energy);        
+                fH2[slot].at(Form("EnergyVSTimeDiffFrontGriffin_CondGRIF%d", det))->Fill(tdiffgrif, energy);        
 
                 if(tdiffgrif >= 400 && tdiffgrif <= 1200) 
                 {
-                    fH2[slot].at(Form("EnergyFrontVSEnergyGriffin_Singles%d", det))->Fill(energygrif, energy);
+                    fH2[slot].at(Form("EnergyFrontVSEnergyGriffin_CondRCMP%d", det))->Fill(energygrif, energy);
 
                     if(det != 3 && det != 4) //Deal with these detectors later
                     {
-                        fH2[slot].at("EnergyFrontVSTimeFront_Singles")->Fill(time, energy);
-                        fH2[slot].at("EnergyGriffinVSTimeGriffin_Singles")->Fill(timegrif, energygrif);
+                        fH2[slot].at("EnergyFrontVSTimeFront_CondGRIF")->Fill(time, energy);
+                        fH2[slot].at("EnergyGriffinVSTimeGriffin_CondRCMP")->Fill(timegrif, energygrif);
                     }
                 }
             }
 
             if(side == "N")
             {
-                fH2[slot].at(Form("EnergyVSTimeDiffBackGriffin_Singles%d", det))->Fill(tdiffgrif, energy);            
+                fH2[slot].at(Form("EnergyVSTimeDiffBackGriffin_CondGRIF%d", det))->Fill(tdiffgrif, energy);            
             }
         }
 
@@ -260,9 +263,14 @@ void RCMPHelper::Exec(unsigned int slot, TRcmp& rcmp, TGriffin& griffin, TGriffi
     for(int i = 0; i < multGriffin; i++)
     {
         TGriffinHit* hit = griffin.GetGriffinHit(i);
-        fH1[slot].at("EnergyGriffin_Singles")->Fill(hit->GetEnergy());
-        fH1[slot].at("TimeGriffin_Singles")->Fill(hit->GetTimeStampNs()%60000000000LL);
-        fH1[slot].at("AbsTimeGriffin_Singles")->Fill(hit->GetTimeStampNs());
+        double timegrif = hit->GetTimeStampNs()%60000000000LL;
+        double timegrifabs = hit->GetTimeStampNs();
+        double energygrif = hit->GetEnergy();
+
+        fH1[slot].at("EnergyGriffin_Singles")->Fill(energygrif);
+        fH1[slot].at("TimeGriffin_Singles")->Fill(timegrif);
+        fH2[slot].at("EnergyGriffinVSTimeGriffin_Singles")->Fill(timegrif, energygrif);
+        fH1[slot].at("AbsTimeGriffin_Singles")->Fill(timegrifabs);
     }
 }
 

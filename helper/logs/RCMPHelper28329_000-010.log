@@ -20,7 +20,7 @@ Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorte
 Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28329_010.root[m": adding TRunInfo 
 Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28329_010.root[m
 Looped over 11/11 files and got:
-Singleton 0x59888bf10af0 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28329_010.root
+Singleton 0x5a1b36fa3580 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28329_010.root
 Title: 20Mg (20Mg_long = 55s on, 5s off)
 Comment: 20Mg (20Mg_long = 55s on, 5s off)
 		RunNumber:          28329
@@ -41,4 +41,4 @@ Writing TAnalysisOptions to RCMP28329_000-010.root
   910 TChannels saved to RCMP28329_000-010.root
 Closed 'RCMP28329_000-010.root'
 
-Done after 0:02:9.330 h:m:s
+Done after 0:00:59.056 h:m:s

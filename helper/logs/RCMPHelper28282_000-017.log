@@ -34,7 +34,7 @@ Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorte
 Reading from file "[1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28282_017.root[m": adding TRunInfo 
 Successfully read 910 TChannels from [1;36m/home/emile/postdoc/data/s2232/sorted/analysis/analysis28282_017.root[m
 Looped over 18/18 files and got:
-Singleton 0x57c1ceeb3ed0 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28282_017.root
+Singleton 0x5d64f5e8d160 was read from /home/emile/postdoc/data/s2232/sorted/analysis/analysis28282_017.root
 Title: 20Mg_cycle-55sbeamson_5s-beam-off
 Comment: 20Mg_cycle-55sbeamson_5s-beam-off
 		RunNumber:          28282
@@ -55,4 +55,4 @@ Writing TAnalysisOptions to RCMP28282_000-017.root
   910 TChannels saved to RCMP28282_000-017.root
 Closed 'RCMP28282_000-017.root'
 
-Done after 0:02:22.265 h:m:s
+Done after 0:01:12.492 h:m:s

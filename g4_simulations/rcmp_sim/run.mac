@@ -27,7 +27,8 @@
 
 #/gun/particle ion
 #/gun/ion 12 20
-/gun/particle proton
+#/gun/particle proton
+/gun/particle e-
 
 /DetSys/gun/efficiencyEnergy 1. MeV
 #/DetSys/gun/efficiencyEnergy 0. MeV
